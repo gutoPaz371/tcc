@@ -1,8 +1,9 @@
 <!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
-<?php
+<?php 
     include './Config/conexao.php';
     $res=$cn->query("SELECT id, nome, preco, foto FROM produto");
     session_start();
+    $_SESSION['user'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -32,7 +33,7 @@
                 <th><?php echo $dado['nome']; ?></th>
                 <th>R$<?php echo $dado['preco']; ?></th>
                 <th><a href="<?php echo $dado['foto'] ?>"><img src="<?php echo $dado['foto'] ?>"></a></th>
-                <form action="./processos/processaRemEstoque.php" method="POST">
+                <form action="./user/processos/addCarrinho.php" method="POST">
                 <th><button name="id" value="<?php echo $dado['id'] ?>" type="submit" style="width: 50px;height: 50px;">+</button></th>
                 </form>
             </tr>    
