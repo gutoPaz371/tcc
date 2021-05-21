@@ -5,4 +5,5 @@
     $idUser=$_SESSION['id'];
     $sql="INSERT INTO pedido(idCliente,idProduto,sta) VALUES ($idUser,$idProduto,0)";
     $cn->query($sql);
+    header('location: ../../produtos.php');
 ?>
