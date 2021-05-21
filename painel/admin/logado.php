@@ -5,6 +5,14 @@
 	}
 ?>
 <!DOCTYPE html>
+<script>
+	function del(){
+		<?php 
+			$_SESSION['erro']='';
+			$_SESSION['cor']='black';
+		?>
+	}
+</script>
 <html>
 <head>
 	<title>Admin Logado | Loja Store</title>
@@ -24,11 +32,11 @@
 				
 			</style>
 			<form method="POST" action="./verif.php">
-				<button name="op" id="opcao" value="1">Adicionar Adm</button><br>
-				<button name="op" id="opcao" value="2">Adicionar Estoque</button><br>
-				<button name="op" id="opcao" value="3">Editar estoque</button><br>
-				<button name="op" id="opcao" value="4">Pedidos</button><br>
-				<button name="edit" id="opcao" value="<?php echo $_SESSION['id'] ?>">Editar Conta</button><br>
+				<button name="op" id="opcao" value="1" onclick="del(this)">Adicionar Adm</button><br>
+				<button name="op" id="opcao" value="2" onclick="del(this)">Adicionar Estoque</button><br>
+				<button name="op" id="opcao" value="3" onclick="del(this)">Editar estoque</button><br>
+				<button name="op" id="opcao" value="4" onclick="del(this)">Pedidos</button><br>
+				<button name="edit" id="opcao" onclick="del(this)" value="<?php echo $_SESSION['id'] ?>">Editar Conta</button><br>
 			</form>
 			
 		<div class="box">
