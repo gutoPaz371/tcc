@@ -38,7 +38,7 @@
             </tr>    
         <?php } ?>
     </table>
-    <a href="../logado.php"><button>Voltar</button></a>
+    <a href="index.php"><button>Voltar</button></a>
 </body>
 </html>
 <!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
