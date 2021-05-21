@@ -43,6 +43,6 @@
 			<input type="submit" class="btn" name="btnLogPainel" value="SALVAR" onclick="return valiLogPn()">
 		</form>
 	</section>
-	<a href="../"><button onclick="del(this)">Voltar</button></a>
+	<a href="./login.php"><button onclick="del(this)">Voltar</button></a>
 </body>
 </html>
