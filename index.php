@@ -2,6 +2,7 @@
     session_start();
     if(isset($_SESSION['user'])){
         $nome=$_SESSION['user'];
+        
     }else{
         $nome='';
     }
@@ -23,7 +24,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="produtos.php">Produtos</a></li>
                 <li><a href="https://i.imgur.com/7FYjASC.jpg">Empresa</a></li>
-                <li><a href="./user/login.php">Login/LogOf</a></li>
+                <li><a href="./user/login.php">Login / Logof</a></li>
                 <li><a href="./user/carrinho.php">Carrinho</a></li>
                 <li><a href="./painel/login.php">Painel</a></li>
             </ul>
