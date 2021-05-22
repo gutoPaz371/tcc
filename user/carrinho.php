@@ -2,7 +2,7 @@
     include '../Config/conexao.php';
     session_start();
     $iduser=$_SESSION['id'];
-    $sql="SELECT pedido.id AS idp, produto.nome as nome, produto.preco as preco, produto.foto as foto FROM produto INNER JOIN pedido ON pedido.idProduto=produto.id INNER JOIN cliente ON pedido.idCliente=cliente.id WHERE cliente.id=$iduser";
+    $sql="SELECT pedido.idProduto AS idp, produto.nome as nome, produto.preco as preco, produto.foto as foto FROM produto INNER JOIN pedido ON pedido.idProduto=produto.id INNER JOIN cliente ON pedido.idCliente=cliente.id WHERE cliente.id=$iduser";
     $res=$cn->query($sql);
 ?>
 <!DOCTYPE html>
@@ -35,5 +35,6 @@
             </tr>
         <?php } ?>
     </table>
+    <a href="../"><button>Voltar</button></a>
 </body>
 </html>
