@@ -1,3 +1,5 @@
+<!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
+
 <?php
     session_start();
     include '../Config/conexao.php';
@@ -13,3 +15,4 @@
         header("location:login.php");
     } 
 ?>
+<!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->

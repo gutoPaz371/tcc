@@ -1,3 +1,5 @@
+<!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
+
 <?php
     include '../Config/conexao.php';
     session_start();
@@ -38,3 +40,4 @@
     <a href="../"><button>Voltar</button></a>
 </body>
 </html>
+<!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
