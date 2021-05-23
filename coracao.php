@@ -11,9 +11,9 @@
     <!-- inicio menu -->
     <nav id="menu-horizontal">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="https://i.imgur.com/7FYjASC.jpg">Produtos</a></li>
-                <li><a href="https://i.imgur.com/7FYjASC.jpg">Empresa</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="####">Produtos</a></li>
+                <li><a href="####">Empresa</a></li>
             </ul>
     </nav>
     <!--  final menu -->
