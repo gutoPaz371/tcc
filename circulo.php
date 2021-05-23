@@ -11,9 +11,9 @@
     <!-- inicio menu -->
     <nav id="menu-horizontal">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="https://i.imgur.com/7FYjASC.jpg">Produtos</a></li>
-                <li><a href="https://i.imgur.com/7FYjASC.jpg">Empresa</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="####">Produtos</a></li>
+                <li><a href="####">Empresa</a></li>
             </ul>
     </nav>
     <!--  final menu -->
@@ -21,10 +21,10 @@
     <!--  inicio menu-2 -->
     <nav class="menu-2">
         <ul>
-            <li><a href="https://i.imgur.com/7FYjASC.jpg">Balões</a></li>
-            <li><a href="https://i.imgur.com/7FYjASC.jpg">Canecas</a></li>
-            <li><a href="https://i.imgur.com/7FYjASC.jpg">Embalagens</a></li>
-            <li><a href="../NEW/painel/login.php">outros</a></li>
+            <li><a href="####">Balões</a></li>
+            <li><a href="####">Canecas</a></li>
+            <li><a href="####">Embalagens</a></li>
+            <li><a href="####">outros</a></li>
         </ul>
     </nav>
     <!--  final menu-2 -->
