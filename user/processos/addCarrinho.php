@@ -5,6 +5,7 @@
     session_start();
     $idProduto=$_POST['id'];
     $idUser=$_SESSION['id'];
+    echo $idUser;
     $quant="SELECT idCliente as idUser, quantidade as quant, id from pedido where idProduto=$idProduto";
     $resQ=mysqli_fetch_assoc($cn->query($quant));
     if($resQ){
@@ -13,16 +14,16 @@
             $id=$resQ['id'];
             $upSql="UPDATE pedido SET quantidade=$x WHERE id=$id";
             $cn->query($upSql);
-            header('location: ../../produtos.php');
+            #header('location: ../../produtos.php');
         }else{
             $sql="INSERT INTO pedido(idCliente,idProduto,sta) VALUES ($idUser,$idProduto,0)";
             $cn->query($sql);
-            header('location: ../../produtos.php');
+            #header('location: ../../produtos.php');
         }
     }else{
         $sql="INSERT INTO pedido(idCliente,idProduto,sta) VALUES ($idUser,$idProduto,0)";
         $cn->query($sql);
-        header('location: ../../produtos.php');
+        #header('location: ../../produtos.php');
     }
     
 ?>
