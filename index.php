@@ -1,4 +1,4 @@
-qqqq<?php 
+aa<?php 
     session_start();
     if(isset($_SESSION['user'])){
         $nome=$_SESSION['user'];
