@@ -32,7 +32,7 @@
 </script>
 	<?php echo $erro; ?>
 	<section class="corpo-frm">
-	<img src="../img/coracao.png">
+	<img src="../img/coracao.png"> <!--imagem logo site na tela admin-->
 		<h2>Entrar</h2>
 		<form name="frmLogAdmin" method="POST" action="./processos/processaLogin.php">
 			<div class="frm-item">
