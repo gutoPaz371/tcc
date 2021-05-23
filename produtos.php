@@ -3,7 +3,9 @@
     include './Config/conexao.php';
     $res=$cn->query("SELECT id, nome, preco, foto FROM produto");
     session_start();
-    $_SESSION['user'];
+    if(isset($_SESSION['user'])){
+        $_SESSION['user'];
+    }    
 ?>
 <!DOCTYPE html>
 <html lang="en">
