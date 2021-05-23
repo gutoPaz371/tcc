@@ -41,6 +41,8 @@
 			<input type="submit" class="btn" name="btnLogPainel" value="ENTRAR" onclick="return valiLogPn()">
 		</form>
 	</section>
-	<a href="../"><button onclick="del(this)">Voltar</button></a>
+	<div class="botao-voltar">
+		<a href="../index.php" onclick="del(this)"style="text-decoration:none">Voltar</a>
+	</div>
 </body>
 </html>

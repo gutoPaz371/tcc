@@ -25,7 +25,7 @@
                 <li><a href="#######">Empresa</a></li>
                 <li><a href="./user/login.php">Login / Logof</a></li>
                 <li><a href="./user/carrinho.php">Carrinho</a></li>
-                <li><a href="./painel/login.php"target="_blank">Painel</a></li>
+                <li><a href="./painel/index.php"target="_blank">Painel</a></li>
                 <h1>Bem Vindo <?php echo $nome; ?></h1>
             </ul>
     </nav>
