@@ -15,7 +15,7 @@ body {
     height: 30px;
     margin-top: 10px;
     cursor: grab;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 #opcao:hover {
