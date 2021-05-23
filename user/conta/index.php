@@ -23,7 +23,7 @@
 	<section class="corpo-frm">
 		<h2>Editar conta</h2>
         <span id='erro' style="color: <?php echo $cor; ?>;"><?php echo $erro; ?></span>
-		<form name="frmLogAdmin" method="POST" action="./processos/processaCadastro.php">
+		<form name="frmLogAdmin" method="POST" action="./processo/updateUser.php">
 			<div class="frm-item">
 				<label for="userlog">Usuário</label>
 				<input name="user" type="text" id="userlog"  maxlength="20" autocomplete="off">
