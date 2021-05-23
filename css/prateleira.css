@@ -7,20 +7,20 @@ body{
     flex-direction: column;
 }
 /*aqui começa o menu-1*/
-#menu-horizontal ul{
+#menu-1 ul li{
+    display: inline;
+}
+
+#menu-1 ul{
     list-style: none;
     height: 43px;
     padding: 0;
     margin: 0;
-    background-color: rgb(0 0 0 / 64%)
+    background-color: rgb(0 0 0 / 76%)
 }
 
-#menu-horizontal ul li{
-    display: inline;
-}
-
-#menu-horizontal ul a{
-    color: rgb(255, 255, 255);
+#menu-1 ul a{
+    color: rgb(255 165 182);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0%;
     padding: 13px;
@@ -29,19 +29,32 @@ body{
     transition: background .3s;
 }
 
-#menu-horizontal ul a:hover{
-    background-color: rgb(45, 138, 192);
+#menu-1 ul a:hover{
+    background-color:#ffa5b6;
+    color: #3b242a;
 }
+
+#menu-1 h1{
+    color: rgb(255 255 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    margin: 0%;
+    text-align: right;
+    padding: 13px;
+    display: inline-block;
+    text-decoration: none;
+}
+
 /*aqui termina o menu-1*/
 
 
 
-/*aqui começa o menu-2*/
+/*aqui comeÃ§a o menu-2*/
 .menu-2 ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    background-color: #40404063;
+    background-color: #ffffff;
     box-shadow: inset 0px -1px 0px 0px #27272778;
 }
 
@@ -52,8 +65,8 @@ body{
 .menu-2 ul a{
     color: rgb(51, 51, 51);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 10px;
-    width: 21%;
+    padding: 5px;
+    width: 24%;
     text-align: center;
     display: inline-block;
     text-decoration: none;
@@ -61,10 +74,9 @@ body{
 }
 
 .menu-2 ul a:hover{
-    background-color: rgb(41, 150, 177);
+    background-color:#ffa5b6;
 }
 /*aqui acaba o menu-2*/
-
 
 /* incio prateleiras*/
 .prateleira li{

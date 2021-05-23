@@ -9,7 +9,7 @@
 </head>
 <body>
     <!-- inicio menu -->
-    <nav id="menu-horizontal">
+    <nav id="menu-1">
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="####">Produtos</a></li>
