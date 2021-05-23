@@ -22,13 +22,7 @@
 <body>
 
 <script>
-    function del(){
-        <?php 
-            $erro='';
-			$_SESSION['erro']='';
-			$_SESSION['cor']='black';
-        ?>
-    }
+    
 </script>
 	<?php echo $erro; ?>
 	<section class="corpo-frm">
