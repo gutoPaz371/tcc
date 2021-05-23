@@ -2,9 +2,9 @@ html, body {height: 100px; margin: 0px; padding: 0px;}
 
 body{
     display: flex;
-    background-color: rgb(255, 255, 255);
-    flex-direction: column;
+    background-image: url("../img/body.png");
     background-size: cover;
+    flex-direction: column;
 }
 /*aqui começa o menu-1*/
 #menu-horizontal ul{
@@ -77,8 +77,6 @@ body{
     height: 320px;
     margin: 30px;
     border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .prateleira li{
@@ -89,9 +87,7 @@ body{
      
     display: inline-block;
     position: relative;
-    top: 10px;
     right: 0;
-    left: -35%;
     border: 0;
     padding: 0.5em 1em;
     text-decoration: none;
