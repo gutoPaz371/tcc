@@ -29,7 +29,7 @@
 			</div>
             <div class="frm-item">
 				<label for="userlog">Email</label>
-				<input name="email" type="email" id="userlog"  maxlength="20" autocomplete="off">
+				<input name="email" type="email" id="userlog" autocomplete="off">
 			</div>
 			<div class="frm-item">
 				<label for="passlog">Senha</label>
