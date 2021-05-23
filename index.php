@@ -1,13 +1,10 @@
-x<?php
+<?php 
     session_start();
     if(isset($_SESSION['user'])){
         $nome=$_SESSION['user'];
-        $st='Logof';
-        $c="Conta";
+        
     }else{
-        $st='Login';
         $nome='';
-        $c='';
     }
 ?>
 <!DOCTYPE html>
@@ -20,42 +17,35 @@ x<?php
 
 </head>
 <body>
-                <!-- inicio menu -->
-    <nav id="menu-horizontal">
-        <p style="text-align: right;"><?php echo $nome; ?></p>
-            <ul id="menu">
-                <li><a href="index.html">Home</a></li>
+                <!-- inicio menu 1 -->
+    <nav id="menu-1">
+            <ul>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="produtos.php">Produtos</a></li>
-                <li><a href="https://i.imgur.com/7FYjASC.jpg">Empresa</a></li>
+                <li><a href="#######">Empresa</a></li>
+                <li><a href="./user/login.php">Login / Logof</a></li>
                 <li><a href="./user/carrinho.php">Carrinho</a></li>
-                <li><a href="./painel/login.php">Painel</a></li>
-                <li><a id="log" href="./user/login.php"></a></li>
-                <li><a id="confg" href="./user/conta/"></a></li>
+                <li><a href="./painel/login.php"target="_blank">Painel</a></li>
+                <h1>Bem Vindo <?php echo $nome; ?></h1>
             </ul>
     </nav>
-    <!--  final menu -->
-    <script> 
-        document.getElementById('log').innerText='<?php echo $st; ?>';
-        document.getElementById('confg').innerText='<?php echo $c; ?>';
-        
-    </script>
-    <!--  inicio menu-2 -->
+                <!--  final menu 1 -->
+
+
+                <!--  inicio menu-2 -->
     <nav class="menu-2">
             <ul>
-                <li><a href="https://i.imgur.com/7FYjASC.jpg">Balões</a></li>
-                <li><a href="https://i.imgur.com/7FYjASC.jpg">Canecas</a></li>
-                <li><a href="https://i.imgur.com/7FYjASC.jpg">Embalagens</a></li>
-                <li><a href="#######">outros</a></li>
+                <li><a href="#####">Balões</a></li>
+                <li><a href="#####">Canecas</a></li>
+                <li><a href="#####">Embalagens</a></li>
+                <li><a href="#####">outros</a></li>
             </ul>
     </nav>
                 <!--  final menu-2 -->
 
-        <link rel="stylesheet" href="https://fonts.gstatic.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
-    <main>
 
-                <!--  slider carrossel inicio -->
+    <main>
+                 <!--  slider carrossel inicio -->
                 <div class="slider">
                     <link rel="stylesheet" href="css/slider.css">
                     <div class="slides">
@@ -102,45 +92,54 @@ x<?php
                 <!--  inicio produtos -->
                 <section class="produtos">
                         <section class="produto">
-                        <link rel="preconnect" href="https://fonts.gstatic.com">
-                        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet" href="">
-
-                            <a href="coracao.html">
-                                <img src="img/coracao.png"></a></br><center><h1>Coração</h1></center>
+                            <a href="coracao.php"target="_blank">
+                              <img src="img/coracao.png"></a></br><center><h1>Coração</h1></center>
                         </section>
                         
                         <section class="produto">
-                            <a href="estrelas.html">
-                                <img src="img/estrela.png"></a></br><center><h1>Estrela</h1></center>
+                            <a href="estrelas.php"target="_blank">
+                              <img src="img/estrela.png"></a></br><center><h1>Estrela</h1></center>
                         </section>
                         
-                        <section class="produto">
-                            <a href="circulo.html">
-                                <img src="img/bola.png"></a></br><center><h1>Circulo</h1></center>                  
+                        <section class="produto"target="_blank">
+                            <a href="circulo.php">
+                              <img src="img/bola.png"></a></br><center><h1>Circulo</h1></center>                  
                         </section>
 
                         <section class="produto">
-                            <a href="###">
-                                <img src="img/bolha.png"></a></br><center><h1>Bolha</h1></center>                  
+                            <a href="###"target="_blank">
+                              <img src="img/bolha.png"></a></br><center><h1>Bolha</h1></center>                  
                         </section>
                 </section>         
     </main>
                 <!--  fim produtos -->
 
-                <h1 class="menugrid">menu grid abaixo</h1>  <!--ignorar-->
-                <div class="painel-url">
-                    <div class="item1">1</div>
-                    <div class="item2">2</div>
-                    <div class="item3">3</div>
-                    <div class="item4">4</div>  
-                    <div class="item5">5</div>
-                    <div class="item6">6</div>
+
+                <!--inicio painel presentes-->
+                <div class="painel-presentes-text">
+                    <h1>Veja nossa linha para presentes</h1> 
+                    <link rel="preconnect" href="https://fonts.gstatic.com">
+                    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,200&display=swap" rel="stylesheet">
+                </div>
+                
+                <div class="painel-presentes">
+                    <div class="item1"></div>
+                    <div class="item2"></div>
+                    <div class="item3"></div>
+                    <div class="item4"></div>  
+                    <div class="item5"></div>
+                    <div class="item6"></div>
                   </div>
 
+                  <!--final painel presentes-->
 
-                <section>
-                    <div class="painel-img"> <!--  painel img -->
-                    </div>
+
+                <section><!--  painel img -->
+                  <div class="painel-img">
+                    <img src="img/bolas.jpg" alt="">
+                    <img src="img/cacto.jpg" alt="">
+                    <img src="img/pepa.jpg" alt="">
+                  </div>
                 </section>
 
                 
