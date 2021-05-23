@@ -1,3 +1,4 @@
+<!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
 <?php
 	session_start();
 	if(isset($_SESSION['erro'])){
@@ -46,3 +47,4 @@
 	<a href="./login.php"><button onclick="del(this)">Voltar</button></a>
 </body>
 </html>
+<!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
