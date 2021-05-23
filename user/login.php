@@ -12,7 +12,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Login</title>
+	<title>Login usuário</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<meta name="theme-color" content="#ee7421">
@@ -32,6 +32,7 @@
 </script>
 	<?php echo $erro; ?>
 	<section class="corpo-frm">
+	<img src="../img/coracao.png">
 		<h2>Entrar</h2>
 		<form name="frmLogAdmin" method="POST" action="./processos/processaLogin.php">
 			<div class="frm-item">
@@ -44,11 +45,13 @@
 			</div>
 			
 			<input type="submit" class="btn" name="btnLogPainel" value="ENTRAR" onclick="return valiLogPn()">
-           <br><br> <a href="./cadastro.php" onclick="del(this)" ><u>Cadastra-se</u></a>
+           <br><br> <a href="./cadastro.php" onclick="del(this)"style="text-decoration:none">Cadastre-se</a>
 		</form>
 	</section>
+
 	<div class="botao-voltar">
 		<a href="../index.php" onclick="del(this)"style="text-decoration:none">Voltar</a>
 	</div>
+	
 </body>
 </html>
