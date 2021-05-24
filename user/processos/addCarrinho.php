@@ -2,8 +2,9 @@
 
 <?php
     include '../../Config/conexao.php';
+    include '../../Config/infUser.php';
     session_start();
-    $idProduto=$_POST['id'];
+    $idProduto=$_POST['idp'];
     $idUser=$_SESSION['id'];
     $quant="SELECT idCliente as idUser, quantidade as quant, id from pedido where idProduto=$idProduto";
     $resQ=mysqli_fetch_assoc($cn->query($quant));

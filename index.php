@@ -1,11 +1,15 @@
 <?php 
     session_start();
     if(isset($_SESSION['user'])){
-        $nome=$_SESSION['user'];
-        
+        $nome='Bem Vindo '.$_SESSION['user'];
+        $log='Logof';
+        $cont='Conta';      
     }else{
+        $log='Login';
         $nome='';
+        $cont='';
     }
+    print_r($_SESSION);
 ?>
 <!DOCTYPE html>
 <html lang="pt">
@@ -23,14 +27,18 @@
                 <li><a href="index.php">Home</a></li>
                 <li><a href="produtos.php">Produtos</a></li>
                 <li><a href="#######">Empresa</a></li>
-                <li><a href="./user/login.php">Login / Logof</a></li>
                 <li><a href="./user/carrinho.php">Carrinho</a></li>
                 <li><a href="./painel/index.php"target="_blank">Painel</a></li>
-                <h1>Bem Vindo <?php echo $nome; ?></h1>
+                <li><a id="log" href="./user/login.php"></a></li>
+                <li><a id="cont" href="cont"></a></li>
+                <h1><?php echo $nome; ?></h1>
             </ul>
     </nav>
                 <!--  final menu 1 -->
-
+    <script>
+        document.getElementById('log').innerText='<?php echo $log; ?>';
+        document.getElementById('cont').innerText='<?php echo $cont; ?>';
+    </script>
 
                 <!--  inicio menu-2 -->
     <nav class="menu-2">
@@ -92,22 +100,22 @@
                 <!--  inicio produtos -->
                 <section class="produtos">
                         <section class="produto">
-                            <a href="coracao.php"target="_blank">
+                            <a href="coracao.php">
                               <img src="img/coracao.png"></a></br><center><h1>Coração</h1></center>
                         </section>
                         
                         <section class="produto">
-                            <a href="estrelas.php"target="_blank">
+                            <a href="estrelas.php">
                               <img src="img/estrela.png"></a></br><center><h1>Estrela</h1></center>
                         </section>
                         
-                        <section class="produto"target="_blank">
+                        <section class="produto">
                             <a href="circulo.php">
                               <img src="img/bola.png"></a></br><center><h1>Circulo</h1></center>                  
                         </section>
 
                         <section class="produto">
-                            <a href="###"target="_blank">
+                            <a href="bolha.php">
                               <img src="img/bolha.png"></a></br><center><h1>Bolha</h1></center>                  
                         </section>
                 </section>         
@@ -143,9 +151,10 @@
                 </section>
 
                 
-
-                <section class="rodape-info"> 
-                    <section class="informacoes">
+                <!--Modificação estrutural para o rodape - Danie Hughes Araujo-->
+                <section class="rodape-info">
+                    <div class="wrapper"> 
+                    <section class="bloco">
                         <b>INFORMAÇÕES</b>
                         <ul>
                             <a href="sobrenós">Sobre nós</a>
@@ -161,7 +170,7 @@
                         </ul>
                     </section>
 
-                    <section class="informacoes-2"> <!--ajustar section, classe selecionada mas sem tratamento css-->
+                    <section class="bloco"> <!--ajustar section, classe selecionada mas sem tratamento css-->
                         <b>ATENDIMENTO</b>
                         <ul>
                             <a href="sobrenós">Sobre nós</a>
@@ -176,8 +185,25 @@
                             <a href="">S</a>
                         </ul>
                     </section>
-                </section>
 
+                    <section class="bloco"> <!--ajustar section, classe selecionada mas sem tratamento css-->
+                        <b>CONTATO</b>
+                        <ul>
+                            <a href="sobrenós">(xx) x-xxxx-xxxx</a>
+                        </ul>
+                        <ul>
+                            <a href="">Endereço:xxxxxxxxxx</a>
+                        </ul>
+                        <ul>
+                            <a href=""></a>
+                        </ul>
+                        <ul>
+                            <a href="">S</a>
+                        </ul>
+                    </section>
+                    </div>
+                </section>
+                <!--Modificação estrutural para o rodape - Danie Hughes Araujo-->
 
                 <footer class="rodape"> <h1>www.maniadefesta.com.br</h1></footer>
                 <link rel="preconnect" href="https://fonts.gstatic.com">

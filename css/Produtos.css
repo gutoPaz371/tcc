@@ -1,0 +1,35 @@
+html,
+body {
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    background-image: url("../img/body.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+    text-align: center;
+}
+
+#raiz {
+    background-color: red;
+    margin: 20px;
+    float: left;
+    width: 200px;
+    height: 300px;
+    border-style: dotted;
+}
+
+#ft {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}

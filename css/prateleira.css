@@ -47,37 +47,6 @@ body{
 
 /*aqui termina o menu-1*/
 
-
-
-/*aqui comeÃ§a o menu-2*/
-.menu-2 ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    background-color: #ffffff;
-    box-shadow: inset 0px -1px 0px 0px #27272778;
-}
-
-.menu-2 ul li{
-    display: inline;
-}
-
-.menu-2 ul a{
-    color: rgb(51, 51, 51);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 5px;
-    width: 24%;
-    text-align: center;
-    display: inline-block;
-    text-decoration: none;
-    transition: background .3s;
-}
-
-.menu-2 ul a:hover{
-    background-color:#ffa5b6;
-}
-/*aqui acaba o menu-2*/
-
 /* incio prateleiras*/
 .prateleira li{
     display: inline-block;
@@ -90,6 +59,10 @@ body{
     margin: 30px;
     border-radius: 10px;
 }
+.prateleira ul{
+    padding-left: 10%;
+    padding-right: 4%;
+}
 
 .prateleira li{
     text-align: center;
@@ -99,7 +72,7 @@ body{
      
     display: inline-block;
     position: relative;
-    right: 0;
+    right: 45%;
     border: 0;
     padding: 0.5em 1em;
     text-decoration: none;

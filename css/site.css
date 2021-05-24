@@ -1,18 +1,26 @@
-html, body {height: 100px; margin: 0px; padding: 0px;}
+html,
+body {
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+}
 
-body{
+body {
     display: flex;
     background-image: url("../img/body.png");
     background-repeat: no-repeat;
     background-size: cover;
     flex-direction: column;
 }
+
+
 /*aqui começa o menu-1*/
-#menu-1 ul li{
+
+#menu-1 ul li {
     display: inline;
 }
 
-#menu-1 ul{
+#menu-1 ul {
     list-style: none;
     height: 43px;
     padding: 0;
@@ -20,7 +28,7 @@ body{
     background-color: rgb(0 0 0 / 76%)
 }
 
-#menu-1 ul a{
+#menu-1 ul a {
     color: rgb(255 165 182);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0%;
@@ -30,12 +38,12 @@ body{
     transition: background .3s;
 }
 
-#menu-1 ul a:hover{
-    background-color:#ffa5b6;
+#menu-1 ul a:hover {
+    background-color: #ffa5b6;
     color: #3b242a;
 }
 
-#menu-1 h1{
+#menu-1 h1 {
     color: rgb(255 255 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 13px;
@@ -46,11 +54,12 @@ body{
     text-decoration: none;
 }
 
+
 /*aqui termina o menu-1*/
 
 
-
 /*aqui comeÃ§a o menu-2*/
+
 .menu-2 ul {
     list-style: none;
     padding: 0;
@@ -59,11 +68,11 @@ body{
     box-shadow: inset 0px -1px 0px 0px #27272778;
 }
 
-.menu-2 ul li{
+.menu-2 ul li {
     display: inline;
 }
 
-.menu-2 ul a{
+.menu-2 ul a {
     color: rgb(51, 51, 51);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 5px;
@@ -74,36 +83,41 @@ body{
     transition: background .3s;
 }
 
-.menu-2 ul a:hover{
-    background-color:#ffa5b6;
+.menu-2 ul a:hover {
+    background-color: #ffa5b6;
 }
+
+
 /*aqui acaba o menu-2*/
 
 
 /*textos de meio de site*/
-.texto{
+
+.texto {
     padding: 20px;
     margin-top: 70px;
 }
-.texto h1{
+
+.texto h1 {
     text-align: center;
     font-size: 30px;
     color: #fff;
     font-family: 'Titillium Web', sans-serif;
 }
 
-.texto h2{
+.texto h2 {
     text-align: center;
     color: #fff;
     font-size: 20px;
     font-family: 'Titillium Web', sans-serif;
 }
 
+
 /* fim textos de meio de site*/
 
 
-
 /*aqui comeÃ§a os produtos*/
+
 .produtos {
     display: flex;
     background-color: #fff;
@@ -117,30 +131,34 @@ body{
     box-shadow: 0px 0px 0px 2px #27272740;
 }
 
-.produto img{
+.produto img {
     width: 250px;
     height: 250px;
     margin-top: 10px;
 }
 
-.produtos h1{
+.produtos h1 {
     text-align: center;
     font-family: 'Anton', sans-serif;
     font-size: 15px;
     color: rgb(36, 36, 36);
 }
+
+
 /*aqui termina os produtos*/
 
 
 /*aqui comeca o painel de presentes*/
-.painel-presentes-text h1{
+
+.painel-presentes-text h1 {
     text-align: center;
     font-family: 'Titillium Web', sans-serif;
     margin-top: 85px;
     margin-bottom: -37px;
     color: rgb(39, 39, 39);
 }
-.painel-presentes{
+
+.painel-presentes {
     display: grid;
     padding: 30px;
     margin-top: 30px;
@@ -151,11 +169,11 @@ body{
 }
 
 .item1 {
-    background-color:darkgrey;
+    background-color: darkgrey;
     color: white;
     cursor: pointer;
 }
-  
+
 .item2 {
     background-color: darkgrey;
     background-size: cover;
@@ -163,7 +181,7 @@ body{
     grid-column-start: 2;
     grid-column-end: 4;
 }
-  
+
 .item3 {
     background-color: darkgrey;
     background-size: cover;
@@ -187,14 +205,15 @@ body{
     cursor: pointer;
     grid-column-start: 2;
     grid-column-end: 4;
-    
 }
+
+
 /*aqui termina o painel de presentes*/
 
 
-
 /*aqui comeÃ§a o painel de imagens*/
-.painel-img{
+
+.painel-img {
     width: 500px;
     height: 350px;
     display: flex;
@@ -205,17 +224,20 @@ body{
     margin-bottom: 7%;
     border-radius: 10% 10px;
 }
-.painel-img img{
+
+.painel-img img {
     width: 400px;
     height: 350px;
     background-size: cover;
-    
 }
+
+
 /*aqui termina o painel de imagens*/
 
 
 /*aqui comeÃ§a o rodapÃ©*/
-.rodape-info{
+
+.rodape-info {
     width: 100%;
     height: 400px;
     background-color: rgb(0 0 0 / 58%);
@@ -223,14 +245,15 @@ body{
     color: rgb(255 255 255);
     text-align: center;
 }
-.rodape-info a{
+
+.rodape-info a {
     color: rgb(255, 255, 255);
     font-size: 15px;
     font-weight: 400;
     line-height: 20px;
-} 
+}
 
-.rodape{
+.rodape {
     position: relative;
     left: 0;
     bottom: 0;
@@ -238,10 +261,30 @@ body{
     background-color: rgb(45 46 46);
 }
 
-.rodape h1{
+.rodape h1 {
     font-family: 'Inconsolata', monospace;
     color: seashell;
     font-size: 20px;
     text-align: center;
 }
+
+
+/*Codificação complementar para o rodape - Danie Hughes Araujo*/
+
+div.wrapper {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.bloco {
+    float: left;
+    margin: 0 auto;
+}
+
+
+/*Codificação complementar para o rodape - Danie Hughes Araujo*/
+
+
 /*aqui termina o rodapÃ©*/

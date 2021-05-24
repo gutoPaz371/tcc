@@ -22,6 +22,10 @@
         width: 50px;
         height: 50px;
     }
+    button{
+        width: 50px;
+        height: 50px;
+    }
 </style>
 <body>
     <table border="black">
@@ -37,10 +41,10 @@
                 <th><?php echo $dado['nome']; ?></th>
                 <th>R$<?php echo $dado['preco']; ?>.00</th>
                 <th><?php echo $dado['quant'] ?></th>
-                <th><img src="<?php echo $dado['foto']; ?>" ></th>
+                <th><img src="../img/<?php echo $dado['idp']; ?>.png" ></th>
                 <th>R$<?php echo $dado['preco']*$dado['quant'];?>.00</th>
                 <th><form action="./processos/remCarrinho.php" method="post"><button style="width: 50px;
-                height: 50px;" name="idp" value="<?php echo $dado['idp'] ?>">DEL</button></form></th>
+                height: 50px;" name="idp" value="<?php echo $dado['idp'] ?>">-</button></form>
             </tr>
         <?php } ?>  
     </table>

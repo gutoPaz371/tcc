@@ -18,40 +18,34 @@
 	<meta name="theme-color" content="#ee7421">
 	<link rel="shortcut icon" href="../img/ico_favicon.png">
 	<link rel="stylesheet" type="text/css" href="../css/login_admin.css">
+	<link rel="stylesheet" type="text/css" href="../css/Login_User.css">
 </head>
 <body>
 
 <script>
-    function del(){
-        <?php 
-            $erro='';
-			$_SESSION['erro']='';
-			$_SESSION['cor']='black';
-        ?>
-    }
+
 </script>
 	<?php echo $erro; ?>
-	<section class="corpo-frm">
-	<img src="../img/coracao.png"> <!--imagem logo site na tela admin-->
-		<h2>Entrar</h2>
-		<form name="frmLogAdmin" method="POST" action="./processos/processaLogin.php">
-			<div class="frm-item">
-				<label for="userlog">Usuário</label>
-				<input type="text" id="userlog" name="user" maxlength="20" autocomplete="off">
-			</div>
-			<div class="frm-item">
-				<label for="passlog">Senha</label>
-				<input type="password" id="passlog" name="pass" maxlength="20" autocomplete="off">
-			</div>
-			
-			<input type="submit" class="btn" name="btnLogPainel" value="ENTRAR" onclick="return valiLogPn()">
-           <br><br> <a href="./cadastro.php" onclick="del(this)"style="text-decoration:none">Cadastre-se</a>
-		</form>
-	</section>
-
 	<div class="botao-voltar">
 		<a href="../index.php" onclick="del(this)"style="text-decoration:none">Voltar</a>
 	</div>
+	<div id="contL">
+        <h1>Login</h1>
+        <form name="frmLogAdmin" method="POST" action="./processos/processaLogin.php">
+            <label for="email">Usuario</label>
+            <input type="text" name="user" id="email" placeholder="Digite seu Usuario" autocomplete="off">
+            <br>
+            <label for="password">Senha</label>
+            <input type="password" name="pass" id="password" placeholder="Digite Sua Senha.">
+            <br>
+            <input type="submit" value="Login">
+            <a href="#" id="forgot-pass">Esqueceu a senha.</a>
+        </form>
+        <div id="register-cont">
+            <p>Ainda não tem uma conta ?</p>
+            <a href="./cadastro.php">Registrar.</a>
+        </div>
+    </div>
 	
 </body>
 </html>

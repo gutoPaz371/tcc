@@ -26,15 +26,12 @@
                      <!-- inicio prateleira -->
                <div class="prateleira">
                    <ul class="prateleira ul">
-                       <li><img src="img/coracao1.jpg"><a href="##" class="botao-ver-prateleira">comprar</a></li>
-                       <li><img src="img/coracao2.png"><a href="##" class="botao-ver-prateleira">comprar</a></li>
-                       <li><img src="img/coracao3.png"><a href="##" class="botao-ver-prateleira">comprar</a></li>
-                       <li><img src="img/coracao4.png"><a href="##" class="botao-ver-prateleira">comprar</a></li>
-                       <li><img src="img/coracao5.png"><a href="##" class="botao-ver-prateleira">comprar</a></li>
-                       <li><img src="img/coracao6.png"><a href="##" class="botao-ver-prateleira">comprar</a></li>
-                       <li><img src="img/coracao7.png"><a href="##" class="botao-ver-prateleira">comprar</a></li>
-                       <li><img src="img/coracao8.png"><a href="##" class="botao-ver-prateleira">comprar</a></li>
-                       <li><img src="img/coracao9.png"><a href="##" class="botao-ver-prateleira">comprar</a></li>
+                       <li><img src="img/bolha1.png"><a href="##" class="botao-ver-prateleira">comprar</a></li>
+                       <li><img src="img/bolha2.png"><a href="##" class="botao-ver-prateleira">comprar</a></li>
+                       <li><img src="img/bolha3.png"><a href="##" class="botao-ver-prateleira">comprar</a></li>
+                       <li><img src="img/bolha4.png"><a href="##" class="botao-ver-prateleira">comprar</a></li>
+                       <li><img src="img/bolha5.png"><a href="##" class="botao-ver-prateleira">comprar</a></li>
+                       <li><img src="img/bolha6.png"><a href="##" class="botao-ver-prateleira">comprar</a></li>
                    </ul>
                </div>
     </main>
@@ -49,6 +46,6 @@
                  <link rel="preconnect" href="https://fonts.gstatic.com">
                  <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
                 
-                                                <!--  final rodapé -->
+                                                <!--  final rodapé-->
  </body>
  </html> 
