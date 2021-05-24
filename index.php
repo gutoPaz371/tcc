@@ -100,16 +100,16 @@
                 <!--  inicio produtos -->
                 <section class="produtos">
                         <section class="produto">
-                            <a href="coracao.php"target="_blank">
+                            <a href="coracao.php">
                               <img src="img/coracao.png"></a></br><center><h1>Coração</h1></center>
                         </section>
                         
                         <section class="produto">
-                            <a href="estrelas.php"target="_blank">
+                            <a href="estrelas.php">
                               <img src="img/estrela.png"></a></br><center><h1>Estrela</h1></center>
                         </section>
                         
-                        <section class="produto"target="_blank">
+                        <section class="produto">
                             <a href="circulo.php">
                               <img src="img/bola.png"></a></br><center><h1>Circulo</h1></center>                  
                         </section>

@@ -18,17 +18,6 @@
     </nav>
     <!--  final menu -->
 
-    <!--  inicio menu-2 -->
-    <nav class="menu-2">
-        <ul>
-            <li><a href="####">Balões</a></li>
-            <li><a href="####">Canecas</a></li>
-            <li><a href="####">Embalagens</a></li>
-            <li><a href="####">outros</a></li>
-        </ul>
-    </nav>
-    <!--  final menu-2 -->
-
         <link rel="stylesheet" href="https://fonts.gstatic.com">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
@@ -36,7 +25,7 @@
 
                      <!-- inicio prateleira -->
                <div class="prateleira">
-                   <ul class="prateleira img">
+                   <ul class="prateleira ul">
                        <li><img src="img/bola1.PNG"><a href="##" class="botao-ver-prateleira">comprar</a></li>
                        <li><img src="img/bola2.png"><a href="##" class="botao-ver-prateleira">comprar</a></li>
                        <li><img src="img/bola3.png"><a href="##" class="botao-ver-prateleira">comprar</a></li>
