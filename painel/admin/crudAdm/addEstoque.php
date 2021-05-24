@@ -40,7 +40,6 @@
     <h1 style="color: green;text-align: center;" >Adicionar Estoque</h1>
     <form action="./processos/processaAddEstoque.php" method="POST" enctype="multipart/form-data" style="text-align: center;">
     <span style="text-align: center;color:<?php echo $cor ?>"><?php echo $erro;?></span><br>
-        <input type="text" name=foto placeholder="LINK DA FOTO"><br>
         <input type="text" name="nome" placeholder="NOME"><br>
         <input type="moeda" name="preco" placeholder="VALOR"><br>
         <input type="file" name="arquivo"><br>
