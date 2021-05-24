@@ -26,7 +26,7 @@
             <th>NOME</th>
             <th>PRECO</th>
             <th>FOTO</th>
-            <th>CARRINHO</th>
+            <th></th>
         </tr>
         <?php while($dado = $res->fetch_array()){ ?>    
             <tr>

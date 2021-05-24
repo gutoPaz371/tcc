@@ -29,7 +29,7 @@
                 <li><a href="#######">Empresa</a></li>
                 <li><a href="./user/carrinho.php">Carrinho</a></li>
                 <li><a href="./painel/index.php"target="_blank">Painel</a></li>
-                <li><a id="log" onclick="" href="./user/login.php"></a></li>
+                <li><a id="log" href="./user/login.php"></a></li>
                 <li><a id="cont" href="cont"></a></li>
                 <h1>Bem Vindo <?php echo $nome; ?></h1>
             </ul>
@@ -38,11 +38,6 @@
     <script>
         document.getElementById('log').innerText='<?php echo $log; ?>';
         document.getElementById('cont').innerText='<?php echo $cont; ?>';
-        function logoff(){
-            <?php 
-                #session_destroy();
-            ?>
-        }
     </script>
 
                 <!--  inicio menu-2 -->
