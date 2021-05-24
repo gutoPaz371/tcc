@@ -26,6 +26,9 @@
 
 </script>
 	<?php echo $erro; ?>
+	<div class="botao-voltar">
+		<a href="../index.php" onclick="del(this)"style="text-decoration:none">Voltar</a>
+	</div>
 	<div id="contL">
         <h1>Login</h1>
         <form name="frmLogAdmin" method="POST" action="./processos/processaLogin.php">
