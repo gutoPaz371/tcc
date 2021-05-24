@@ -21,7 +21,7 @@
 </head>
 <body>
     <div class="botao-voltar">
-		<a href="../index.php" onclick="del(this)"style="text-decoration:none">Voltar</a>
+		<a href="../user/login.php" onclick="del(this)"style="text-decoration:none">Voltar</a>
 	</div>
     <div id="contL">
         <h1>Cadastre-se</h1>
