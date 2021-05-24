@@ -151,9 +151,10 @@
                 </section>
 
                 
-
-                <section class="rodape-info"> 
-                    <section class="informacoes">
+                <!--Modificação estrutural para o rodape - Danie Hughes Araujo-->
+                <section class="rodape-info">
+                    <div class="wrapper"> 
+                    <section class="bloco">
                         <b>INFORMAÇÕES</b>
                         <ul>
                             <a href="sobrenós">Sobre nós</a>
@@ -169,7 +170,7 @@
                         </ul>
                     </section>
 
-                    <section class="informacoes-2"> <!--ajustar section, classe selecionada mas sem tratamento css-->
+                    <section class="bloco"> <!--ajustar section, classe selecionada mas sem tratamento css-->
                         <b>ATENDIMENTO</b>
                         <ul>
                             <a href="sobrenós">Sobre nós</a>
@@ -184,8 +185,25 @@
                             <a href="">S</a>
                         </ul>
                     </section>
-                </section>
 
+                    <section class="bloco"> <!--ajustar section, classe selecionada mas sem tratamento css-->
+                        <b>CONTATO</b>
+                        <ul>
+                            <a href="sobrenós">(xx) x-xxxx-xxxx</a>
+                        </ul>
+                        <ul>
+                            <a href="">Endereço:xxxxxxxxxx</a>
+                        </ul>
+                        <ul>
+                            <a href=""></a>
+                        </ul>
+                        <ul>
+                            <a href="">S</a>
+                        </ul>
+                    </section>
+                    </div>
+                </section>
+                <!--Modificação estrutural para o rodape - Danie Hughes Araujo-->
 
                 <footer class="rodape"> <h1>www.maniadefesta.com.br</h1></footer>
                 <link rel="preconnect" href="https://fonts.gstatic.com">
