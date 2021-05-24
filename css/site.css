@@ -224,10 +224,6 @@ body {
     background-color: rgb(255 165 182);
     justify-content: space-around;
     flex-wrap: wrap;
-    /* padding: 10px; */
-    /* margin-top: 30px; */
-    /* margin-left: 135px; */
-    margin-right: 135px;
 }
 
 .rodape-info a {

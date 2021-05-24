@@ -201,10 +201,18 @@
                         </ul>
                     </section>
                 </section>
+<section class="rodape">
 
-                <footer class="rodape"><h1>www.maniadefesta.com.br</h1></footer>
+<footer>
+<div class= "rodape">  
+<h1>www.maniadefesta.com.br</h1>
+</div> 
+</footer>
                 <link rel="preconnect" href="https://fonts.gstatic.com">
                 <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+
+</section>
+                
 
                                 <!--  final rodapé -->
 
