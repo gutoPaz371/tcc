@@ -17,9 +17,15 @@
 </head>
 <body>
 <a href="index.php"><button style="text-align: left;">Voltar</button></a>
+    <!-- inicio menu -->
+    <nav id="menu-1">
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="####">Empresa</a></li>
+            </ul>
+    </nav>
+    <!--  final menu -->
 
-
-    <h1 style="text-align: center;">Estoque</h1>
         <?php while($dado = $res->fetch_array()){ ?>    
             <div id="raiz">
                 <p style="text-align: center;"><?php echo $dado['nome'] ?></p>
