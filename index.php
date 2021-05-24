@@ -151,61 +151,58 @@
                 </section>
 
                 
-                <!--Modificação estrutural para o rodape - Danie Hughes Araujo-->
-                <section class="rodape-info">
-                    <div class="wrapper"> 
-                    <section class="bloco">
-                        <b>INFORMAÇÕES</b>
+                
+                <section class="rodape-info"> 
+                    <section class="informacoes">
+                        <h1>INFORMAÇÕES</h1>
                         <ul>
-                            <a href="sobrenós">Sobre nós</a>
+                            <a href="sobrenós"><h1>Sobre nós</h1></a>
                         </ul>
                         <ul>
-                            <a href="">Parceiros</a>
+                            <a href=""><h1>Parceiros</h1></a>
                         </ul>
                         <ul>
-                            <a href="">sss</a>
+                            <a href=""><h1>sss</h1></a>
                         </ul>
                         <ul>
-                            <a href="">Sss</a>
-                        </ul>
-                    </section>
-
-                    <section class="bloco"> <!--ajustar section, classe selecionada mas sem tratamento css-->
-                        <b>ATENDIMENTO</b>
-                        <ul>
-                            <a href="sobrenós">Sobre nós</a>
-                        </ul>
-                        <ul>
-                            <a href="">Parceiros</a>
-                        </ul>
-                        <ul>
-                            <a href=""></a>
-                        </ul>
-                        <ul>
-                            <a href="">S</a>
+                            <a href=""><h1>Sss</h1></a>
                         </ul>
                     </section>
 
-                    <section class="bloco"> <!--ajustar section, classe selecionada mas sem tratamento css-->
-                        <b>CONTATO</b>
+                    <section class="informacoes-2"> 
+                        <h1>ATENDIMENTO</h1>
                         <ul>
-                            <a href="sobrenós">(xx) x-xxxx-xxxx</a>
+                            <a href="sobrenós"><h1>Sobre nós</h1></a>
                         </ul>
                         <ul>
-                            <a href="">Endereço:xxxxxxxxxx</a>
+                            <a href=""><h1>Parceiros</h1></a>
                         </ul>
                         <ul>
-                            <a href=""></a>
+                            <a href=""><h1>adicionar</h1></a>
                         </ul>
                         <ul>
-                            <a href="">S</a>
+                            <a href=""><h1>S</h1></a>
                         </ul>
                     </section>
-                    </div>
+
+                    <section class="informacoes-2"> 
+                        <h1>ATENDIMENTO</h1>
+                        <ul>
+                            <a href="sobrenós"><h1>Sobre nós</h1></a>
+                        </ul>
+                        <ul>
+                            <a href=""><h1>Parceiros</h1></a>
+                        </ul>
+                        <ul>
+                            <a href=""><h1>adicionar</h1></a>
+                        </ul>
+                        <ul>
+                            <a href=""><h1>S</h1></a>
+                        </ul>
+                    </section>
                 </section>
-                <!--Modificação estrutural para o rodape - Danie Hughes Araujo-->
 
-                <footer class="rodape"> <h1>www.maniadefesta.com.br</h1></footer>
+                <footer class="rodape"><h1>www.maniadefesta.com.br</h1></footer>
                 <link rel="preconnect" href="https://fonts.gstatic.com">
                 <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
 
