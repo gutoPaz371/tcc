@@ -116,7 +116,7 @@
                         </section>
 
                         <section class="produto">
-                            <a href="###"target="_blank">
+                            <a href="bolha.php">
                               <img src="img/bolha.png"></a></br><center><h1>Bolha</h1></center>                  
                         </section>
                 </section>         
