@@ -40,7 +40,7 @@
                 <div id="ft"><img src="<?php echo $dado['foto'] ?>"></div><br>
                 <div id="inf"><p>VALOR</p><P>R$ <?php echo $dado['preco'] ?></P></div>
                 <div><form action="./user/processos/addCarrinho.php" method="POST">
-                <button name="idp" value="<?php echo $dado['id'] ?>" type="submit" style="width: 200px;height: 50px;">+</button>
+                <button name="idp" value="<?php echo $dado['id'] ?>" type="submit" style="width: 200px;height: 30px; margin-bottom: 20px;">+</button>
                 </form></div>
             </div> 
         <?php } ?>
