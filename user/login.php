@@ -4,9 +4,6 @@
 		$erro="<div class=\"error\"><p>Usuário/Senha Incorretos!<p></div>";
 	}else{
 		$erro="";
-	}if(isset($_SESSION['user'])){
-		session_destroy();
-		header('location: ../');
 	}
 ?>
 <!DOCTYPE html>

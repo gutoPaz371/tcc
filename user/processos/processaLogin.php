@@ -2,6 +2,7 @@
 
 <?php
     include "../../Config/conexao.php";
+    include "../../Config/infUser.php";
     session_start();
     $user=$_POST['user'];
     $pass=$_POST['pass'];

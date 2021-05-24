@@ -3,10 +3,7 @@
     include './Config/conexao.php';
     $res=$cn->query("SELECT id, nome, preco, foto FROM produto");
     session_start();
-    if(isset($_SESSION['user'])){
-        $_SESSION['user'];
-        $_SESSION['id'];
-    }    
+    print_r($_SESSION);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -37,7 +34,7 @@
                 <th>R$<?php echo $dado['preco']; ?></th>
                 <th><a href="<?php echo $dado['foto'] ?>"><img src="<?php echo $dado['foto'] ?>"></a></th>
                 <form action="./user/processos/addCarrinho.php" method="POST">
-                <th><button name="id" value="<?php echo $dado['id'] ?>" type="submit" style="width: 50px;height: 50px;">+</button></th>
+                <th><button name="idp" value="<?php echo $dado['id'] ?>" type="submit" style="width: 50px;height: 50px;">+</button></th>
                 </form>
             </tr>    
         <?php } ?>

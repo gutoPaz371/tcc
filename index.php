@@ -1,16 +1,15 @@
 <?php 
     session_start();
-    echo $_SESSION['id'];
     if(isset($_SESSION['user'])){
         $nome=$_SESSION['user'];
         $log='Logof';
-        $cont='Conta';
-        
+        $cont='Conta';      
     }else{
         $log='Login';
         $nome='';
         $cont='';
     }
+    print_r($_SESSION);
 ?>
 <!DOCTYPE html>
 <html lang="pt">
@@ -30,7 +29,7 @@
                 <li><a href="#######">Empresa</a></li>
                 <li><a href="./user/carrinho.php">Carrinho</a></li>
                 <li><a href="./painel/index.php"target="_blank">Painel</a></li>
-                <li><a id="log" onclick="logoff(this)" href="./user/login.php"></a></li>
+                <li><a id="log" onclick="" href="./user/login.php"></a></li>
                 <li><a id="cont" href="cont"></a></li>
                 <h1>Bem Vindo <?php echo $nome; ?></h1>
             </ul>
@@ -41,7 +40,7 @@
         document.getElementById('cont').innerText='<?php echo $cont; ?>';
         function logoff(){
             <?php 
-                session_destroy();
+                #session_destroy();
             ?>
         }
     </script>
