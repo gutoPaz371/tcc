@@ -20,7 +20,10 @@
 	<link rel="stylesheet" type="text/css" href="../css/Login_User.css">
 </head>
 <body>
-<div id="contL">
+    <div class="botao-voltar">
+		<a href="../user/login.php" onclick="del(this)"style="text-decoration:none">Voltar</a>
+	</div>
+    <div id="contL">
         <h1>Cadastre-se</h1>
         <form action="">
             
@@ -46,7 +49,5 @@
 
         </form>
     </div>
-
-	<a href="./login.php"><button onclick="del(this)">Voltar</button></a>
 </body>
 </html>
