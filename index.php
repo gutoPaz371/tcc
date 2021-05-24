@@ -1,7 +1,7 @@
 <?php 
     session_start();
+    echo $_SESSION['id'];
     if(isset($_SESSION['user'])){
-        $_SESSION['id'];
         $nome=$_SESSION['user'];
         $log='Logof';
         $cont='Conta';

@@ -5,7 +5,7 @@
     session_start();
     $idProduto=$_POST['id'];
     $idUser=$_SESSION['id'];
-    echo $idUser;
+    echo $_SESSION['id'];
     $quant="SELECT idCliente as idUser, quantidade as quant, id from pedido where idProduto=$idProduto";
     $resQ=mysqli_fetch_assoc($cn->query($quant));
     if($resQ){
