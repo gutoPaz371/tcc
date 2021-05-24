@@ -15,31 +15,36 @@
 </head>
 <style>
     img{
-        width: 50px;
-        height: 50px;
+        width: 200px;
+        height: 150px;
+        text-align: center;
+    }
+    #raiz{
+        background-color: red;
+        margin: 20px;
+        float: left;
+        width: 200px;
+        height: 300px;
+    }
+    #ft{
+        width: 150px;
+        height: 150px;
+        text-align: center;
     }
 </style>
 <body>
     <h1 style="text-align: center;">Estoque</h1>
-    <table border="black">
-        <tr>
-            <th>NOME</th>
-            <th>PRECO</th>
-            <th>FOTO</th>
-            <th></th>
-        </tr>
         <?php while($dado = $res->fetch_array()){ ?>    
-            <tr>
-                <th><?php echo $dado['nome']; ?></th>
-                <th>R$<?php echo $dado['preco']; ?></th>
-                <th><a href="<?php echo $dado['foto'] ?>"><img src="<?php echo $dado['foto'] ?>"></a></th>
-                <form action="./user/processos/addCarrinho.php" method="POST">
-                <th><button name="idp" value="<?php echo $dado['id'] ?>" type="submit" style="width: 50px;height: 50px;">+</button></th>
-                </form>
-            </tr>    
+            <div id="raiz">
+                <p style="text-align: center;"><?php echo $dado['nome'] ?></p>
+                <div id="ft"><img src="<?php echo $dado['foto'] ?>"></div><br>
+                <div id="inf"><p>VALOR</p><P>R$ <?php echo $dado['preco'] ?></P></div>
+                <div><form action="./user/processos/addCarrinho.php" method="POST">
+                <button name="idp" value="<?php echo $dado['id'] ?>" type="submit" style="width: 200px;height: 50px;">+</button>
+                </form></div>
+            </div> 
         <?php } ?>
-    </table>
-    <a href="index.php"><button>Voltar</button></a>
+    <a href="index.php"><button style="text-align: left;">Voltar</button></a>
 </body>
 </html>
 <!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
