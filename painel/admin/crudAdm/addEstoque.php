@@ -23,6 +23,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adicionar Estoque</title>
 </head>
+<style>
+    .cor{
+        width: 100px;
+        height: 30px;
+        border: 2px solid;
+        float: left;
+        margin: 2px;
+        border-radius: 20%;
+        border-color: black;
+        text-align: center; 
+        cursor: pointer;
+    }
+</style>
 <body>
     <h1 style="color: green;text-align: center;" >Adicionar Estoque</h1>
     <form action="./processos/processaAddEstoque.php" method="POST" style="text-align: center;">
@@ -30,8 +43,44 @@
         <input type="text" name=foto placeholder="LINK DA FOTO"><br>
         <input type="text" name="nome" placeholder="NOME"><br>
         <input type="moeda" name="preco" placeholder="VALOR"><br>
-        <button type="submit">ADICIONAR</button>
+        <div id='bola' class="cor" onclick="select(id)">BOLA</div>
+        <div id='bolha' class="cor" onclick="select(id)">BOLHA</div>
+        <div id='coracao' class="cor" onclick="select(id)">CORAÇÃO</div>
+        <div id='estrela' class="cor" onclick="select(id)">ESTRELA</div>            
+        <button id="tipo" name="tipo" value="" type="submit">ADICIONAR</button>
     </form><a href="../logado.php"><button>VOLTAR</button></a>
 </body>
+<script>
+    x=true;
+    oldCor="";
+    oldId="";
+    selectCor="";
+    cor= "#00FF00";
+    function select(id){
+        if(oldId.length>0 && oldId!=id){
+            document.getElementById(oldId).style.borderColor=oldCor;
+            document.getElementById(id).style.borderColor=cor;
+            selectCor=id;
+            oldId=id;
+            oldCor=document.getElementById(id).style.backgroundColor;
+            x=false;
+        }else{
+            if(x){
+                oldCor=document.getElementById(id).style.backgroundColor;
+                oldId=id;
+                document.getElementById(id).style.borderColor=cor;
+                selectCor=id;
+
+                x=false
+            }else{
+                oldCor=document.getElementById(id).style.backgroundColor;
+                oldId=id;
+                document.getElementById(id).style.borderColor=oldCor;
+                x=true;
+            }
+        }
+        document.getElementById('tipo').value=selectCor;
+    }
+</script>
 </html>
 <!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->

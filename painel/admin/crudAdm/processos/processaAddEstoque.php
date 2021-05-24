@@ -4,6 +4,7 @@
     $nome=$_POST['nome'];
     $preco=$_POST['preco'];
     $foto=$_POST['foto'];
+    $tipo=$_POST['tipo'];
     if(strlen($preco)==0 || strlen($nome)==0){
         session_start();
         $_SESSION['erro']='Preencha todos os campos!';
@@ -20,7 +21,7 @@
     }
     else{
         session_start();
-        $cn->query("INSERT INTO produto(nome,preco,foto) VALUES ('$nome',$preco,'$foto')");
+        $cn->query("INSERT INTO produto(nome,preco,foto,tipo) VALUES ('$nome',$preco,'$foto','$tipo')");
         $_SESSION['erro']='Cadastrado...';
         $_SESSION['cor']='green';
         $_SESSION['id']=$_SESSION['id'];
