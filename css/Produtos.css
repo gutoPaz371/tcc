@@ -6,26 +6,26 @@ body {
 }
 
 body {
-    display: flex;
     background-image: url("../img/body.png");
     background-repeat: no-repeat;
     background-size: cover;
-    flex-direction: column;
 }
 
 img {
     width: 200px;
-    height: 150px;
+    height: 170px;
     text-align: center;
 }
 
 #raiz {
-    background-color: red;
+    background-color: rgba(195, 0, 255, 0.26);
     margin: 20px;
     float: left;
-    width: 200px;
-    height: 300px;
-    border-style: dotted;
+    width: 0 auto;
+    height: 0 auto;
+    border: 1px solid;
+    border-radius: 10px;
+    align-items: center;
 }
 
 #ft {
@@ -33,3 +33,92 @@ img {
     height: 150px;
     text-align: center;
 }
+
+
+/*aqui começa o menu-1*/
+
+#menu-1 ul li {
+    display: inline;
+}
+
+#menu-1 ul {
+    list-style: none;
+    height: 43px;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0 0 0 / 76%)
+}
+
+#menu-1 ul a {
+    color: rgb(255 165 182);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0%;
+    padding: 13px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .3s;
+}
+
+#menu-1 ul a:hover {
+    background-color: #ffa5b6;
+    color: #3b242a;
+}
+
+#menu-1 h1 {
+    color: rgb(255 255 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    margin: 0%;
+    text-align: right;
+    padding: 13px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+/*aqui termina o menu-1*/
+
+.Ap {
+    margin: 0 auto;
+    height: 45%;
+    Width: 30%;
+    text-align: center;
+    background-color: rgba(195, 0, 255, 0.26);
+}
+
+
+/*Rodapé Inicio*/
+
+.rodape-info {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(0 0 0 / 58%);
+    margin: -20px auto;
+    color: rgb(255 255 255);
+    text-align: center;
+}
+
+.rodape-info a {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.rodape {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(45 46 46);
+}
+
+.rodape h1 {
+    font-family: 'Inconsolata', monospace;
+    color: seashell;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/*Rodapé Fim*/

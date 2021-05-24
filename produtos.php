@@ -17,20 +17,22 @@
 </head>
 <body>
 <a href="index.php"><button style="text-align: left;">Voltar</button></a>
+    <!-- inicio menu -->
+    <nav id="menu-1">
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="####">Empresa</a></li>
+            </ul>
+    </nav>
+    <!--  final menu -->
 
-
-    <h1 style="text-align: center;">Estoque</h1>
         <?php while($dado = $res->fetch_array()){ ?>    
             <div id="raiz">
                 <p style="text-align: center;"><?php echo $dado['nome'] ?></p>
                 <div id="ft"><img src="./img/<?php echo $dado['id'] ?>.png"></div><br>
                 <div id="inf"><p>VALOR</p><P>R$ <?php echo $dado['preco'] ?></P></div>
                 <div><form action="./user/processos/addCarrinho.php" method="POST">
-<<<<<<< HEAD
                 <button name="idp" value="<?php echo $dado['id'] ?>" type="submit" style="width: 200px;height: 50px;">Comprar</button>
-=======
-                <button name="idp" value="<?php echo $dado['id'] ?>" type="submit" style="width: 200px;height: 30px; margin-bottom: 20px;">+</button>
->>>>>>> dc8107a3ef22be1703132bbbf16ddede67c58a8b
                 </form></div>
             </div> 
         <?php } ?>
