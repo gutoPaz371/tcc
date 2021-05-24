@@ -10,7 +10,7 @@ body {
 }
 
 
-/*aqui começa o menu-1*/
+/*aqui comeÃ§a o menu-1*/
 
 #menu-1 ul li {
     display: inline;
@@ -52,7 +52,7 @@ body {
 /*aqui termina o menu-1*/
 
 
-/*aqui comeÃ§a o menu-2*/
+/*aqui comeÃƒÂ§a o menu-2*/
 .menu-2 ul {
     list-style: none;
     padding: 0;
@@ -105,7 +105,7 @@ body {
 
 
 
-/*aqui comeÃ§a os produtos*/
+/*aqui comeÃƒÂ§a os produtos*/
 .produtos {
     display: flex;
     background-color: #fff;
@@ -196,7 +196,7 @@ body {
 
 
 
-/*aqui comeÃ§a o painel de imagens*/
+/*aqui comeÃƒÂ§a o painel de imagens*/
 .painel-img {
     width: 500px;
     height: 350px;
@@ -217,11 +217,11 @@ body {
 
 
 
-/*aqui comeÃ§a o rodapÃ©*/
+/*aqui comeÃƒÂ§a o rodapÃƒÂ©*/
 .rodape-info {
     display: flex;
     width: 100%;
-    background-color: rgb(80 80 80 / 76%);
+    background-color: rgb(255 165 182);
     justify-content: space-around;
     flex-wrap: wrap;
     /* padding: 10px; */
@@ -242,24 +242,23 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(45 46 46);
+    background-color: rgb(59 36 42);
 }
 
 .rodape h1 {
     font-family: 'Inconsolata', monospace;
-    color: seashell;
+    color: #ffa5b6;
     font-size: 20px;
     text-align: center;
 }
 
 .informacoes h1{
     text-align: center;
-    color: #fff;
-
+    color: #3b242a;
 }
 
 .informacoes-2 h1{
     text-align: center;
-    color: #fff
+    color: #3b242a;
 }
-/*aqui termina o rodapÃ©*/
+/*aqui termina o rodapÃƒÂ©*/
