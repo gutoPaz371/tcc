@@ -1,7 +1,7 @@
 <?php 
     session_start();
     if(isset($_SESSION['user'])){
-        $nome=$_SESSION['user'];
+        $nome='Bem Vindo '.$_SESSION['user'];
         $log='Logof';
         $cont='Conta';      
     }else{
@@ -25,13 +25,14 @@
     <nav id="menu-1">
             <ul>
                 <li><a href="index.php">Home</a></li>
+                <li><a href="teste.php">fds</a></li>
                 <li><a href="produtos.php">Produtos</a></li>
                 <li><a href="#######">Empresa</a></li>
                 <li><a href="./user/carrinho.php">Carrinho</a></li>
                 <li><a href="./painel/index.php"target="_blank">Painel</a></li>
                 <li><a id="log" href="./user/login.php"></a></li>
                 <li><a id="cont" href="cont"></a></li>
-                <h1>Bem Vindo <?php echo $nome; ?></h1>
+                <h1><?php echo $nome; ?></h1>
             </ul>
     </nav>
                 <!--  final menu 1 -->
