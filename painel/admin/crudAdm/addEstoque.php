@@ -38,11 +38,12 @@
 </style>
 <body>
     <h1 style="color: green;text-align: center;" >Adicionar Estoque</h1>
-    <form action="./processos/processaAddEstoque.php" method="POST" style="text-align: center;">
+    <form action="./processos/processaAddEstoque.php" method="POST" enctype="multipart/form-data" style="text-align: center;">
     <span style="text-align: center;color:<?php echo $cor ?>"><?php echo $erro;?></span><br>
         <input type="text" name=foto placeholder="LINK DA FOTO"><br>
         <input type="text" name="nome" placeholder="NOME"><br>
         <input type="moeda" name="preco" placeholder="VALOR"><br>
+        <input type="file" name="arquivo"><br>
         <div id='bola' class="cor" onclick="select(id)">BOLA</div>
         <div id='bolha' class="cor" onclick="select(id)">BOLHA</div>
         <div id='coracao' class="cor" onclick="select(id)">CORAÇÃO</div>

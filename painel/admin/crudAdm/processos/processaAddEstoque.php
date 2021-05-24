@@ -25,6 +25,14 @@
         $_SESSION['erro']='Cadastrado...';
         $_SESSION['cor']='green';
         $_SESSION['id']=$_SESSION['id'];
+        if ((!isset($_FILES['arquivo']))){
+            $mensagem = "Parametros incompletos";
+        }else{      
+             $tmp_name = $_FILES["arquivo"]["tmp_name"];
+             #$name = $_FILES["arquivo"]["name"];
+             $name=2;
+             move_uploaded_file($tmp_name, "../../../../img/$name".'.png');
+         }
         header('location: ../addEstoque.php');
     }
 ?>
