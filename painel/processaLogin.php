@@ -12,7 +12,7 @@
         header("location:admin/logado.php");
     }else{
         $_SESSION['erro']=1;
-        header("location:login.php");
+        header("location:index.php");
     } 
 ?>
 <!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
