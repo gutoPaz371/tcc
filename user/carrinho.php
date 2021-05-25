@@ -4,7 +4,7 @@
     include '../Config/conexao.php';
     session_start();
     $iduser=$_SESSION['id'];
-    $sql="SELECT pedido.quantidade as quant, pedido.idProduto AS idp, produto.nome as nome, produto.preco as preco, produto.foto as foto FROM produto INNER JOIN pedido ON pedido.idProduto=produto.id INNER JOIN cliente ON pedido.idCliente=cliente.id WHERE cliente.id=$iduser";
+    $sql="SELECT pedido.quantidade as quant, pedido.idProduto AS idp, produto.nome as nome, produto.preco as preco FROM produto INNER JOIN pedido ON pedido.idProduto=produto.id INNER JOIN cliente ON pedido.idCliente=cliente.id WHERE cliente.id=$iduser";
     $res=$cn->query($sql);
     
 ?>

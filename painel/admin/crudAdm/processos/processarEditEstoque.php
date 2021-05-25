@@ -14,8 +14,10 @@
     <title>Editar</title>
 </head>
 <body>
-    <form action="./updateEdit.php" method="POST" style="text-align: center;">
+    <form action="./updateEdit.php" enctype="multipart/form-data" method="POST" style="text-align: center;">
         <H1>EDITAR PRODUTO</H1>
+        <label for="">Imagem</label><br>
+        <input type="file" name="arquivo"><br>
         <label for="">Nome</label><br>
         <input type="text" name="nome" value="<?php echo $res['nome'] ?>"><br>
         <label for="">Preco</label><br>

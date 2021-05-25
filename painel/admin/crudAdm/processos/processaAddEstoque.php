@@ -15,9 +15,7 @@
         $cn->query("INSERT INTO produto(nome,preco,tipo) VALUES ('$nome',$preco,'$tipo')");
         $_SESSION['erro']='Cadastrado...';
         $_SESSION['cor']='green';
-        if ((!isset($_FILES['arquivo']))){
-            $mensagem = "Parametros incompletos";
-        }else{     
+        if ((isset($_FILES['arquivo']))){
             $res=mysqli_fetch_assoc($cn->query("SELECT max(id) as id FROM produto")); 
             $tmp_name = $_FILES["arquivo"]["tmp_name"];
             $name=$res['id'];

@@ -1,7 +1,7 @@
 <!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
 <?php 
     include './Config/conexao.php';
-    $res=$cn->query("SELECT id, nome, preco, foto FROM produto");
+    $res=$cn->query("SELECT id, nome, preco FROM produto");
     session_start();
     print_r($_SESSION);
 ?>
