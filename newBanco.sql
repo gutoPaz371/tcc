@@ -17,14 +17,12 @@ CREATE TABLE IF NOT EXISTS `adm` (
 
 CREATE TABLE IF NOT EXISTS `cliente` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `idEndereco` int(11) DEFAULT NULL,
-  `nome` char(50) DEFAULT NULL,
-  `email` char(50) DEFAULT NULL,
+  `nome` char(30) DEFAULT NULL,
+  `email` char(30) DEFAULT NULL,
   `senha` char(50) DEFAULT NULL,
   `cpf` char(11) DEFAULT NULL,
   `celular` char(16) DEFAULT NULL,
-  PRIMARY KEY (`id`),
-  KEY `idEndereco` (`idEndereco`) USING BTREE
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=28 DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE IF NOT EXISTS `log` (
@@ -47,16 +45,15 @@ CREATE TABLE IF NOT EXISTS `pedido` (
   KEY `idCliente` (`idCliente`),
   CONSTRAINT `idCliente` FOREIGN KEY (`idCliente`) REFERENCES `cliente` (`id`),
   CONSTRAINT `idProduto` FOREIGN KEY (`idProduto`) REFERENCES `produto` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=129 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=148 DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE IF NOT EXISTS `produto` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `nome` varchar(30) DEFAULT NULL,
   `preco` float DEFAULT NULL,
-  `foto` varchar(600) DEFAULT NULL,
-  `tipo` varchar(50) DEFAULT NULL,
+  `tipo` varchar(10) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=34 DEFAULT CHARSET=utf8mb4;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
