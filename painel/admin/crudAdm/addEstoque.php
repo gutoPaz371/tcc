@@ -42,7 +42,11 @@
     <span style="text-align: center;color:<?php echo $cor ?>"><?php echo $erro;?></span><br>
         <input type="text" name="nome" placeholder="NOME"><br>
         <input type="moeda" name="preco" placeholder="VALOR"><br>
-        <input type="file" name="arquivo"><br>           
+        <input type="file" name="arquivo"><br>   
+        <div id='bola' class="cor" onclick="select(id)">BOLA</div>
+        <div id='bolha' class="cor" onclick="select(id)">BOLHA</div>
+        <div id='coracao' class="cor" onclick="select(id)">CORAÇÃO</div>
+        <div id='estrela' class="cor" onclick="select(id)">ESTRELA</div>                
         <button id="tipo" name="tipo" value="" type="submit">ADICIONAR</button>
     </form><a href="../logado.php"><button>VOLTAR</button></a>
 </body>
