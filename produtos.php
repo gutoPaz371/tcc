@@ -3,7 +3,6 @@
     include './Config/conexao.php';
     $res=$cn->query("SELECT id, nome, preco FROM produto");
     session_start();
-    print_r($_SESSION);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,7 +15,6 @@
     <link rel="stylesheet" href="./css/Produtos.css">
 </head>
 <body>
-<a href="index.php"><button style="text-align: left;">Voltar</button></a>
     <!-- inicio menu -->
     <nav id="menu-1">
             <ul>

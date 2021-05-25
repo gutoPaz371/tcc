@@ -8,7 +8,10 @@
     $idUser=$_SESSION['id'];
     $quant="SELECT idCliente as idUser, quantidade as quant, id from pedido where idProduto=$idProduto";
     $resQ=mysqli_fetch_assoc($cn->query($quant));
-    if($resQ){
+    if(!isset($_SESSION['id'])){
+        header('location: ../login.php');
+    }
+    else if($resQ){
         if($resQ['idUser']==$idUser){
             $x=$resQ['quant']+1;
             $id=$resQ['id'];
