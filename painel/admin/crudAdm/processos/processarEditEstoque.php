@@ -16,15 +16,13 @@
 <body>
     <form action="./updateEdit.php" method="POST" style="text-align: center;">
         <H1>EDITAR PRODUTO</H1>
-        <label for="">Link da Foto</label><br>
-        <input type="text" name="foto" value="<?php echo $res['foto'] ?>"><br>
         <label for="">Nome</label><br>
         <input type="text" name="nome" value="<?php echo $res['nome'] ?>"><br>
         <label for="">Preco</label><br>
         <input type="text" name="preco" value="<?php echo $res['preco'] ?>"><br>
         <button name="id" value="<?php echo $res['id'] ?>" >Editar</button>
     </form>
-    <a href="../../View/crudAdm/editEstoque.php"><button>Voltar</button></a>
+    <a href="../editEstoque.php"><button>Voltar</button></a>
 </body>
 </html>
 <!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
