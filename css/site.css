@@ -10,7 +10,7 @@ body {
 }
 
 
-/*aqui comeÃ§a o menu-1*/
+/*aqui comeÃƒÂ§a o menu-1*/
 
 #menu-1 ul li {
     display: inline;
@@ -52,7 +52,7 @@ body {
 /*aqui termina o menu-1*/
 
 
-/*aqui comeÃƒÂ§a o menu-2*/
+/*aqui comeÃƒÆ’Ã‚Â§a o menu-2*/
 .menu-2 ul {
     list-style: none;
     padding: 0;
@@ -105,18 +105,20 @@ body {
 
 
 
-/*aqui comeÃƒÂ§a os produtos*/
+/*aqui comeÃƒÆ’Ã‚Â§a os produtos*/
 .produtos {
     display: flex;
+    height: 349px;
+    width: 100%;
     background-color: #fff;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 10px;
-    border-radius: 10px 10px 10px;
+    /* padding: 10px; */
+    /* border-radius: 10px 10px 10px; */
     margin-top: 30px;
-    margin-left: 135px;
+    /* margin-left: 135px; */
     margin-right: 135px;
-    box-shadow: 0px 0px 0px 2px #27272740;
+    /* box-shadow: 0px 0px 0px 2px #27272740; */
 }
 
 .produto img {
@@ -139,7 +141,7 @@ body {
 .painel-presentes-text h1 {
     text-align: center;
     font-family: 'Titillium Web', sans-serif;
-    margin-top: 85px;
+    margin-top: -5px;
     margin-bottom: -37px;
     color: rgb(39, 39, 39);
 }
@@ -196,7 +198,7 @@ body {
 
 
 
-/*aqui comeÃƒÂ§a o painel de imagens*/
+/*aqui comeÃƒÆ’Ã‚Â§a o painel de imagens*/
 .painel-img {
     width: 500px;
     height: 350px;
@@ -217,7 +219,7 @@ body {
 
 
 
-/*aqui comeÃƒÂ§a o rodapÃƒÂ©*/
+/*aqui comeÃƒÆ’Ã‚Â§a o rodapÃƒÆ’Ã‚Â©*/
 .rodape-info {
     display: flex;
     width: 100%;
@@ -257,4 +259,4 @@ body {
     text-align: center;
     color: #3b242a;
 }
-/*aqui termina o rodapÃƒÂ©*/
+/*aqui termina o rodapÃƒÆ’Ã‚Â©*/

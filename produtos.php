@@ -21,7 +21,7 @@
     <nav id="menu-1">
             <ul>
                 <li><a href="index.php">Home</a></li>
-                <li><a href="####">Empresa</a></li>
+                <li><a href="user/carrinho.php">Carrinho</a></li>
             </ul>
     </nav>
     <!--  final menu -->

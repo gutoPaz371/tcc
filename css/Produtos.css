@@ -13,26 +13,8 @@ img {
     text-align: center;
 }
 
-#raiz {
-    background-color: rgb(49 49 49 / 26%);
-    margin: 20px;
-    float: left;
-    width: 206px;
-    height: 0 auto;
-    border: 1px solid;
-    border-radius: 10px;
-    align-items: center;
-}
-
-#ft {
-    width: 150px;
-    height: 150px;
-    text-align: center;
-}
-
 
 /*aqui começa o menu-1*/
-
 #menu-1 ul li {
     display: inline;
 }
@@ -70,9 +52,24 @@ img {
     display: inline-block;
     text-decoration: none;
 }
-
-
 /*aqui termina o menu-1*/
+
+#raiz {
+    background-color: rgb(49 49 49 / 26%);
+    margin: 30px;
+    float: left;
+    width: 206px;
+    height: 0 auto;
+    border: 1px solid;
+    border-radius: 10px;
+    align-items: center;
+}
+
+#ft {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
 
 .Ap {
     margin: 0 auto;
