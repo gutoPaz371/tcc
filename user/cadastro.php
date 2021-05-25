@@ -66,7 +66,6 @@
     }
     function cpf(){
         let nume=document.getElementById('CPF').value;
-        console.log(nume.length);
         if(nume.length==3){
             document.getElementById('CPF').value=nume+'.';
         }else if(nume.length==7){
