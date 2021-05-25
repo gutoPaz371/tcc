@@ -33,7 +33,7 @@
             <tr>
                 <th><?php echo $dado['nome']; ?></th>
                 <th>R$<?php echo $dado['preco']; ?></th>
-                <th><a href="<?php echo $dado['foto'] ?>"><img src="<?php echo $dado['foto'] ?>"></a></th>
+                <th><img src="../../../img/<?php echo $dado['id']?>.png"></th>
                 <form action="./processos/processaRemEstoque.php" method="POST">
                 <th><button name="id" value="<?php echo $dado['id'] ?>" type="submit" style="width: 50px;height: 50px;">Deleter</button></th>
                 </form>
