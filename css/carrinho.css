@@ -1,0 +1,136 @@
+        html,
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        body {
+            background-image: url("../img/body.png");
+            background-color: azure;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        /*aqui começa o menu-1*/
+        
+        #menu-1 {
+            bottom: 15%;
+        }
+        
+        #menu-1 ul li {
+            display: inline;
+        }
+        
+        #menu-1 ul {
+            list-style: none;
+            height: 43px;
+            padding: 0;
+            margin: 0;
+            background-color: rgb(0 0 0 / 76%)
+        }
+        
+        #menu-1 ul a {
+            color: rgb(255 165 182);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0%;
+            padding: 13px;
+            display: inline-block;
+            text-decoration: none;
+            transition: background .3s;
+        }
+        
+        #menu-1 ul a:hover {
+            background-color: #ffa5b6;
+            color: #3b242a;
+        }
+        
+        #menu-1 h1 {
+            color: rgb(255 255 255);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 13px;
+            margin: 0%;
+            text-align: right;
+            padding: 13px;
+            display: inline-block;
+            text-decoration: none;
+        }
+        /*aqui termina o menu-1*/
+        
+        img {
+            width: 50px;
+            height: 50px;
+        }
+        
+        button {
+            width: 80px;
+            height: 30px;
+            border-radius: 10px;
+        }
+        
+        h3 {
+            bottom: 2px solid rgb(0, 0, 0);
+        }
+        
+        th {
+            color: rgb(236, 209, 209);
+        }
+        
+        table {
+            margin-top: 1%;
+            width: 100%;
+            margin-bottom: .15em;
+            table-layout: fixed;
+            text-align: center;
+            background-color: rgba(31, 90, 141, 0.568);
+        }
+        
+        .rodape-info {
+            display: flex;
+            width: 100%;
+            background-color: rgb(255 165 182);
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        
+        .rodape-info a {
+            color: rgb(255, 255, 255);
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 20px;
+        }
+        
+        .rodape {
+            position: relative;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: rgb(59 36 42);
+        }
+        
+        .rodape h1 {
+            font-family: 'Inconsolata', monospace;
+            color: #ffa5b6;
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        .informacoes h1 {
+            text-align: center;
+            color: #3b242a;
+        }
+        
+        .informacoes-2 h1 {
+            text-align: center;
+            color: #3b242a;
+        }
+        
+        .nome {
+            width: 30%;
+        }
+        
+        #Nome {
+            font-size: 20px;
+        }
+        
+        #container {
+            background-color: rgb(201, 62, 138);
+        }

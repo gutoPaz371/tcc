@@ -1,4 +1,7 @@
-html,body {margin: 0px; padding: 0px;
+html,
+body {
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
@@ -15,6 +18,7 @@ img {
 
 
 /*aqui começa o menu-1*/
+
 #menu-1 ul li {
     display: inline;
 }
@@ -52,6 +56,8 @@ img {
     display: inline-block;
     text-decoration: none;
 }
+
+
 /*aqui termina o menu-1*/
 
 #raiz {
