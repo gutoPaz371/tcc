@@ -2,11 +2,11 @@ html, body {height: 100px; margin: 0px; padding: 0px;}
 
 body{
     display: flex;
-    background-image: url("../img/body.png");
+    background-color: aliceblue;
     background-size: cover;
     flex-direction: column;
 }
-/*aqui começa o menu-1*/
+/*aqui comeÃ§a o menu-1*/
 #menu-1 ul li{
     display: inline;
 }
@@ -54,8 +54,8 @@ body{
 }
 
 .prateleira img{
-    width: 320px;
-    height: 320px;
+    width: 250px;
+    height: 250px;
     margin: 30px;
     border-radius: 10px;
 }
@@ -72,7 +72,6 @@ body{
      
     display: inline-block;
     position: relative;
-    right: 45%;
     border: 0;
     padding: 0.5em 1em;
     text-decoration: none;
@@ -93,7 +92,7 @@ body{
 /* final prateleiras*/
 
 
-/*aqui começa o rodapé*/
+/*aqui comeÃ§a o rodapÃ©*/
 .rodape-info{
     width: 97%;
     height: 400px;
@@ -117,13 +116,13 @@ body{
     bottom: 0;
     width: 97%;
     padding: 20px;
-    background-color: rgb(45 46 46);
+    background-color: rgb(59 36 42);
 }
 
 .rodape h1{
     font-family: 'Inconsolata', monospace;
-    color: seashell;
+    color: #ffa5b6;
     font-size: 20px;
     text-align: center;
 }
-/*aqui termina o rodapé*/
+/*aqui termina o rodapÃ©*/
