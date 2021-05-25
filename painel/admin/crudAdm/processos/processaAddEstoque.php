@@ -8,7 +8,6 @@
         session_start();
         $_SESSION['erro']='Preencha todos os campos!';
         $_SESSION['cor']='red';
-        $_SESSION['id']=$_SESSION['id'];
         header('location: ../addEstoque.php');
     }
     else{
@@ -16,7 +15,6 @@
         $cn->query("INSERT INTO produto(nome,preco,tipo) VALUES ('$nome',$preco,'$tipo')");
         $_SESSION['erro']='Cadastrado...';
         $_SESSION['cor']='green';
-        $_SESSION['id']=$_SESSION['id'];
         if ((!isset($_FILES['arquivo']))){
             $mensagem = "Parametros incompletos";
         }else{     
