@@ -43,7 +43,7 @@
         <input type="text" name="nome" placeholder="NOME"><br>
         <input type="moeda" name="preco" placeholder="VALOR"><br>
         <input type="file" name="arquivo"><br>   
-        <div id='bola' class="cor" onclick="select(id)">BOLA</div>
+        <div id='circulo' class="cor" onclick="select(id)">CIRCULO</div>
         <div id='bolha' class="cor" onclick="select(id)">BOLHA</div>
         <div id='coracao' class="cor" onclick="select(id)">CORAÇÃO</div>
         <div id='estrela' class="cor" onclick="select(id)">ESTRELA</div>                

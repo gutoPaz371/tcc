@@ -35,7 +35,7 @@
         <input type="text" name="nome" value="<?php echo $res['nome'] ?>"><br>
         <label for="">Preco</label><br>
         <input type="text" name="preco" value="<?php echo $res['preco'] ?>"><br>
-        <div id='bola' class="cor" onclick="select(id)">BOLA</div>
+        <div id='circulo' class="cor" onclick="select(id)">CIRCULO</div>
         <div id='bolha' class="cor" onclick="select(id)">BOLHA</div>
         <div id='coracao' class="cor" onclick="select(id)">CORAÇÃO</div>
         <div id='estrela' class="cor" onclick="select(id)">ESTRELA</div>                
