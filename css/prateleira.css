@@ -50,7 +50,7 @@ body{
 /* incio prateleiras*/
 .prateleira li{
     display: inline-block;
-    width: 32%;
+    width: 30%;
 }
 
 .prateleira img{
