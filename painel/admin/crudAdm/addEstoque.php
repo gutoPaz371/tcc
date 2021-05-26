@@ -21,6 +21,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="processos/addEstoque.css">
     <title>Adicionar Estoque</title>
 </head>
 <style>
@@ -37,7 +38,7 @@
     }
 </style>
 <body>
-    <h1 style="color: green;text-align: center;" >Adicionar Estoque</h1>
+    <div class="nome"><h1>Adicionar Estoque</h1></div>
     <form action="./processos/processaAddEstoque.php" method="POST" enctype="multipart/form-data" style="text-align: center;">
     <span style="text-align: center;color:<?php echo $cor ?>"><?php echo $erro;?></span><br>
         <input type="text" name="nome" placeholder="NOME"><br>
