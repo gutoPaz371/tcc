@@ -25,7 +25,7 @@
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="produtos.php">Produtos</a></li>
-                <li><a href="#######">Empresa</a></li>
+                <!--<li><a href="#######">Empresa</a></li>-->
                 <li><a href="./user/carrinho.php">Carrinho</a></li>
                 <li><a href="./painel/index.php"target="_blank">Painel</a></li>
                 <li><a id="log" href="./user/login.php"></a></li>
@@ -38,8 +38,7 @@
         document.getElementById('log').innerText='<?php echo $log; ?>';
         document.getElementById('cont').innerText='<?php echo $cont; ?>';
     </script>
-
-                <!--  inicio menu-2 -->
+<!--              
     <nav class="menu-2">
             <ul>
                 <li><a href="#####">Balões</a></li>
@@ -47,9 +46,8 @@
                 <li><a href="#####">Embalagens</a></li>
                 <li><a href="#####">outros</a></li>
             </ul>
-    </nav>
-                <!--  final menu-2 -->
-
+    </nav>              
+-->
 
     <main>
                  <!--  slider carrossel inicio -->
@@ -143,7 +141,7 @@
 
                 <section><!--  painel img -->
                   <div class="painel-img">
-                    <img src="img/bolas.jpg" alt="">
+                    <img src="img/bola.png" alt="">
                     <img src="img/cacto.jpg" alt="">
                     <img src="img/pepa.jpg" alt="">
                   </div>
@@ -155,7 +153,7 @@
                     <section class="informacoes">
                         <h1>INFORMAÇÕES</h1>
                         <ul>
-                            <a href="sobrenós"><h1>Sobre nós</h1></a>
+                            <a href="../tcc/Empresa.php"><h1>Sobre nós</h1></a>
                         </ul>
                         <ul>
                             <a href=""><h1>Parceiros</h1></a>
