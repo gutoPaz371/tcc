@@ -6,7 +6,6 @@
     INNER JOIN pedido ON cliente.id=pedido.idCliente
     INNER JOIN produto ON pedido.idProduto=produto.id";
     $res=$cn->query($sql);
-    $x=mysqli_fetch_assoc($res);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -19,9 +18,9 @@
 </head>
 <body>
     <?php while($dado = $res->fetch_array()){ 
-        if($x['sta']==1){
-            $st='COMFIRMADO';
-        }else if($x['sta']==0){
+        if($dado['sta']==1){
+            $st='CONFIRMADO';
+        }else{
             $st='PENDENTE';
         }
             ?>    
@@ -30,7 +29,7 @@
                 <div id="inf"><p><?php echo $dado['user'] ?></P></div>
                 <p style="text-align: center;"><p>PEDIDO: <?php echo $dado['nome'] ?></p>
                 <div id="inf"><p>VALOR R$ <?php echo $dado['preco'] ?></P></div>
-                <div id="inf"><p id="st">STATUS: <?php echo $st; ?></p></div>
+                <div id="inf"><p id="st">STATUS: <?php echo $st ?></p></div>
                 <div><form action="./user/processos/addCarrinho.php" method="POST">
                 </form></div>
             </div> 
