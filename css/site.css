@@ -58,7 +58,6 @@ body {
     padding: 0;
     margin: 0;
     background-color: #ffffff;
-    box-shadow: inset 0px -1px 0px 0px #27272778;
 }
 
 .menu-2 ul li {
@@ -137,7 +136,7 @@ body {
 .painel-presentes-text h1 {
     text-align: center;
     font-family: 'Titillium Web', sans-serif;
-    margin-top: -5px;
+    margin-top: -21px;
     margin-bottom: -37px;
     color: rgb(39, 39, 39);
 }
