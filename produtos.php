@@ -3,6 +3,7 @@
     include './Config/conexao.php';
     $res=$cn->query("SELECT id, nome, preco FROM produto");
     session_start();
+    $_SESSION['tipo']='produtos';
 ?>
 <!DOCTYPE html>
 <html lang="pt">

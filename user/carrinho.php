@@ -9,6 +9,11 @@
     if(!isset($_SESSION['id'])){
         header('location: login.php');
     }
+    if(isset($_SESSION['corp'])){
+        $corp=$_SESSION['corp'];
+    }else{
+        $corp='red';
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -45,7 +50,8 @@
             <th><?php echo $dado['quant'] ?></th>
             <th><img src="../img/<?php echo $dado['idp']; ?>.png" ></th>
             <th>R$<?php echo $dado['preco']*$dado['quant'];?>.00</th>
-            <th><form action="./processos/remCarrinho.php" method="post">
+            <th><form action="./processos/confPedido.php" method="POST"><button name="idp" value="<?php echo $dado['id'] ?>" style="height: 50px;background-color:<?php echo $corp ?>;">Confimar Pedido</button></form>
+            <form action="./processos/remCarrinho.php" method="post">
             <button name="id" value="<?php echo $dado['id'] ?>">Remover</button></form>
         </tr>
     <?php } ?>  
