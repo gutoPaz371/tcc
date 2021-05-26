@@ -51,6 +51,8 @@ body{
 .prateleira li{
     display: inline-block;
     width: 30%;
+    box-shadow: 14px black;
+    box-shadow: 0px 0px 1px 0px black;
 }
 
 .prateleira img{
@@ -111,7 +113,6 @@ body{
 
 .rodape{
     position: relative;
-    /* left: 0; */
     top: 461%;
     bottom: 0;
     width: 97%;
