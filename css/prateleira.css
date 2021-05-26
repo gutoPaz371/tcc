@@ -6,7 +6,7 @@ body{
     background-size: cover;
     flex-direction: column;
 }
-/*aqui comeÃ§a o menu-1*/
+/*aqui comeÃƒÂ§a o menu-1*/
 #menu-1 ul li{
     display: inline;
 }
@@ -92,7 +92,7 @@ body{
 /* final prateleiras*/
 
 
-/*aqui comeÃ§a o rodapÃ©*/
+/*aqui comeÃƒÂ§a o rodapÃƒÂ©*/
 .rodape-info{
     width: 97%;
     height: 400px;
@@ -111,8 +111,8 @@ body{
 
 .rodape{
     position: relative;
-    left: 0;
-    top: 20%;
+    /* left: 0; */
+    top: 461%;
     bottom: 0;
     width: 97%;
     padding: 20px;
@@ -125,4 +125,4 @@ body{
     font-size: 20px;
     text-align: center;
 }
-/*aqui termina o rodapÃ©*/
+/*aqui termina o rodapÃƒÂ©*/
