@@ -6,13 +6,13 @@
     $preco=$_POST['preco'];
     $tipo=$_POST['tipo'];
     if(strlen($preco)==0 || strlen($nome)==0 || strlen($tipo)==0){
-        $_SESSION['erro']='Defina todos os campos!';
+        $_SESSION['erro']='Preencha todos os campos!';
         $_SESSION['cor']='red';
         header('location: ../addEstoque.php');
     }
     else{
         $cn->query("INSERT INTO produto(nome,preco,tipo) VALUES ('$nome',$preco,'$tipo')");
-        $_SESSION['erro']='Cadastrado...';
+        $_SESSION['erro']='Cadastrado com sucesso!';
         $_SESSION['cor']='green';
         if(isset($_FILES['arquivo'])){
             $res=mysqli_fetch_assoc($cn->query("SELECT max(id) as id FROM produto")); 
