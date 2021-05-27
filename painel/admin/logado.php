@@ -28,9 +28,6 @@
 			<div class="header-box">
 				<h2>Bem-Vindo </h2>
 			</div>
-			<style>
-				
-			</style>
 			<form method="POST" action="./verif.php">
 				<button name="op" id="opcao" value="1" onclick="del(this)">Adicionar Adm</button><br>
 				<button name="op" id="opcao" value="2" onclick="del(this)">Adicionar Estoque</button><br>

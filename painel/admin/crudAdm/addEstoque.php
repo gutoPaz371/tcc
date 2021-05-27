@@ -24,39 +24,42 @@
     <link rel="stylesheet" href="processos/addEstoque.css">
     <title>Adicionar Estoque</title>
 </head>
-<style>
-    .cor{
-        width: 100px;
-        height: 30px;
-        border: 2px solid;
-        float: left;
-        margin: 2px;
-        border-radius: 20%;
-        border-color: black;
-        text-align: center; 
-        cursor: pointer;
-    }
-</style>
 <body>
-    <div class="nome"><h1>Adicionar Estoque</h1></div>
-    <form action="./processos/processaAddEstoque.php" method="POST" enctype="multipart/form-data" style="text-align: center;">
-    <span style="text-align: center;color:<?php echo $cor ?>"><?php echo $erro;?></span><br>
+
+
+<section class="box">
+<div class="nome"><h1>Adicionar Estoque</h1></div>
+
+    
+    <div class="arquivos">
+        <form class="caixa" action="./processos/processaAddEstoque.php" method="POST" enctype="multipart/form-data">
+    <span<?php echo $cor ?>"><?php echo $erro;?></span><br>
         <input type="text" name="nome" placeholder="NOME"><br>
         <input type="moeda" name="preco" placeholder="VALOR"><br>
-        <input type="file" name="arquivo"><br>   
-        <div id='circulo' class="cor" onclick="select(id)">CIRCULO</div>
-        <div id='bolha' class="cor" onclick="select(id)">BOLHA</div>
-        <div id='coracao' class="cor" onclick="select(id)">CORAÇÃO</div>
-        <div id='estrela' class="cor" onclick="select(id)">ESTRELA</div>                
+        <input class="arq" type="file" name="arquivo"><br>   
+    </div>
+       
+    <div class="btn-prod">
+        <div id='circulo' class="cor" onclick="select(id)"><h1>CIRCULO</h1></div>
+        <div id='bolha' class="cor" onclick="select(id)"><h1>BOLHA</h1></div>
+        <div id='coracao' class="cor" onclick="select(id)"><h1>CORAÇÃO</h1></div>
+        <div id='estrela' class="cor" onclick="select(id)"><h1>ESTRELA</h1></div>          
+    </div>
+              
+    <div class="btn-adicionar">
         <button id="tipo" name="tipo" value="" type="submit">ADICIONAR</button>
-    </form><a href="../logado.php"><button>VOLTAR</button></a>
+        </form><a href="../logado.php"><button class="tipo">VOLTAR</button></a>
+    </div>
+</section>
+        
+    
 </body>
 <script>
     x=true;
     oldCor="";
     oldId="";
     selectCor="";
-    cor= "#00FF00";
+    cor= "#5ddcd4";
     function select(id){
         if(oldId.length>0 && oldId!=id){
             document.getElementById(oldId).style.borderColor=oldCor;
