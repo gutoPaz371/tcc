@@ -25,6 +25,22 @@
         border-color: black;
         text-align: center; 
         cursor: pointer;
+    }#quant{
+        width: 20px;
+        height:20px;
+        float: right;
+        position: relative;
+        cursor: pointer;
+        right: 23%;border: medium;
+        border-color: black;
+        background-color: white;
+        margin: 1px 3px 0px 3px;      
+    }#quant:hover{
+        background-color: whitesmoke;
+    }#quant:active{
+        background-color: #5ddcd4;
+        width: 18px;
+        height: 18px;
     }
 </style>
 <body>
@@ -36,6 +52,8 @@
         <input type="text" name="nome" value="<?php echo $res['nome'] ?>"><br>
         <label for="">Preco</label><br>
         <input type="text" name="preco" value="<?php echo $res['preco'] ?>"><br>
+        <label for="">QUANTIDADE: </label>
+        <input id="qt" value="<?php echo $res['quant']; ?>" onkeypress="return event.charCode >= 48 && event.charCode <= 57" name="quant" style="width: 40px;" ><div id="quant" onclick="add(this)">+</div><div id="quant" onclick="rem(this)">-</div>
         <div id='circulo' class="cor" onclick="select(id)">CIRCULO</div>
         <div id='bolha' class="cor" onclick="select(id)">BOLHA</div>
         <div id='coracao' class="cor" onclick="select(id)">CORAÇÃO</div>
@@ -76,6 +94,16 @@
             }
         }
         document.getElementById('tipo').value=selectCor;
+    }function add(){
+        let quant=parseInt(document.getElementById('qt').value);
+        quant=quant+1;
+        document.getElementById('qt').value=quant;   
+    }function rem(){
+        let quant=parseInt(document.getElementById('qt').value);
+        quant=quant-1;
+        if(quant>=0){
+            document.getElementById('qt').value=quant;
+        }        
     }
 </script>
 </html>

@@ -1,7 +1,7 @@
 <!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
 <?php
     include '../../../Config/conexao.php';
-    $res=$cn->query("SELECT id, nome, preco, tipo FROM produto");
+    $res=$cn->query("SELECT id, nome, preco, tipo, quant FROM produto");
     session_start();
     if(!isset($_SESSION['id'])){
         header('location: ../../');
@@ -28,12 +28,14 @@
         <tr>
             <th>NOME</th>
             <th>PRECO</th>
+            <th>QUANTIDADE</th>
             <th>FOTO</th>
         </tr>
         <?php while($dado = $res->fetch_array()){ ?>    
             <tr>
                 <th><?php echo $dado['nome']; ?></th>
                 <th>R$<?php echo $dado['preco']; ?></th>
+                <th><?php echo $dado['quant']; ?></th>
                 <th><img src="../../../img/<?php echo $dado['id']?>.png"></th>
                 <form action="./processos/processaRemEstoque.php" method="POST">
                 <th><button name="id" value="<?php echo $dado['id'] ?>" type="submit" style="width: 50px;height: 50px;">Deleter</button></th>

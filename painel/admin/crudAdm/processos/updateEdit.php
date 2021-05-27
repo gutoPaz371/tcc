@@ -3,9 +3,9 @@
     include "../../../../Config/conexao.php";
     $nome=$_POST['nome'];
     $preco=$_POST['preco'];
-    $foto=$_POST['foto'];
     $id=$_POST['id'];
-    $sql="UPDATE produto SET nome='$nome',preco=$preco,foto='$foto' WHERE id=$id";
+    $quant=$_POST['quant'];
+    $sql="UPDATE produto SET nome='$nome',preco=$preco,quant=$quant WHERE id=$id";
     $cn->query($sql);
     if ((isset($_FILES['arquivo']))){
         $tmp_name = $_FILES["arquivo"]["tmp_name"];
