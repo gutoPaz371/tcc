@@ -101,7 +101,7 @@
     }function rem(){
         let quant=parseInt(document.getElementById('qt').value);
         quant=quant-1;
-        if(quant>=0){
+        if(quant>0){
             document.getElementById('qt').value=quant;
         }        
     }
