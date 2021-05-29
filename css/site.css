@@ -154,6 +154,7 @@ body {
     background-color: darkgrey;
     color: white;
     cursor: pointer;
+    border-radius: 5px 20px 20px 20px;
 }
 
 .item2 {
@@ -162,6 +163,7 @@ body {
     cursor: pointer;
     grid-column-start: 2;
     grid-column-end: 4;
+    border-radius: 20px 5px 20px 20px;
 }
 
 .item3 {
@@ -170,16 +172,19 @@ body {
     cursor: pointer;
     grid-row-start: 2;
     grid-row-end: 4;
+    border-radius: 20px 20px 20px 5px;
 }
 
 .item4 {
     background-color: darkgrey;
     cursor: pointer;
+    border-radius: 15px 15px 15px 15px;
 }
 
 .item5 {
     background-color: darkgrey;
     cursor: pointer;
+    border-radius: 15px 15px 15px 15px;
 }
 
 .item6 {
@@ -187,6 +192,7 @@ body {
     cursor: pointer;
     grid-column-start: 2;
     grid-column-end: 4;
+    border-radius: 15px 15px 5px 15px;
 }
 /*aqui termina o painel de presentes*/
 
