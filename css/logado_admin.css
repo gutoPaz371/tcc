@@ -3,7 +3,7 @@
 html,body {height: 100%;}
 
 body {
-    background-image: url("../img/1.jpg");
+    background-image: url("../img/painel-admin.jpg");
     background-size: cover;
 }
 
@@ -82,7 +82,7 @@ body {
 
 .corpo-painel .box .tab tr th {
     min-width: 95px;
-    color: white;
+    color: #252525;
 }
 
 .corpo-painel .box .tab tr td {

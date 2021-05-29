@@ -27,7 +27,7 @@
 </script>
 	<?php echo $erro; ?>
 	<section class="corpo-frm">
-		<h2>Painel Cadastro Loja</h2>
+		<h2>Painel Retaguarda Loja</h2>
 		<form name="frmLogAdmin" method="POST" action="processaLogin.php">
 			<div class="frm-item">
 				<label for="userlog">Usuário</label>

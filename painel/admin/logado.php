@@ -29,9 +29,9 @@
 				<h2>Bem Vindo :)</h2>
 			</div>
 			<form method="POST" action="./verif.php">
-				<button name="op" id="opcao" value="1" onclick="del(this)">Adicionar Adm</button><br>
-				<button name="op" id="opcao" value="2" onclick="del(this)">Adicionar Estoque</button><br>
-				<button name="op" id="opcao" value="3" onclick="del(this)">Editar estoque</button><br>
+				<button name="op" id="opcao" value="1" onclick="del(this)">Adicionar Adimnistradores</button><br>
+				<button name="op" id="opcao" value="2" onclick="del(this)">Adicionar Produtos</button><br>
+				<button name="op" id="opcao" value="3" onclick="del(this)">Editar Produtos</button><br>
 				<button name="op" id="opcao" value="4" onclick="del(this)">Pedidos</button><br>
 				<button name="edit" id="opcao" onclick="del(this)" value="<?php echo $_SESSION['id'] ?>">Editar Conta</button><br>
 			</form>
@@ -42,10 +42,10 @@
 			</div>
 			<table class="tab">
 				<tr>
-					<th>Quantidade de produtos:
+					<th>Quantidade de produtos cadastrados:
 				</tr>
 				<tr>
-					<th>Ultima atualização:
+					<th>Ultima venda:
 				</tr>
 			</table>
 		

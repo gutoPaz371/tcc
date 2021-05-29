@@ -9,7 +9,7 @@ body {
 }
 
 
-/*aqui comeÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§a o menu-1*/
+/*aqui comeca o menu-1*/
 
 #menu-1 ul li {
     display: inline;
@@ -221,7 +221,7 @@ body {
 .rodape-info {
     display: flex;
     width: 100%;
-    background-color: rgb(255 165 182);
+    background-color: #56b1de;
     justify-content: space-around;
     flex-wrap: wrap;
 }
@@ -238,12 +238,12 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(59 36 42);
+    background-color: rgb(10 33 48);
 }
 
 .rodape h1 {
     font-family: 'Inconsolata', monospace;
-    color: #ffa5b6;
+    color: #56b1de;
     font-size: 20px;
     text-align: center;
 }

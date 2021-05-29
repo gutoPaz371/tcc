@@ -28,7 +28,7 @@
 
 
 <section class="box">
-<div class="nome"><h1>Adicionar Estoque</h1></div>
+<div class="nome"><h1>Adicionar Produtos</h1></div>
 
     
     <div class="arquivos">
