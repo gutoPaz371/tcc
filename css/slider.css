@@ -39,7 +39,7 @@
 
 .navigation-manual{
   position: absolute;
-  width: 1280px;
+  width: 100%;
   margin-top: -40px;
   display: flex;
   justify-content: center;
