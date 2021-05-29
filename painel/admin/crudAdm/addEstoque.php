@@ -58,7 +58,7 @@
             <label for="">VALOR: </label>
             <input type="moeda" name="preco" ><br>
             <label for="">QUANTIDADE: </label>
-            <input id="qt" value="0" onkeypress="return event.charCode >= 48 && event.charCode <= 57" name="quant" style="width: 40px;" ><div id="quant" onclick="add(this)">+</div><div id="quant" onclick="rem(this)">-</div>
+            <input id="qt" value="1" onkeypress="return event.charCode >= 48 && event.charCode <= 57" name="quant" style="width: 40px;" ><div id="quant" onclick="add(this)">+</div><div id="quant" onclick="rem(this)">-</div>
             <input class="arq" type="file" name="arquivo"><br>   
     </div>
         
@@ -114,7 +114,7 @@
     }function rem(){
         let quant=parseInt(document.getElementById('qt').value);
         quant=quant-1;
-        if(quant>=0){
+        if(quant>=1){
             document.getElementById('qt').value=quant;
         }        
     }
