@@ -59,16 +59,16 @@
                     <input type="radio" name="radio-btn" id="radio4">
 
                     <div class="slide first">
-                        <img src="img/slider1.jpg" alt="">
+                        <img src="img/slider11.jpg" alt="">
                     </div>
                     <div class="slide">
-                        <img src="img/slider2.jpg" alt="">
+                        <img src="img/slider11.jpg" alt="">
                     </div>
                     <div class="slide">
-                        <img src="img/slider3.jpg" alt="">
+                        <img src="img/slider11.jpg" alt="">
                     </div>
                     <div class="slide">
-                        <img src="img/slider4.jpg" alt="">
+                        <img src="img/slider11.jpg" alt="">
                     </div>
 
                     <div class="navigation-auto">
