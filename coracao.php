@@ -11,7 +11,7 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Mania de Festa</title>
-      <link rel="stylesheet" href="css/prateleira.css">
+      <link rel="stylesheet" href="css/produto.css">
 
 </head>
 <body>
@@ -19,8 +19,7 @@
     <nav id="menu-1">
             <ul>
                 <li><a href="index.php">Home</a></li>
-                <li><a href="####">Produtos</a></li>
-                <li><a href="####">Empresa</a></li>
+                <li><a href="####">Carrinho</a></li>
             </ul>
     </nav>
     <!--  final menu -->

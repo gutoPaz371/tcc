@@ -5,8 +5,7 @@
         }
         
         body {
-            background-image: url("../img/body.png");
-            background-color: azure;
+            background-color: white;
             background-repeat: no-repeat;
             background-size: cover;
         }

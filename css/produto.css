@@ -6,7 +6,7 @@ body{
     background-size: cover;
     flex-direction: column;
 }
-/*aqui comeÃƒÆ’Ã‚Â§a o menu-1*/
+/*aqui comeÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§a o menu-1*/
 #menu-1 ul li{
     display: inline;
 }
@@ -23,7 +23,7 @@ body{
     color: rgb(255 165 182);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0%;
-    padding: 13px;
+    padding: 12px;
     display: inline-block;
     text-decoration: none;
     transition: background .3s;
@@ -66,7 +66,7 @@ body{
     padding-left: 10%;
     padding-right: 4%;
 }
-.prateleira ul h2{ /* preÃ§o e descriÃ§Ã£o*/
+.prateleira ul h2{ /* preÃƒÂ§o e descriÃƒÂ§ÃƒÂ£o*/
     font-size: 25px;
     font-family: monospace;
     margin-top: 68px;
@@ -105,7 +105,7 @@ body{
 /* final prateleiras*/
 
 
-/*aqui comeÃƒÆ’Ã‚Â§a o rodapÃƒÆ’Ã‚Â©*/
+/*aqui comeÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§a o rodapÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©*/
 .rodape-info{
     width: 97%;
     height: 400px;
@@ -137,4 +137,4 @@ body{
     font-size: 20px;
     text-align: center;
 }
-/*aqui termina o rodapÃƒÆ’Ã‚Â©*/
+/*aqui termina o rodapÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©*/
