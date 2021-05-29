@@ -26,7 +26,7 @@
 	<section class="corpo-painel">
 		<div class="box user">
 			<div class="header-box">
-				<h2>Bem-Vindo </h2>
+				<h2>Bem Vindo :)</h2>
 			</div>
 			<form method="POST" action="./verif.php">
 				<button name="op" id="opcao" value="1" onclick="del(this)">Adicionar Adm</button><br>
