@@ -8,7 +8,8 @@
     $quant="SELECT idCliente as idUser, quantidade as quant, id from pedido where idProduto=$idProduto";
     $resQ=mysqli_fetch_assoc($cn->query($quant));
     $tipo='produtos';
-    print_r($_SESSION);
+    #print_r($_SESSION);
+    #print_r($_POST);
     if(isset($_SESSION['tipo'])){
         $tipo=$_SESSION['tipo'];
     }
