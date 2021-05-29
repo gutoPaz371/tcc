@@ -140,9 +140,9 @@
 
                 <section><!--  painel img -->
                   <div class="painel-img">
-                    <img src="img/bola.png" alt="">
-                    <img src="img/cacto.jpg" alt="">
-                    <img src="img/pepa.jpg" alt="">
+                    <img src="img/baloesIMG.jpg" alt="">
+                    <img src="img/baloesIMG2.jpg" alt="">
+                    <img src="img/baloesIMG3.jpg" alt="">
                   </div>
                 </section>
 
