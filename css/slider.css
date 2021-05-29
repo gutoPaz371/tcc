@@ -31,7 +31,7 @@
 }
 
 .slide img{
-  width: 1366px;
+  width: 100%;
   height: 300px;
 }
 
@@ -39,7 +39,7 @@
 
 .navigation-manual{
   position: absolute;
-  width: 1280px;
+  width: 100%;
   margin-top: -40px;
   display: flex;
   justify-content: center;

@@ -2,14 +2,14 @@ html,body {height: 100px; margin: 0px; padding: 0px;}
 
 body {
     display: flex;
-    background-image: url("../img/cÃƒÆ’Ã‚Â©u.jpg");
+    background-image: url("../img/ceu.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     flex-direction: column;
 }
 
 
-/*aqui comeÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§a o menu-1*/
+/*aqui comeÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§a o menu-1*/
 
 #menu-1 ul li {
     display: inline;
@@ -134,8 +134,8 @@ body {
 .painel-presentes-text h1 {
     text-align: center;
     font-family: 'Titillium Web', sans-serif;
-    margin-top: -21px;
-    margin-bottom: -37px;
+    margin-top: 7px;
+    margin-bottom: -45px;
     color: rgb(39, 39, 39);
 }
 
