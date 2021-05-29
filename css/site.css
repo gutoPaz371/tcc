@@ -2,14 +2,14 @@ html,body {height: 100px; margin: 0px; padding: 0px;}
 
 body {
     display: flex;
-    background-image: url("../img/body.png");
+    background-image: url("../img/cÃƒÆ’Ã‚Â©u.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     flex-direction: column;
 }
 
 
-/*aqui comeÃƒÂ§a o menu-1*/
+/*aqui comeÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§a o menu-1*/
 
 #menu-1 ul li {
     display: inline;
@@ -24,7 +24,7 @@ body {
 }
 
 #menu-1 ul a {
-    color: rgb(255 165 182);
+    color: rgb(216 244 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0%;
     padding: 13px;
@@ -34,8 +34,8 @@ body {
 }
 
 #menu-1 ul a:hover {
-    background-color: #ffa5b6;
-    color: #3b242a;
+    background-color: #d8f4ff;
+    color: #153e7c;
 }
 
 #menu-1 h1 {
@@ -51,7 +51,7 @@ body {
 /*aqui termina o menu-1*/
 
 
-/*aqui comeÃƒÆ’Ã‚Â§a o menu-2*/
+/*aqui comeca o menu-2*/
 .menu-2 ul {
     list-style: none;
     padding: 0;
@@ -75,7 +75,7 @@ body {
 }
 
 .menu-2 ul a:hover {
-    background-color: #ffa5b6;
+    background-color: #d8f4ff;
 }
 /*aqui acaba o menu-2*/
 
@@ -103,12 +103,11 @@ body {
 
 
 
-/*aqui comeÃƒÆ’Ã‚Â§a os produtos*/
+/*aqui comeca os produtos*/
 .produtos {
     display: flex;
     height: 384px;
     width: 100%;
-    background-color: #fff;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 30px;
@@ -151,14 +150,14 @@ body {
 }
 
 .item1 {
-    background-color: darkgrey;
+    background-color: #bae3f5;
     color: white;
     cursor: pointer;
     border-radius: 5px 20px 20px 20px;
 }
 
 .item2 {
-    background-color: darkgrey;
+    background-color: #4fa5d7;
     background-size: cover;
     cursor: pointer;
     grid-column-start: 2;
@@ -167,7 +166,7 @@ body {
 }
 
 .item3 {
-    background-color: darkgrey;
+    background-color: #0093cc;
     background-size: cover;
     cursor: pointer;
     grid-row-start: 2;
@@ -176,19 +175,19 @@ body {
 }
 
 .item4 {
-    background-color: darkgrey;
+    background-color: #d5e6ed;
     cursor: pointer;
     border-radius: 15px 15px 15px 15px;
 }
 
 .item5 {
-    background-color: darkgrey;
+    background-color: #90b2c6;
     cursor: pointer;
     border-radius: 15px 15px 15px 15px;
 }
 
 .item6 {
-    background-color: darkgrey;
+    background-color: #4fa5d7;
     cursor: pointer;
     grid-column-start: 2;
     grid-column-end: 4;
@@ -198,29 +197,27 @@ body {
 
 
 
-/*aqui comeÃƒÆ’Ã‚Â§a o painel de imagens*/
+/*aqui comeca o painel de imagens*/
 .painel-img {
    margin-left: 9%;
 }
 
 .painel-img img {
-    width: 400px;
-    height: 350px;
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
     background-size: cover;
     margin: 2%;
     margin-left: 4%;
     border-radius: 5px 50px 50px 50px;
     border: 1px solid;
     box-shadow: 10px 10px 8px #908d8d;
-
-
-    
 }
 /*aqui termina o painel de imagens*/
 
 
 
-/*aqui comeÃƒÆ’Ã‚Â§a o rodapÃƒÆ’Ã‚Â©*/
+/*aqui comeca o rodape*/
 .rodape-info {
     display: flex;
     width: 100%;
@@ -260,4 +257,4 @@ body {
     text-align: center;
     color: #3b242a;
 }
-/*aqui termina o rodapÃƒÆ’Ã‚Â©*/
+/*aqui termina o rodape*/
