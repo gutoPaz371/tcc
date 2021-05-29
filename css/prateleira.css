@@ -2,11 +2,11 @@ html, body {height: 100px; margin: 0px; padding: 0px;}
 
 body{
     display: flex;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     background-size: cover;
     flex-direction: column;
 }
-/*aqui comeÃƒÂ§a o menu-1*/
+/*aqui comeÃƒÆ’Ã‚Â§a o menu-1*/
 #menu-1 ul li{
     display: inline;
 }
@@ -50,13 +50,15 @@ body{
 /* incio prateleiras*/
 .prateleira li{
     display: inline-block;
+    margin: 10px;
     width: 30%;
+    height: 463px;
     box-shadow: 0px 0px 1px 0px black;
 }
 
 .prateleira img{
-    width: 250px;
-    height: 250px;
+    width: 175px;
+    height: 175px;
     margin: 30px;
     border-radius: 10px;
 }
@@ -64,7 +66,16 @@ body{
     padding-left: 10%;
     padding-right: 4%;
 }
-
+.prateleira ul h2{ /* preÃ§o e descriÃ§Ã£o*/
+    font-size: 25px;
+    font-family: monospace;
+    margin-top: 68px;
+    margin-bottom: -35px;
+}
+.prateleira ul h1{ /*nome produto*/
+    font-size: 30px;
+    font-family: monospace;
+}
 .prateleira li{
     text-align: center;
 
@@ -74,6 +85,7 @@ body{
     display: inline-block;
     position: relative;
     border: 0;
+    margin-top: 41px;
     padding: 0.5em 1em;
     text-decoration: none;
     color: #FFF;
@@ -93,7 +105,7 @@ body{
 /* final prateleiras*/
 
 
-/*aqui comeÃƒÂ§a o rodapÃƒÂ©*/
+/*aqui comeÃƒÆ’Ã‚Â§a o rodapÃƒÆ’Ã‚Â©*/
 .rodape-info{
     width: 97%;
     height: 400px;
@@ -125,4 +137,4 @@ body{
     font-size: 20px;
     text-align: center;
 }
-/*aqui termina o rodapÃƒÂ©*/
+/*aqui termina o rodapÃƒÆ’Ã‚Â©*/

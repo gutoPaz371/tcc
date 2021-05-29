@@ -6,7 +6,7 @@ body {
 }
 
 body {
-    background-image: url("../img/logadoadmin.jpg");
+    background-image: url("../img/1.jpg");
     background-size: cover;
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 #opcao:hover {
-    background-color: #5ddcd4;
+    background-color: lightgreen;
 }
 
 .corpo-painel {
@@ -32,7 +32,7 @@ body {
     width: 95%;
     max-width: 100%;
     border-radius: 3px;
-    background-color: aliceblue;
+    background-color: #fffffff0;
     margin: 25px auto;
     padding: 1%;
     box-shadow: 0px 0px 0px 1px rgb(0 0 0);
@@ -41,16 +41,16 @@ body {
 .corpo-painel .box .header-box {
     width: 100%;
     height: 45px;
-    background-color: #5ddcd4;
+    background-color: #676767f2;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
     text-align: center;
 }
 
 .corpo-painel .box .header-box h2 {
-    font-family: Arial, tahoma;
-    font-size: 20px;
-    color: #4a4a4a;
+    font-family: monospace;
+    font-size: 34px;
+    color: #ffffff;
     line-height: 45px;
 }
 
@@ -85,6 +85,7 @@ body {
 
 .corpo-painel .box .tab tr th {
     min-width: 95px;
+    color: white;
 }
 
 .corpo-painel .box .tab tr td {
@@ -103,11 +104,11 @@ body {
     width: 30%;
     max-width: 328px;
     height: 38px;
-    background-color: #5ddcd4;
+    background-color: #353737;
     border-radius: 31px;
     font-family: Arial, tahoma;
     font-size: 21px;
-    color: rgb(58, 51, 51);
+    color: rgb(255 255 255);
     text-align: center;
     text-decoration: none;
     line-height: 42px;

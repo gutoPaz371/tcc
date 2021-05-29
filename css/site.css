@@ -154,6 +154,7 @@ body {
     background-color: darkgrey;
     color: white;
     cursor: pointer;
+    border-radius: 5px 20px 20px 20px;
 }
 
 .item2 {
@@ -162,6 +163,7 @@ body {
     cursor: pointer;
     grid-column-start: 2;
     grid-column-end: 4;
+    border-radius: 20px 5px 20px 20px;
 }
 
 .item3 {
@@ -170,16 +172,19 @@ body {
     cursor: pointer;
     grid-row-start: 2;
     grid-row-end: 4;
+    border-radius: 20px 20px 20px 5px;
 }
 
 .item4 {
     background-color: darkgrey;
     cursor: pointer;
+    border-radius: 15px 15px 15px 15px;
 }
 
 .item5 {
     background-color: darkgrey;
     cursor: pointer;
+    border-radius: 15px 15px 15px 15px;
 }
 
 .item6 {
@@ -187,6 +192,7 @@ body {
     cursor: pointer;
     grid-column-start: 2;
     grid-column-end: 4;
+    border-radius: 15px 15px 5px 15px;
 }
 /*aqui termina o painel de presentes*/
 
@@ -194,20 +200,21 @@ body {
 
 /*aqui comeÃƒÆ’Ã‚Â§a o painel de imagens*/
 .painel-img {
-    width: 500px;
-    height: 350px;
-    display: flex;
-    justify-content: space-around;
-    background-size: cover;
-    margin: 0px auto;
-    margin-bottom: 7%;
-    border-radius: 10% 10px;
+   margin-left: 9%;
 }
 
 .painel-img img {
     width: 400px;
     height: 350px;
     background-size: cover;
+    margin: 2%;
+    margin-left: 4%;
+    border-radius: 5px 50px 50px 50px;
+    border: 1px solid;
+    box-shadow: 10px 10px 8px #908d8d;
+
+
+    
 }
 /*aqui termina o painel de imagens*/
 

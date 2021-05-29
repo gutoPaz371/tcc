@@ -21,28 +21,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="processos/addEstoque.css">
+    <link rel="stylesheet" href="addEstoque.css">
     <title>Adicionar Estoque</title>
 </head>
-<style>
-    #quant{
-        width: 20px;
-        height:20px;
-        float: right;
-        position: relative;
-        cursor: pointer;
-        right: 23%;border: medium;
-        border-color: black;
-        background-color: white;
-        margin: 1px 3px 0px 3px;      
-    }#quant:hover{
-        background-color: whitesmoke;
-    }#quant:active{
-        background-color: #5ddcd4;
-        width: 18px;
-        height: 18px;
-    }
-</style>
 <body>
 
 
@@ -81,7 +62,7 @@
     oldCor="";
     oldId="";
     selectCor="";
-    cor= "red";
+    cor= "lightgreen";
     function select(id){
         if(oldId.length>0 && oldId!=id){
             document.getElementById(oldId).style.borderColor=oldCor;
