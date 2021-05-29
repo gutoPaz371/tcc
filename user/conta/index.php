@@ -47,6 +47,10 @@
 				<input name="email" value="<?php echo $res['email'] ?>" type="email" id="" >
 			</div>
 			<div class="frm-item">
+				<label for="userlog">Telefone</label>
+				<input name="celular" value="<?php echo $res['celular'] ?>" id="celular" maxlength="14" onkeypress="cll(this)" >
+			</div>
+			<div class="frm-item">
 				<label for="userlog">Cpf</label>
 				<input value="<?php echo $res['cpf'] ?>" id="cpf" disabled autocomplete="off">
 			</div>
@@ -68,5 +72,17 @@
 	</section>
 	<a href="./login.php"><button onclick="del(this)">Voltar</button></a>
 </body>
+<script>
+	function cll(){
+			let nume=document.getElementById('celular').value;
+			if(nume.length==0){
+				document.getElementById('celular').value='('+nume;
+			}else if(nume.length==3){
+				document.getElementById('celular').value=nume+') ';
+			}else if(nume.length==9){
+				document.getElementById('celular').value=nume+'-';
+			}
+		}
+</script>
 </html>
 <!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
