@@ -213,12 +213,12 @@
                                 <!--  final rodapé -->
 
 <script type="text/javascript">
-    var counter = 1;
+    var cont = 1;
     setInterval(function(){
-      document.getElementById('radio' + counter).checked = true;
-      counter++;
-      if(counter > 4){
-        counter = 1;
+      document.getElementById('radio' + cont).checked = true;
+      cont++;
+      if(cont > 4){
+        cont = 1;
       }
     }, 5000);
     </script>
