@@ -14,6 +14,8 @@
         $sql="SELECT * from cliente where nome='$user' and senha='$pass'";
         $res=mysqli_fetch_assoc($cn->query($sql));
         if($res){
+            $_SESSION['erro']='';
+            $_SESSION['cor']='';
             $_SESSION['id']=$res['id'];
             $_SESSION['user']=$user;
             header('location: ../../');

@@ -1,6 +1,14 @@
 <!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
 <?php
+	include '../../Config/conexao.php';
 	session_start();
+	if(!isset($_SESSION['id'])){
+		header("location: ../../");
+	}else{
+		$id=$_SESSION['id'];
+		$sql="SELECT * FROM cliente WHERE id=$id";
+		$res=mysqli_fetch_assoc($cn->query($sql));
+	}
 	if(isset($_SESSION['erro'])){
 		$erro=$_SESSION['erro'];
         $cor=$_SESSION['cor'];
@@ -19,6 +27,12 @@
 	<link rel="shortcut icon" href="../img/ico_favicon.png">
 	<link rel="stylesheet" type="text/css" href="../../css/login_admin.css">
 </head>
+<style>
+	#cpf{
+		cursor: not-allowed;
+	}
+ 
+</style>
 <body>
 	<section class="corpo-frm">
 		<h2>Editar conta</h2>
@@ -26,22 +40,30 @@
 		<form name="frmLogAdmin" method="POST" action="./processo/updateUser.php">
 			<div class="frm-item">
 				<label for="userlog">Usuário</label>
-				<input name="user" type="text" id="userlog"  maxlength="20" autocomplete="off">
+				<input name="user" value="<?php echo $res['nome'] ?>" type="text" id="" >
 			</div>
             <div class="frm-item">
 				<label for="userlog">Email</label>
-				<input name="email" type="email" id="userlog" autocomplete="off">
+				<input name="email" value="<?php echo $res['email'] ?>" type="email" id="" >
 			</div>
 			<div class="frm-item">
-				<label for="passlog">Senha</label>
-				<input name="pass" type="password" id="passlog"  maxlength="20" autocomplete="off">
+				<label for="userlog">Cpf</label>
+				<input value="<?php echo $res['cpf'] ?>" id="cpf" disabled autocomplete="off">
+			</div>
+			<div class="frm-item">
+				<label for="passlog">Senha antiga</label>
+				<input name="pass" type="password" id="passlog"  autocomplete="off">
 			</div>
             <div class="frm-item">
+				<label for="passlog">Nova Senha</label>
+				<input name="pass1" type="password" id="passlog"  autocomplete="off">
+			</div>
+			<div class="frm-item">
 				<label for="passlog">Confirmar Senha</label>
-				<input name="pass1" type="password" id="passlog"  maxlength="20" autocomplete="off">
+				<input name="pass2" type="password" id="passlog"  autocomplete="off">
 			</div>
 			
-			<input type="submit" class="btn" name="btnLogPainel" value="SALVAR" onclick="return valiLogPn()">
+			<input type="submit" class="btn" value="SALVAR">
 		</form>
 	</section>
 	<a href="./login.php"><button onclick="del(this)">Voltar</button></a>

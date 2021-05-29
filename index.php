@@ -28,7 +28,7 @@
                 <li><a href="./user/carrinho.php">Carrinho</a></li>
                 <li><a href="./painel/index.php"target="_blank">Painel</a></li>
                 <li><a id="log" href="./user/login.php"></a></li>
-                <li><a id="cont" href="cont"></a></li>
+                <li><a id="cont" href="./user/conta/"></a></li>
                 <h1><?php echo $nome; ?></h1>
             </ul>
     </nav>
