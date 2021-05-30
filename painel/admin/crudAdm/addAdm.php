@@ -23,7 +23,7 @@
 </head>
 <body>
 <section class="box">
-        <div class="nome"><h1>Cadastrar admin 🔒</h1></div>
+        <div class="nome"><h1>Cadastrar Admin 🔒</h1></div>
         <div class="formulario">
         <form class="caixa" action="processos/processaAddAdm.php" method="POST" style="text-align: center;">
             <span style="text-align: center;color:<?php echo $cor ?>"><?php echo $erro ?></span><br>
@@ -33,15 +33,10 @@
             <button class="btn-adicionar" type="submit">ADICIONAR</button>
         </form>
          </div>
-            <div class="btn"> 
-               <a href="../logado.php"><button class="btn-voltar">VOLTAR</button></a>
-            </div>
-             
-             
-     
         <div class="informacoes"><h1>Admin Cadastrados</h1>
         </div>
     </section>
+    <a class="btn-sair" href="../logado.php">Sair</a>
 </body>
 </html>
 <!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
