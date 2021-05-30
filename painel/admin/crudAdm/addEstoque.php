@@ -16,7 +16,7 @@
     }
 ?>
 
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,17 +28,15 @@
 
 
 <section class="box">
-<div class="nome"><h1>Adicionar Produtos</h1></div>
-
-    
+<div class="nome"><h1>Adicionar Produtos</h1></div> 
     <div class="arquivos">
         <form class="caixa" action="./processos/processaAddEstoque.php" method="POST" enctype="multipart/form-data">
             <span<?php echo $cor ?>"><?php echo $erro;?></span><br>
-            <label for="">NOME: </label>
-            <input type="text" name="nome" ><br>
-            <label for="">VALOR: </label>
-            <input type="moeda" name="preco" ><br>
-            <label for="">QUANTIDADE: </label>
+            <label for="">NOME:</label>
+            <input type="text" name="nome"><br>
+            <label for="">VALOR:</label>
+            <input type="moeda" name="preco"><br>
+            <label for="">QUANTIDADE:</label>
             <input id="qt" value="1" onkeypress="return event.charCode >= 48 && event.charCode <= 57" name="quant" style="width: 40px;" ><div id="quant" onclick="add(this)">+</div><div id="quant" onclick="rem(this)">-</div>
             <input class="arq" type="file" name="arquivo"><br>   
     </div>
@@ -51,7 +49,7 @@
         </div>        
         <div class="btn-adicionar">
             <button id="tipo" name="tipo" value="" type="submit">ADICIONAR</button>
-            </form><a href="../logado.php"><button class="tipo">VOLTAR</button></a>
+            </form><a href="../logado.php"><button class="btn-voltar">VOLTAR</button></a>
         </div>
 </section>
         

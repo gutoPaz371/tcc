@@ -29,7 +29,7 @@
 				<h2>Bem Vindo :)</h2>
 			</div>
 			<form method="POST" action="./verif.php">
-				<button name="op" id="opcao" value="1" onclick="del(this)">Adicionar Adimnistradores</button><br>
+				<button name="op" id="opcao" value="1" onclick="del(this)">Adicionar Admnistradores</button><br>
 				<button name="op" id="opcao" value="2" onclick="del(this)">Adicionar Produtos</button><br>
 				<button name="op" id="opcao" value="3" onclick="del(this)">Editar Produtos</button><br>
 				<button name="op" id="opcao" value="4" onclick="del(this)">Pedidos</button><br>

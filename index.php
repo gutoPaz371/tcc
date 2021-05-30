@@ -59,16 +59,16 @@
                     <input type="radio" name="radio-btn" id="radio4">
 
                     <div class="slide first">
-                        <img src="img/slider11.jpg" alt="">
+                        <img src="img/slider11.jpg">
                     </div>
                     <div class="slide">
-                        <img src="img/slider11.jpg" alt="">
+                        <img src="img/slider11.jpg" >
                     </div>
                     <div class="slide">
-                        <img src="img/slider11.jpg" alt="">
+                        <img src="img/slider11.jpg">
                     </div>
                     <div class="slide">
-                        <img src="img/slider11.jpg" alt="">
+                        <img src="img/slider11.jpg">
                     </div>
 
                     <div class="navigation-auto">
@@ -97,22 +97,22 @@
                 <section class="produtos">
                         <section class="produto">
                             <a href="coracao.php">
-                              <img src="img/coracao.png"></a></br><center><h1>Coração</h1></center>
+                              <img src="img/coracao.png"></a></br><h1>Coração</h1>
                         </section>
                         
                         <section class="produto">
                             <a href="estrelas.php">
-                              <img src="img/estrela.png"></a></br><center><h1>Estrela</h1></center>
+                              <img src="img/estrela.png"></a></br><h1>Estrela</h1>
                         </section>
                         
                         <section class="produto">
                             <a href="circulo.php">
-                              <img src="img/bola.png"></a></br><center><h1>Circulo</h1></center>                  
+                              <img src="img/bola.png"></a></br><h1>Circulo</h1>                 
                         </section>
 
                         <section class="produto">
                             <a href="bolha.php">
-                              <img src="img/bolha.png"></a></br><center><h1>Bolha</h1></center>                  
+                              <img src="img/bolha.png"></a></br><h1>Bolha</h1>                  
                         </section>
                 </section>         
     </main>
