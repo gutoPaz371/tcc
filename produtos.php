@@ -1,7 +1,7 @@
 <!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
 <?php 
     include './Config/conexao.php';
-    $res=$cn->query("SELECT id, nome, preco FROM produto");
+    $res=$cn->query("SELECT id, nome, preco, descricao FROM produto");
     session_start();
     $_SESSION['tipo']='produtos';
 ?>
@@ -33,7 +33,7 @@
            <div class="prateleira">
                <ul class="prateleira ul">
                     <?php while($dado = $res->fetch_array()){ ?>
-                        <li><h1><?php echo $dado['nome'] ?></h1><img src="./img/<?php echo $dado['id']?>.png"><h2>R$ <?php echo $dado['preco'] ?>.00</h2><form action="./user/processos/addCarrinho.php" method="POST">
+                        <li><h1><?php echo $dado['nome'] ?></h1><img src="./img/<?php echo $dado['id']?>.png"><br><?php echo $dado['descricao'] ?><h2>R$ <?php echo $dado['preco'] ?>.00</h2><form action="./user/processos/addCarrinho.php" method="POST">
             <button name="idp" value="<?php echo $dado['id'] ?>" type="submit" class="botao-ver-prateleira">Adicionar ao Carrinho</button>
             </form></li>
                     <?php } ?>
