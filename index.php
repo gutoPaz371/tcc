@@ -146,7 +146,8 @@
                     <img src="img/slider.jpg">
                 </div>
                 
-                <section><!--  painel img -->
+                <!--  painel img -->
+                <section>
                   <div class="painel-img">
                     <img src="img/mania1.jpg" alt="">
                     <img src="img/mania2.jpg" alt="">
@@ -154,7 +155,7 @@
                   </div>
                 </section>
 
-                
+                         <!--  Início rodapé -->
                 <section class="rodape-info"> 
                     <section class="informacoes">
                         <h1>INFORMAÇÕES</h1>
