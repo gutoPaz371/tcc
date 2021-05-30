@@ -1,4 +1,4 @@
-html,body {margin: 0px; padding: 0px;}
+html,body {margin: 0px; padding: 0px; height: 100px;}
         
 body{
     background-color: white;
@@ -122,3 +122,20 @@ th {
 .btn-remover{
     width: 100px;
 }
+
+.rodape{
+    position: relative;
+    bottom: 0;
+    margin-top: 495px;
+    width: 100%;
+    padding: 0.2px;
+    background-color: #56b1de;
+}
+
+.rodape h1{
+    font-family: 'Inconsolata', monospace;
+    color: #0a2130;
+    font-size: 20px;
+    text-align: center;
+}
+

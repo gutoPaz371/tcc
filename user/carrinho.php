@@ -76,6 +76,12 @@
 </section>
 <!--  Final Tabela -->
 
+<!--  inicio rodapé -->
+<footer class="rodape"> <h1>www.maniadefesta.com.br</h1></footer>
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+<!--  final rodapé -->
+
 </body>
 </html>
 <!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
