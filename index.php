@@ -151,7 +151,7 @@
                   </div>
                 </section>
 
-                
+                <!--
                 
                 <section class="rodape-info"> 
                     <section class="informacoes">
@@ -202,6 +202,8 @@
                         </ul>
                     </section>
                 </section>
+
+                
 <section class="rodape">
                 <link rel="preconnect" href="https://fonts.gstatic.com">
                 <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
@@ -212,7 +214,19 @@
         </footer>
                 
 
-</section>
+</section> -->
+
+<header>
+	<div class="overlay">
+<h1>Simply The Best</h1>
+<h3>Reasons for Choosing US</h3>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab. Vero nostrum quis, odio veniam itaque ullam debitis qui magnam consequatur ab.</p>
+	<br>
+	<button>READ MORE</button>
+		</div>
+</header>
+
+
                 
 
                                 <!--  final rodapé -->
