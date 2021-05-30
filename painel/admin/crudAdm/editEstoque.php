@@ -1,7 +1,7 @@
 <!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
 <?php
     include '../../../Config/conexao.php';
-    $res=$cn->query("SELECT id, nome, preco, tipo, quant FROM produto");
+    $res=$cn->query("SELECT * FROM produto");
     session_start();
     if(!isset($_SESSION['id'])){
         header('location: ../../');

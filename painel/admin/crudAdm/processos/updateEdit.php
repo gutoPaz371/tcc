@@ -5,7 +5,8 @@
     $preco=$_POST['preco'];
     $id=$_POST['id'];
     $quant=$_POST['quant'];
-    $sql="UPDATE produto SET nome='$nome',preco=$preco,quant=$quant WHERE id=$id";
+    $des=$_POST['descricao'];
+    $sql="UPDATE produto SET nome='$nome',preco=$preco,quant=$quant,descricao='$des' WHERE id=$id";
     $cn->query($sql);
     if ((isset($_FILES['arquivo']))){
         $tmp_name = $_FILES["arquivo"]["tmp_name"];

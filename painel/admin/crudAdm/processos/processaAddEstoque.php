@@ -6,13 +6,14 @@
     $preco=$_POST['preco'];
     $tipo=$_POST['tipo'];
     $quant=$_POST['quant'];
+    $des=$_POST['descricao'];
     if(strlen($preco)==0 || strlen($nome)==0 || strlen($tipo)==0 || strlen($quant)==0){
         $_SESSION['erro']='Preencha todos os campos!';
         $_SESSION['cor']='red';
         header('location: ../addEstoque.php');
     }
     else{
-        $cn->query("INSERT INTO produto(nome,preco,tipo,quant) VALUES ('$nome',$preco,'$tipo',$quant)");
+        $cn->query("INSERT INTO produto(nome,preco,tipo,quant,descricao) VALUES ('$nome',$preco,'$tipo',$quant,'$des')");
         $_SESSION['erro']='Cadastrado com sucesso!';
         $_SESSION['cor']='green';
         if(isset($_FILES['arquivo'])){
