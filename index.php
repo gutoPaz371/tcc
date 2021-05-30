@@ -148,8 +148,8 @@
                 
                 <section><!--  painel img -->
                   <div class="painel-img">
-                    <img src="img/baloesIMG.jpg" alt="">
-                    <img src="img/baloesIMG2.jpg" alt="">
+                    <img src="img/mania1.jpg" alt="">
+                    <img src="img/mania2.jpg" alt="">
                     <img src="img/baloesIMG3.jpg" alt="">
                   </div>
                 </section>
