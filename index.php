@@ -16,7 +16,7 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Mania de Festa</title>
-      <link rel="stylesheet" href="css/site.css">
+      <link rel="stylesheet" href="css/index.css">
 
 </head>
 <body>
@@ -59,16 +59,16 @@
                     <input type="radio" name="radio-btn" id="radio4">
 
                     <div class="slide first">
-                        <img src="img/slider11.jpg">
+                        <img src="img/slider1.jpg">
                     </div>
                     <div class="slide">
-                        <img src="img/slider11.jpg" >
+                        <img src="img/slider2.jpg" >
                     </div>
                     <div class="slide">
-                        <img src="img/slider11.jpg">
+                        <img src="img/slider3.jpg">
                     </div>
                     <div class="slide">
-                        <img src="img/slider11.jpg">
+                        <img src="img/slider4.jpg">
                     </div>
 
                     <div class="navigation-auto">
@@ -125,6 +125,8 @@
                     <link rel="preconnect" href="https://fonts.gstatic.com">
                     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,200&display=swap" rel="stylesheet">
                 </div>
+
+                
                 
                 <div class="painel-presentes">
                     <div class="item1"></div>
@@ -137,7 +139,10 @@
 
                   <!--final painel presentes-->
 
-
+                <div class="logo-img">
+                    <img src="img/slider.jpg">
+                </div>
+                
                 <section><!--  painel img -->
                   <div class="painel-img">
                     <img src="img/baloesIMG.jpg" alt="">

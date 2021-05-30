@@ -1,48 +1,40 @@
-html,body {margin: 0px; padding: 0px;}
+html, body {height: 100px; margin: 0px; padding: 0px;}
 
-body {
-    background-color: azure;
-    background-repeat: no-repeat;
+body{
+    display: flex;
+    background-color: rgb(255, 255, 255);
     background-size: cover;
+    flex-direction: column;
 }
-
-img {
-    width: 200px;
-    height: 170px;
-    text-align: center;
-}
-
-
-/*aqui começa o menu-1*/
-
-#menu-1 ul li {
+/*aqui comeÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§a o menu-1*/
+#menu-1 ul li{
     display: inline;
 }
 
-#menu-1 ul {
+#menu-1 ul{
     list-style: none;
     height: 43px;
     padding: 0;
     margin: 0;
-    background-color: rgb(0 0 0 / 76%)
+    background-color: #0a2130;
 }
 
-#menu-1 ul a {
-    color: rgb(255 165 182);
+#menu-1 ul a{
+    color: #d8f4ff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0%;
-    padding: 13px;
+    padding: 12px;
     display: inline-block;
     text-decoration: none;
     transition: background .3s;
 }
 
-#menu-1 ul a:hover {
-    background-color: #ffa5b6;
+#menu-1 ul a:hover{
+    background-color: #d8f4ff;
     color: #3b242a;
 }
 
-#menu-1 h1 {
+#menu-1 h1{
     color: rgb(255 255 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 13px;
@@ -53,30 +45,96 @@ img {
     text-decoration: none;
 }
 
-
 /*aqui termina o menu-1*/
 
-#raiz {
-    background-color: rgb(49 49 49 / 26%);
+/* incio prateleiras*/
+.prateleira li{
+    display: inline-block;
+    margin: 10px;
+    width: 30%;
+    height: 463px;
+    box-shadow: 0px 0px 1px 0px black;
+}
+
+.prateleira img{
+    width: 175px;
+    height: 175px;
     margin: 30px;
-    float: left;
-    width: 206px;
-    height: 0 auto;
-    border: 1px solid;
     border-radius: 10px;
-    align-items: center;
+}
+.prateleira ul{
+    padding-left: 10%;
+    padding-right: 4%;
+}
+.prateleira ul h2{ /* preÃƒÂ§o e descriÃƒÂ§ÃƒÂ£o*/
+    font-size: 25px;
+    font-family: monospace;
+    margin-top: 68px;
+    margin-bottom: -35px;
+}
+.prateleira ul h1{ /*nome produto*/
+    font-size: 30px;
+    font-family: monospace;
+}
+.prateleira li{
+    text-align: center;
+
+}
+.botao-ver-prateleira {
+     
+    display: inline-block;
+    position: relative;
+    border: 0;
+    margin-top: 41px;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: #FFF;
+    background: #d41818eb;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 50%);
+    border-radius: 0.5em;
+    box-shadow: 3px 3px 0 3px #960707;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
-#ft {
-    width: 150px;
-    height: 150px;
-    text-align: center;
+.botao-ver-prateleira:active {
+    box-shadow: 0 0 0 0 #930,
+    inset 4px 4px 4px #930;
+    transform: translate(6px, 6px);
 }
 
-.Ap {
-    margin: 0 auto;
-    height: 45%;
-    Width: 30%;
+/* final prateleiras*/
+
+
+/*aqui comeÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§a o rodapÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©*/
+.rodape-info{
+    width: 97%;
+    height: 400px;
+    background-color:rgb(0 0 0 / 58%);
+    padding: 20px;
+    margin: -20px auto;
+    color: rgb(0, 0, 0);
     text-align: center;
-    background-color: rgba(195, 0, 255, 0.26);
 }
+.rodape-info a{
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+} 
+
+.rodape{
+    position: relative;
+    top: 461%;
+    bottom: 0;
+    width: 97%;
+    padding: 20px;
+    background-color: #56b1de;
+}
+
+.rodape h1{
+    font-family: 'Inconsolata', monospace;
+    color: #0a2130;
+    font-size: 20px;
+    text-align: center;
+}
+/*aqui termina o rodapÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©*/
