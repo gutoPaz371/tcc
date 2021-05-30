@@ -1,7 +1,7 @@
 <!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
 <?php 
     include './Config/conexao.php';
-    $res=$cn->query("SELECT id, nome, preco FROM produto where tipo='circulo'");
+    $res=$cn->query("SELECT id, nome, preco, descricao FROM produto where tipo='circulo'");
     session_start();
     $_SESSION['tipo']='circulo';
 ?>
