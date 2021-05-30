@@ -59,16 +59,16 @@
                     <input type="radio" name="radio-btn" id="radio4">
 
                     <div class="slide first">
-                        <img src="img/slider1.jpg">
+                        <img src="img/slider1.png">
                     </div>
                     <div class="slide">
-                        <img src="img/slider2.jpg" >
+                        <img src="img/slider2.png" >
                     </div>
                     <div class="slide">
-                        <img src="img/slider3.jpg">
+                        <img src="img/slider3.png">
                     </div>
                     <div class="slide">
-                        <img src="img/slider4.jpg">
+                        <img src="img/slider4.png">
                     </div>
 
                     <div class="navigation-auto">
@@ -138,6 +138,9 @@
                   </div>
 
                   <!--final painel presentes-->
+                  <div class="texto-logo">
+                      <h1>Mania de festa</h1>
+                  </div>
 
                 <div class="logo-img">
                     <img src="img/slider.jpg">
