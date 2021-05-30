@@ -15,7 +15,7 @@
 
 </head>
 <body>
-    <!-- inicio menu -->
+                <!-- inicio menu -->
     <nav id="menu-1">
             <ul>
                 <li><a href="index.php">Home</a></li>
@@ -23,20 +23,21 @@
                 <li><a href="https://api.whatsapp.com/send?phone=5591984851975&text=Ol%C3%A1%2C%20gostaria%20de%20ajuda%20para%20escolher%20os%20bal%C3%B5es%20certos%20para%20minha%20festa!">Chat</a></li>
             </ul>
     </nav>
-    <!--  final menu -->
+                    <!--  final menu -->
 
         <link rel="stylesheet" href="https://fonts.gstatic.com">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
-    <main>
-
                      <!-- inicio prateleira -->
+        <main class="box">
+
+                     
                <div class="prateleira">
-                   <ul class="prateleira ul">
+                   <ul>
                         <?php while($dado = $res->fetch_array()){ ?>
                             <li><h1><?php echo $dado['nome'] ?></h1><img src="./img/<?php echo $dado['id']?>.png"><br><?php echo $dado['descricao'] ?><h2>R$ <?php echo $dado['preco'] ?>.00</h2><form action="./user/processos/addCarrinho.php" method="POST">
-                <button name="idp" value="<?php echo $dado['id'] ?>" type="submit" class="botao-ver-prateleira">Adicionar ao Carrinho</button>
-                </form></li>
+                            <button name="idp" value="<?php echo $dado['id'] ?>" type="submit" class="botao-ver-prateleira">Adicionar ao Carrinho</button>
+                            </form></li>
                         <?php } ?>
                    </ul>
                </div>

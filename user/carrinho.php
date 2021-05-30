@@ -25,13 +25,15 @@
 <nav id="menu-1">
         <ul>
             <li><a href="../index.php">Home</a></li>
-            <li><a href="####">Produtos</a></li>
-            <li><a href="####">Empresa</a></li>
+            <li><a href="../produtos.php">Produtos</a></li>
+            <li><a href="../pro">Voltar</a></li>
         </ul>
 </nav>
 <!--  final menu -->
+
 <!--  Inicio Tabela -->
-<table border="black">
+<section class="box">
+<table class="infos">
     <tr id="container">
         <th id="Nome" >STATUS</th>
         <th id="Nome" class="nome">NOME</th>
@@ -63,16 +65,16 @@
             <th>R$<?php echo $dado['preco']*$dado['quant'];?>.00</th>
             <th>
             <form action="./processos/confPedido.php" method="POST">
-                <button name="idp" value="<?php echo $dado['id'] ?>" style="height: 50px;background-color:<?php echo $corp ?>;"><?php echo $info ?></button>
+                <button class="btn-confirmar"name="idp" value="<?php echo $dado['id'] ?>" style="background-color:<?php echo $corp ?>;"><?php echo $info ?></button>
             </form>
             <form action="./processos/remCarrinho.php" method="post">
-                <button name="id" value="<?php echo $dado['id'] ?>">Remover</button>
+                <button class="btn-remover" name="id" value="<?php echo $dado['id'] ?>">Remover</button>
             </form>
         </tr>
     <?php } ?>  
 </table>
+</section>
 <!--  Final Tabela -->
-<a href="../"><button>Voltar</button></a>
 
 </body>
 </html>

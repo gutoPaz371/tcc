@@ -32,9 +32,9 @@
 
                      <!-- inicio prateleira -->
                <div class="prateleira">
-                   <ul class="prateleira ul">
+                   <ul class="prateleira">
                         <?php while($dado = $res->fetch_array()){ ?>
-                            <li><h1><?php echo $dado['nome'] ?></h1><img src="./img/<?php echo $dado['id']?>.png"><br><?php echo $dado['descricao'] ?><h2>R$ <?php echo $dado['preco'] ?>.00</h2><form action="./user/processos/addCarrinho.php" method="POST">
+                            <li><h1><?php echo $dado['nome'] ?></h1><img src="./img/<?php echo $dado['id']?>.png"><br><p><?php echo $dado['descricao'] ?></p><h2>R$ <?php echo $dado['preco'] ?>.00</h2><form action="./user/processos/addCarrinho.php" method="POST">
                 <button name="idp" value="<?php echo $dado['id'] ?>" type="submit" class="botao-ver-prateleira">Adicionar ao Carrinho</button>
                 </form></li>
                         <?php } ?>
