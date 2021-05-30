@@ -36,7 +36,7 @@
         <div class="informacoes"><h1>Admin Cadastrados</h1>
         </div>
     </section>
-    <a class="btn-sair" href="../logado.php">Sair</a>
+    <a class="btn-sair" href="../logado.php">Voltar</a>
 </body>
 </html>
 <!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->

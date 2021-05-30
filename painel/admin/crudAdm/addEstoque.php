@@ -49,9 +49,10 @@
         </div>        
         <div class="btn-adicionar">
             <button id="tipo" name="tipo" value="" type="submit">ADICIONAR</button>
-            </form><a href="../logado.php"><button class="btn-voltar">VOLTAR</button></a>
+            </form>
         </div>
 </section>
+<a class="btn-sair" href="../logado.php">Voltar</a>
         
     
 </body>

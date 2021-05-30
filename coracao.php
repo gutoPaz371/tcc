@@ -11,7 +11,7 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Mania de Festa</title>
-      <link rel="stylesheet" href="css/produto.css">
+      <link rel="stylesheet" href="css/produtos.css">
 
 </head>
 <body>
@@ -19,7 +19,7 @@
     <nav id="menu-1">
             <ul>
                 <li><a href="index.php">Home</a></li>
-                <li><a href="####">Carrinho</a></li>
+                <li><a href="user/carrinho.php">Carrinho</a></li>
             </ul>
     </nav>
     <!--  final menu -->
