@@ -59,7 +59,6 @@ body{
     position: relative;
     margin: 10px;
     width: 30%;
-    /* height: 463px; */
     box-shadow: 0px 0px 1px 0px black;
 }
 
@@ -67,13 +66,15 @@ body{
     width: 175px;
     height: 175px;
     margin: 30px;
-    margin-top: -18px;
-    border-radius: 10px;
+    margin-top: 4px;
+    border-radius: -28px;
+    transition: transform 0.7s;
+    transform: translateX(0px) scale(0.9);
 }
 .prateleira img:hover{
-    width: 200px;
-    height: 200px;
-    transition: 0.7s;
+    width: 175px;
+    height: 175px;
+    transform: translateX(10px) scale(1.2);
 }
 .prateleira ul{
     position: relative;
@@ -101,8 +102,6 @@ body{
     text-align: center;
 }
 .prateleira li:hover{
-    border-style: solid;
-    border-width: 1px;
     background-color: rgb(235, 235, 235);
     transition: 1s;
 }
