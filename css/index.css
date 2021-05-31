@@ -93,6 +93,7 @@ body {
     text-align: center;
     font-size: 30px;
     color: #fff;
+    text-shadow: 2px 2px black;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -100,6 +101,7 @@ body {
     text-align: center;
     color: #fff;
     font-size: 20px;
+    text-shadow: 2px 2px black;
     font-family: 'Titillium Web', sans-serif;
 }
 /* fim textos de meio de site*/
