@@ -11,7 +11,7 @@ USE `loja`;
 CREATE TABLE IF NOT EXISTS `adm` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `senha` varchar(20) NOT NULL,
-  `nome` varchar(30) NOT NULL,
+  `nome` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
