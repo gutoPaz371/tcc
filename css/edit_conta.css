@@ -40,11 +40,12 @@ body {
 }
 
 .edit-input {
-    border-radius: 5px 5px;
+    border: none;
+    border-bottom: 2px solid #323232;
 }
 
 .edit-input:hover {
-    border-color: #f88bb5;
+    border-bottom-color: #f88bb5;
     transition: 2s;
 }
 
@@ -53,7 +54,21 @@ body {
     text-align: center;
 }
 
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #08558B;
+    cursor: pointer;
+}
+
 .btn {
+    width: 100%;
     border-radius: 3px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 10pt;

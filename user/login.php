@@ -19,8 +19,17 @@
 	<link rel="shortcut icon" href="../img/ico_favicon.png">
 	<link rel="stylesheet" type="text/css" href="../css/login_admin.css">
 	<link rel="stylesheet" type="text/css" href="../css/Login_User.css">
+	<link rel="stylesheet" type="text/css" href="../css/Produtos.css">
 </head>
 <body>
+<!-- inicio menu -->
+<nav id="menu-1">
+        <ul>
+            <li><a href="/tcc/index.php">Home</a></li>
+        </ul>
+</nav>
+<!--  final menu -->
+
 
 <script>
 
