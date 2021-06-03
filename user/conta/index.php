@@ -26,6 +26,7 @@
 	<meta name="theme-color" content="#ee7421">
 	<link rel="shortcut icon" href="../img/ico_favicon.png">
 	<link rel="stylesheet" type="text/css" href="../../css/edit_conta.css">
+	<link rel="stylesheet" type="text/css" href="../../css/Produtos.css">
 </head>
 <style>
 	#cpf{
@@ -34,43 +35,51 @@
  
 </style>
 <body>
+<!-- inicio menu -->
+<nav id="menu-1">
+        <ul>
+            <li><a href="/tcc/index.php">Home</a></li>
+        </ul>
+</nav>
+<!--  final menu -->
 	<section class="corpo-frm">
 		<h2>Editar conta</h2>
         <span id='erro' style="color: <?php echo $cor; ?>;"><?php echo $erro; ?></span>
 		<form name="frmLogAdmin" method="POST" action="./processo/updateUser.php">
 			<div class="frm-item">
 				<label for="userlog">Usuário</label>
-				<input name="user" value="<?php echo $res['nome'] ?>" type="text" id="" >
+				<input class="edit-input" name="user" value="<?php echo $res['nome'] ?>" type="text" id="" >
 			</div>
             <div class="frm-item">
 				<label for="userlog">Email</label>
-				<input name="email" value="<?php echo $res['email'] ?>" type="email" id="" >
+				<input class="edit-input" name="email" value="<?php echo $res['email'] ?>" type="email" id="" >
 			</div>
 			<div class="frm-item">
 				<label for="userlog">Telefone</label>
-				<input name="celular" value="<?php echo $res['celular'] ?>" id="celular" maxlength="14" onkeypress="cll(this)" >
+				<input class="edit-input" name="celular" value="<?php echo $res['celular'] ?>" id="celular" maxlength="14" onkeypress="cll(this)" >
 			</div>
 			<div class="frm-item">
 				<label for="userlog">Cpf</label>
-				<input value="<?php echo $res['cpf'] ?>" id="cpf" disabled autocomplete="off">
+				<input class="edit-input" value="<?php echo $res['cpf'] ?>" id="cpf" disabled autocomplete="off">
 			</div>
 			<div class="frm-item">
 				<label for="passlog">Senha antiga</label>
-				<input name="pass" type="password" id="passlog"  autocomplete="off">
+				<input class="edit-input" name="pass" type="password" id="passlog"  autocomplete="off">
 			</div>
             <div class="frm-item">
 				<label for="passlog">Nova Senha</label>
-				<input name="pass1" type="password" id="passlog"  autocomplete="off">
+				<input class="edit-input" name="pass1" type="password" id="passlog"  autocomplete="off">
 			</div>
 			<div class="frm-item">
 				<label for="passlog">Confirmar Senha</label>
-				<input name="pass2" type="password" id="passlog"  autocomplete="off">
+				<input class="edit-input" name="pass2" type="password" id="passlog"  autocomplete="off">
 			</div>
-			
+			<div class="frm-btn">
 			<input type="submit" class="btn" value="SALVAR">
+			</div>
 		</form>
 	</section>
-	<a href="./login.php"><button onclick="del(this)">Voltar</button></a>
+	<!--<a href="./login.php"><button onclick="del(this)">Voltar</button></a>-->
 </body>
 <script>
 	function cll(){
@@ -84,5 +93,10 @@
 			}
 		}
 </script>
+<!--  inicio rodapé -->
+<footer class="rodape"> <h1>www.maniadefesta.com.br</h1></footer>
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+<!--  final rodapé -->
 </html>
 <!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
