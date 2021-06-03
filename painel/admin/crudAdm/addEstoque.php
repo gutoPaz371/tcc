@@ -38,7 +38,20 @@
             <input type="moeda" name="preco"><br>
             <label for="">QUANTIDADE:</label>
             <input id="qt" value="1" onkeypress="return event.charCode >= 48 && event.charCode <= 57" name="quant" style="width: 40px;" ><div id="quant" onclick="add(this)">+</div><div id="quant" onclick="rem(this)">-</div>
-           <br> <label for="">DESCRICAO</label><br><textarea name="descricao"></textarea><c> 100/100</c>
+           <br> <label for="">DESCRICAO</label><br><textarea name="descricao" id="descricao" maxlength="100"></textarea>
+<br><script>
+    (function(win, doc) {
+        'user strict';
+
+        let msg = doc.querySelector('#descricao');
+        descricao.addEventListener('keyup', (event) => {
+            let sub = event.target.maxLength - event.target.textLength;
+            doc.querySelector('.result').innerHTML =  sub + ' /100 ';
+        }, false);
+
+    })(window, document);
+</script>
+<c class="result">Caracteres permitidos: 100</c>
             <input class="arq" type="file" name="arquivo"><br>   
     </div>
         
