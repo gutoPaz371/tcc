@@ -21,9 +21,12 @@
 </head>
 <body>
 <main>
-    <ul id=whatsapp>
-        <a href="https://api.whatsapp.com/send?phone=5591984851975&text=Ol%C3%A1%2C%20gostaria%20de%20ajuda%20para%20escolher%20os%20bal%C3%B5es%20certos%20para%20minha%20festa!"target="_blank"><h1>WHATSAPP</h1></a>
+<div>
+<ul id=whatsapp>
+        <a href="https://api.whatsapp.com/send?phone=5591984851975&text=Ol%C3%A1%2C%20gostaria%20de%20ajuda%20para%20escolher%20os%20bal%C3%B5es%20certos%20para%20minha%20festa!"target="_blank"><h1>WHATSAPP</h1> <img src="https://icons.iconarchive.com/icons/dtafalonso/android-l/512/WhatsApp-icon.png" alt=""></a>
     </ul>
+</div>
+    
                 <!-- inicio menu 1 -->
     <nav id="menu-1">
             <ul>
@@ -34,8 +37,6 @@
                 <li><a href="https://github.com/gutoPaz371/tcc.git"target="_blank">GIT</a></li>
                 <li><a id="log" href="./user/login.php"></a></li>
                 <li><a id="cont" href="./user/conta/"></a></li>
-                <h1><?php echo $nome; ?></h1>
-                
             </ul>
             
     </nav>
@@ -49,9 +50,10 @@
     
                  <div class="faixa-horizontal">
                     <h1>Mania de Festa</h1>
+                    <h2><?php echo $nome; ?></h2>
                 </div>
 
-                <div class="texto"><h2>BALÕES DE FESTA :)<br>DE ATÉ 30% OFF</h2><img src="./img/pessoas.png" alt="">
+                <div class="texto"><h2>BALÕES DE FESTA :)<br>DE ATÉ 30% OFF <br> vem conhecer!</h2><img src="./img/pessoas.png" alt="">
                                 
                 </div>
                 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -144,22 +146,11 @@
                   </div>
 
                   <!--final painel presentes-->
-                  <div class="texto-logo">
-                      <h1>Mania de festa</h1>
+                  <div class="informativo">
+                      <h1>Sua festa fica mais Feliz com os artigos Mania de Festa</h1>
+                      <h2>sssssssssssssssssssssss</h2>
                   </div>
 
-                <div class="logo-img">
-                    <img src="img/slider.jpg">
-                </div>
-                
-                <!--  painel img -->
-                <section>
-                  <div class="painel-img">
-                    <img src="img/mania1.jpg" alt="">
-                    <img src="img/mania2.jpg" alt="">
-                    <img src="img/baloesIMG3.jpg" alt="">
-                  </div>
-                </section>
 
                          <!--  Início rodapé -->
                 <section class="rodape-info"> 
