@@ -17,6 +17,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Mania de Festa</title>
       <link rel="stylesheet" href="css/index.css">
+      <link rel="stylesheet" href="css/rodape.css">
 
 </head>
 <body>
@@ -153,82 +154,162 @@
 
 
                          <!--  Início rodapé -->
-                <section class="rodape-info"> 
-                    <section class="informacoes">
-                        <h1>INFORMAÇÕES</h1>
-                        <ul>
-                            <a href="../tcc/Empresa.php"><h1>Sobre nós</h1></a>
-                        </ul>
-                        <ul>
-                            <a href=""><h1>Parceiros</h1></a>
-                        </ul>
-                        <ul>
-                            <a href=""><h1>sss</h1></a>
-                        </ul>
-                        <ul>
-                            <a href=""><h1>Sss</h1></a>
-                        </ul>
-                    </section>
+                <!-- Início Footer -->
+    <footer class="page-footer font-small mdb-color lighten-3 pt-4" style="background-color: #90b2c6;">
 
-                    <section class="informacoes-2"> 
-                        <h1>ATENDIMENTO</h1>
-                        <ul>
-                            <a href="sobrenós"><h1>Sobre nós</h1></a>
-                        </ul>
-                        <ul>
-                            <a href=""><h1>Parceiros</h1></a>
-                        </ul>
-                        <ul>
-                            <a href=""><h1>adicionar</h1></a>
-                        </ul>
-                        <ul>
-                            <a href=""><h1>S</h1></a>
-                        </ul>
-                    </section>
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left">
 
-                    <section class="informacoes-2"> 
-                        <h1>ATENDIMENTO</h1>
-                        <ul>
-                            <a href="sobrenós"><h1>Sobre nós</h1></a>
-                        </ul>
-                        <ul>
-                            <a href=""><h1>Parceiros</h1></a>
-                        </ul>
-                        <ul>
-                            <a href=""><h1>adicionar</h1></a>
-                        </ul>
-                        <ul>
-                            <a href=""><h1>S</h1></a>
-                        </ul>
-                    </section>
-                </section>
+            <!-- Grid row -->
+            <div class="row">
 
-                
-<section class="rodape">
-                <link rel="preconnect" href="https://fonts.gstatic.com">
-                <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
-         <footer>
-            <div class= "rodape">  
-                <h1>www.maniadefesta.com.br</h1>
-            </div> 
-        </footer>
-                
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
 
-</section>
+                    
+                    <h5 class="font-weight-bold text-uppercase mb-4">Sobre Nós</h5>
+                    <p>Somos uma empresa especialista em artigos de festas, fundada em 2021. Levando alegria para você e sua festa com todo nossa dedicação, amor e carinho. <br> Já proporcionamos momentos felizes de várias pessoas e famílias, venha ser mais uma!</p>
+                    <!-- <a href="Empresa.php" id="link-saber-mais">Clique Aqui para Saber Mais!</a> -->
+                    <a class="btn-saber-mais" href="Empresa.php"><button type="button" class="btn btn-info">Clique Aqui para Saber Mais!</button></a>
 
-                
+                </div>
+                <!-- Grid column -->
 
-                                <!--  final rodapé -->
+                <hr class="clearfix w-100 d-md-none">
 
-<script type="text/javascript">
-    var cont = 1;
-    setInterval(function(){
-      document.getElementById('radio' + cont).checked = true;
-      cont++;
-      if(cont > 4){
-        cont = 1;
-      }
-    }, 5000);
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mb-4">Páginas</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <p>
+                                <a class="link-footer" href="index.php">Home</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a class="link-footer" href="user/login.php">Carrinho</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a class="link-footer" href="painel/index.php" target="blank">Painel</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a class="link-footer" href="produtos.php">Produtos</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a class="link-footer" href="empresa.php">Sobre Empresa</a>
+                            </p>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                    <!-- Contact details -->
+                    <h5 class="font-weight-bold text-uppercase mb-4">Onde nos encontrar?</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <p>
+                                <i class="fas fa-home mr-3"></i> Rodovia BR-316, Km 60, S/n - &nbsp;&nbsp;&nbsp;Apeú, PA
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="fas fa-envelope mr-3"></i> gabriel.m.louzada@gmail.com
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="fas fa-phone mr-3"></i> (91) 98438-2681
+                            </p>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+
+                    <!-- Social buttons -->
+                    <h5 class="font-weight-bold text-uppercase mb-4">Saiba Mais</h5>
+                    <div class="div-icon-1">
+                        <!-- Facebook -->
+                        <a href="https://www.facebook.com/" type="button" target="blank" class="img-redes-sociais">
+                            <img src="img/facebook.png" alt="" width="35px">
+                        </a>
+                        <br>
+                        <!-- Instagram -->
+                        <a href="https://www.instagram.com/maniadefestasip/" type="button" target="blank" class="img-redes-sociais">
+                            <img src="img/instagram.png" alt="" width="35px">
+                        </a>
+                        <br>
+                        <!-- Google +-->
+                        <a href="mailto:gabriel.m.louzada@gmail.com" type="button" class="img-redes-sociais">
+                            <img src="img/gmail.png" alt="" width="35px">
+                        </a>
+                        <br>
+                        <!-- Whatsapp -->
+                        <a href="https://api.whatsapp.com/send?phone=5591984382681" target="blank" type="button" class="img-redes-sociais">
+                            <img src="img/whatsapp.png" alt="" width="35px">
+                        </a>
+                        <br>
+                        <!-- Mapas -->
+                        <a href="https://goo.gl/maps/5gMkdHVs9kH1FoqP9" target="blank" type="button" class="img-redes-sociais">
+                        <img src="img/google-maps.png" alt="" width="35px">
+                    </a>
+                    </div>
+                    
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">Copyright © 2021 <a href="#"> Mania de Festa</a> - Todos os direitos reservados
+
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Fim Footer -->
+
+    <script type="text/javascript">
+        var cont = 1;
+        setInterval(function() {
+            document.getElementById('radio' + cont).checked = true;
+            cont++;
+            if (cont > 4) {
+                cont = 1;
+            }
+        }, 5000);
     </script>
+    <script src="javascript/jquery-3.6.0.min.js"></script>
+    <!-- CDN Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
-</html> 
+
+</html>
