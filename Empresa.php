@@ -97,7 +97,7 @@
                     <ul class="list-unstyled">
                         <li>
                             <p>
-                                <i class="fas fa-home mr-3"></i> R. Antônio Pontes, 1211 - Jardim Mirai, Santa Isabel do Pará - PA, 68790-000 &nbsp;&nbsp;&nbsp;Apeú, PA
+                                <i class="fas fa-home mr-3"></i> R. Antônio Pontes, 1211 - Jardim Mirai, Santa Isabel do Pará - PA, 68790-000 
                             </p>
                         </li>
                         <li>
