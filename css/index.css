@@ -17,18 +17,21 @@ body {
 
 #menu-1 ul {
     list-style: none;
-    height: 43px;
+    height: 58px;
     padding: 0;
     margin: 0;
-    background-color: rgb(0 0 0 / 76%)
+    margin-top: -17px;
+    line-height: 2;
+    background-color: rgb(255 255 255 / 76%);
+    border-bottom: 0.1px solid #dadada;
 }
 
 #menu-1 ul a {
-    color: rgb(216 244 255);
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    color: rgb(237 32 115);
     font-family: monospace;
-    margin: 0%;
-    font-size: 20px;
+    margin-right: -1%;
+    margin-left: 112px;
+    font-size: 19px;
     padding: 10px;
     display: inline-block;
     text-decoration: none;
@@ -36,76 +39,117 @@ body {
 }
 
 #menu-1 ul a:hover {
-    background-color: #d8f4ff;
-    color: #153e7c;
+    border-bottom: 6px solid #ffffff;
+    transition: ease;
 }
 
 #menu-1 h1 {
     color: rgb(255 255 255);
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     font-family: monospace;
-    font-size: 16px;
+    font-size: 18px;
     margin: 0%;
-    text-align: right;
-    padding: 13px;
-    display: inline-block;
+    text-align: center;
+    /* padding: 13px; */
+    /* display: inline-block; */
     text-decoration: none;
+}
+#menu-1 img{
+    width: 50PX;
+    height: 50px;
+    background-size: cover;
+    MARGIN-LEFT: auto;
+    MARGIN-RIGHT: auto;
 }
 /*aqui termina o menu-1*/
 
 
 /*aqui comeca o menu-2*/
-.menu-2 ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    background-color: #ffffff;
+.menu-2{
+    width: 100%;
+    height: 100px;
 }
-
-.menu-2 ul li {
-    display: inline;
-}
-
-.menu-2 ul a {
-    color: rgb(51, 51, 51);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 5px;
-    width: 24%;
-    text-align: center;
-    display: inline-block;
-    text-decoration: none;
-    transition: background .3s;
-}
-
-.menu-2 ul a:hover {
-    background-color: #d8f4ff;
+.menu-2 img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 /*aqui acaba o menu-2*/
 
 
 /*textos de meio de site*/
-.texto {
-    padding: 20px;
-    margin-top: 70px;
-}
-
-.texto h1 {
-    text-align: center;
-    font-size: 30px;
-    color: #fff;
-    /* text-shadow: 2px 2px black; */
-    font-family: 'Titillium Web', sans-serif;
-}
-
 .texto h2 {
-    text-align: center;
-    color: #fff;
-    font-size: 20px;
-    /* text-shadow: 2px 2px black; */
-    font-family: 'Titillium Web', sans-serif;
+    text-align: left;
+    height: 7px;
+    color: #f12760;
+    margin-left: 115px;
+    font-family: "proxima-nova", sans-serif;
+    font-size: 3.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: transparent;
+    background-image: linear-gradient( 75deg, #f2285c 0%, #f2295d 100%);
+    -webkit-background-clip: text;
+}
+
+.texto img{
+    display: flex;
+    width: 435px;
+    height: 401px;
+    margin-left: 51%;
+    margin-top: -79px;
 }
 /* fim textos de meio de site*/
 
+.faixa-horizontal{
+    background-color: #e91a80;
+    background-image: linear-gradient(
+    90deg, #ec1e77 0%, #f2295b 100%);
+}
+.faixa-horizontal h1{
+    text-align: center;
+    font-size: 68px;
+    color: white;
+    font-family: monospace;
+    line-height: 2.1;
+    padding: 0;
+    margin-top: 0;
+}
+.faixa-horizontal h2{
+    text-align: center;
+    font-size: 21px;
+    color: white;
+    font-family: monospace;
+    line-height: 2.1;
+    padding: 0;
+    margin-top: -77px;
+}
+#whatsapp  h1{
+    position: fixed;
+    top: 101%;
+    width: 8em;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+    height: 2em;
+    line-height: 2;
+    margin-left: -39px;
+    border-radius: 6px;
+    margin-top: -2.5em;
+    background-color: #0f9d58;
+}  
+#whatsapp img{
+    width: 39px;
+    height: 39px;
+    position: fixed;
+    top: 94.3%;
+    left: 97px;
+}
 
 
 /*aqui comeca os produtos*/
@@ -134,9 +178,16 @@ body {
 
 .produtos h1 {
     text-align: center;
+    width: 115px;
+    height: 24px;
+    line-height: 1.5;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Anton', sans-serif;
+    border-radius: 10px;
+    background-color: #ed1f72;
     font-size: 15px;
-    color: rgb(36, 36, 36);
+    color: rgb(255 255 255);
 }
 /*aqui termina os produtos*/
 
@@ -148,7 +199,7 @@ body {
     font-family: 'Titillium Web', sans-serif;
     margin-top: 7px;
     margin-bottom: -45px;
-    color: rgb(39, 39, 39);
+    color: rgb(255 73 146);
 }
 
 .painel-presentes {
@@ -162,14 +213,14 @@ body {
 }
 
 .item1 {
-    background-color: #bae3f5;
+    background-color: #c1c1c1;
     color: white;
     cursor: pointer;
     border-radius: 5px 20px 20px 20px;
 }
 
 .item2 {
-    background-color: #4fa5d7;
+    background-color: #ff1a76;
     background-size: cover;
     cursor: pointer;
     grid-column-start: 2;
@@ -178,7 +229,7 @@ body {
 }
 
 .item3 {
-    background-color: #0093cc;
+    background-color: #ff1a76;
     background-size: cover;
     cursor: pointer;
     grid-row-start: 2;
@@ -187,19 +238,19 @@ body {
 }
 
 .item4 {
-    background-color: #d5e6ed;
+    background-color: #c1c1c1;
     cursor: pointer;
     border-radius: 15px 15px 15px 15px;
 }
 
 .item5 {
-    background-color: #90b2c6;
+    background-color: #ff1a76;
     cursor: pointer;
     border-radius: 15px 15px 15px 15px;
 }
 
 .item6 {
-    background-color: #4fa5d7;
+    background-color: #c1c1c1;
     cursor: pointer;
     grid-column-start: 2;
     grid-column-end: 4;
@@ -207,42 +258,30 @@ body {
 }
 /*aqui termina o painel de presentes*/
 
-.texto-logo h1{
+/*aqui comeca a div informativo*/
+.informativo{
+    width: 100%;
+    height: 150px;
     text-align: center;
-    font-size: 53px;
-    font-family: 'Titillium Web';
-    color: rgb(66, 66, 66);
+    background-color: #f2f3f8;
 }
+.informativo h1{
+    width: 100%;
+    font-size: 26px;
+    color: #DA0812;
+    text-align: center;
+}
+.informativo h2{
+    width: 100%;
+    font-size: 26px;
+    color: #6e6e6e;
+    text-align: center;
+}
+
+/*aqui termina a div informativo*/
 
 /*aqui comeca o painel de imagens*/
-.painel-img {
-   margin-left: 9%;
-}
 
-.painel-img img {
-    width: 300px;
-    max-width: 300px;
-    height: 300px;
-    background-size: cover;
-    margin: 2%;
-    margin-left: 4%;
-    border-radius: 20px 70px 20px 70px;
-    border: 0px solid;
-    box-shadow: 7px 6px 5px #908d8d;
-    transition: transform 0.7s;
-    transform: translateX(0px) scale(0.9);
-}
-.painel-img img:hover{
-    width: 300px;
-    height: 300px;
-    background-image: url("../img/instagram.png");
-    transform: translateX(10px) scale(1.2);
-}
-.logo-img img{
-    width: 100%;
-    height: 350px;
-    background-size: cover;
-}
 /*aqui termina o painel de imagens*/
 
 

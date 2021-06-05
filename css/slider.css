@@ -1,5 +1,4 @@
 /* código produzido por Italo*/
-*{margin: 0%; padding: 0%;}
 
 /*estrutura carrossel*/
 .slider{
@@ -46,8 +45,8 @@
 }
 
 .manual-btn{
-  border: 5px solid #ffffff;
-  padding: 5px;
+  border: 5px solid #ff1a76;
+  padding: 0px;
   border-radius: 10px;
   cursor: pointer;
   transition: 0.3s;
