@@ -1,0 +1,61 @@
+/* Novo Footer */
+/* Efeito Zoom nos Ícones de Redes Sociais */
+.img-redes-sociais {
+    overflow: hidden;
+}
+
+.img-redes-sociais img {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.img-redes-sociais:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.img-redes-sociais {
+    padding: 4px;
+}
+
+/* / Término do Efeito Zoom
+
+ Link de Páginas / */
+
+a.link-footer {
+    text-decoration: none;
+    color: #212529;
+}
+
+a.link-footer:hover {
+    text-decoration: none;
+}
+
+/*  Efeito Zoom no Botão  */
+
+.btn-saber-mais {
+    overflow: hidden;
+}
+
+.btn-saber-mais button {
+    max-width: 100%;
+    -moz-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.btn-saber-mais:hover button {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* Fim do Zoom */
+
+#link-saber-mais {
+    text-decoration: none;
+    color: #212529;
+}
