@@ -18,9 +18,9 @@
       <title>Mania de Festa</title>
       <link rel="stylesheet" href="css/index.css">
       <link rel="stylesheet" href="css/rodape.css">
-
 </head>
 <body>
+
 <main>
 <div>
 <ul id=whatsapp>
@@ -154,7 +154,6 @@
 
 
                          <!--  Início rodapé -->
-                <!-- Início Footer -->
     <footer class="page-footer font-small mdb-color lighten-3 pt-4" style="background-color: #90b2c6;">
 
         <!-- Footer Links -->
