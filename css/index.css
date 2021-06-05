@@ -17,18 +17,20 @@ body {
 
 #menu-1 ul {
     list-style: none;
-    height: 43px;
+    height: 58px;
     padding: 0;
     margin: 0;
-    background-color: rgb(0 0 0 / 76%)
+    margin-top: -17px;
+    line-height: 2;
+    background-color: rgb(255 255 255 / 76%);
+    border-bottom: 0.1px solid #dadada;
 }
 
 #menu-1 ul a {
-    color: rgb(216 244 255);
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    color: rgb(237 32 115);
     font-family: monospace;
     margin: 0%;
-    font-size: 20px;
+    font-size: 19px;
     padding: 10px;
     display: inline-block;
     text-decoration: none;
@@ -36,13 +38,11 @@ body {
 }
 
 #menu-1 ul a:hover {
-    background-color: #d8f4ff;
-    color: #153e7c;
+    border-bottom: 2px solid #e22885;
 }
 
 #menu-1 h1 {
-    color: rgb(255 255 255);
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    color: rgb(238 33 110);
     font-family: monospace;
     font-size: 16px;
     margin: 0%;
@@ -55,57 +55,80 @@ body {
 
 
 /*aqui comeca o menu-2*/
-.menu-2 ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    background-color: #ffffff;
+.menu-2{
+    width: 100%;
+    height: 100px;
 }
-
-.menu-2 ul li {
-    display: inline;
-}
-
-.menu-2 ul a {
-    color: rgb(51, 51, 51);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 5px;
-    width: 24%;
-    text-align: center;
-    display: inline-block;
-    text-decoration: none;
-    transition: background .3s;
-}
-
-.menu-2 ul a:hover {
-    background-color: #d8f4ff;
+.menu-2 img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 /*aqui acaba o menu-2*/
 
 
 /*textos de meio de site*/
 .texto {
-    padding: 20px;
-    margin-top: 70px;
-}
-
-.texto h1 {
-    text-align: center;
-    font-size: 30px;
-    color: #fff;
-    /* text-shadow: 2px 2px black; */
-    font-family: 'Titillium Web', sans-serif;
+    /* padding: 20px; */
+    /* margin-top: 70px; */
 }
 
 .texto h2 {
-    text-align: center;
-    color: #fff;
-    font-size: 20px;
-    /* text-shadow: 2px 2px black; */
-    font-family: 'Titillium Web', sans-serif;
+    text-align: left;
+    height: 7px;
+    color: #f12760;
+    margin-left: 115px;
+    font-family: "proxima-nova", sans-serif;
+    font-size: 3.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: transparent;
+    background-image: linear-gradient( 75deg, #f2285c 0%, #f2295d 100%);
+    -webkit-background-clip: text;
+}
+.texto img{
+    display: flex;
+    width: 435px;
+    height: 401px;
+    margin-left: 51%;
+    margin-top: -79px;
 }
 /* fim textos de meio de site*/
 
+.faixa-horizontal{
+    background-color: #e91a80;
+    background-image: linear-gradient(
+    90deg, #ec1e77 0%, #f2295b 100%);
+}
+.faixa-horizontal h1{
+    text-align: center;
+    font-size: 68px;
+    color: white;
+    font-family: monospace;
+    line-height: 2.1;
+    padding: 0;
+    margin-top: 0;
+}
+#whatsapp  h1{
+    position: fixed;
+    top: 101%;
+    width: 8em;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+    height: 2em;
+    line-height: 2;
+    margin-left: -38px;
+    border-radius: 6px;
+    margin-top: -2.5em;
+    background-color: #ed1f72;
+}  
 
 
 /*aqui comeca os produtos*/
@@ -237,11 +260,6 @@ body {
     height: 300px;
     background-image: url("../img/instagram.png");
     transform: translateX(10px) scale(1.2);
-}
-.logo-img img{
-    width: 100%;
-    height: 350px;
-    background-size: cover;
 }
 /*aqui termina o painel de imagens*/
 

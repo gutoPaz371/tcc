@@ -20,6 +20,10 @@
 
 </head>
 <body>
+<main>
+    <ul id=whatsapp>
+        <a href="https://api.whatsapp.com/send?phone=5591984851975&text=Ol%C3%A1%2C%20gostaria%20de%20ajuda%20para%20escolher%20os%20bal%C3%B5es%20certos%20para%20minha%20festa!"target="_blank"><h1>WHATSAPP</h1></a>
+    </ul>
                 <!-- inicio menu 1 -->
     <nav id="menu-1">
             <ul>
@@ -31,26 +35,54 @@
                 <li><a id="log" href="./user/login.php"></a></li>
                 <li><a id="cont" href="./user/conta/"></a></li>
                 <h1><?php echo $nome; ?></h1>
+                
             </ul>
+            
     </nav>
                 <!--  final menu 1 -->
     <script>
         document.getElementById('log').innerText='<?php echo $log; ?>';
         document.getElementById('cont').innerText='<?php echo $cont; ?>';
     </script>
-             
-    <nav class="menu-2">
-            <ul>
-                <li><a href="#####">Balões</a></li>
-                <li><a href="#####">Canecas</a></li>
-                <li><a href="#####">Embalagens</a></li>
-                <li><a href="#####">outros</a></li>
-            </ul>
-    </nav>              
+            <!--  final menu 2 -->
+          
+    
+                 <div class="faixa-horizontal">
+                    <h1>Mania de Festa</h1>
+                </div>
 
+                <div class="texto"><h2>BALÕES DE FESTA :)<br>DE ATÉ 30% OFF</h2><img src="./img/pessoas.png" alt="">
+                                
+                </div>
+                <link rel="preconnect" href="https://fonts.gstatic.com">
+                <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,200&display=swap" rel="stylesheet">
+               
+                <!--  inicio produtos -->
+                <section class="produtos">
+                        <section class="produto">
+                            <a href="coracao.php">
+                              <img src="img/coracao.png"></a></br><h1>Coração</h1>
+                        </section>
+                        
+                        <section class="produto">
+                            <a href="estrelas.php">
+                              <img src="img/estrela.png"></a></br><h1>Estrela</h1>
+                        </section>
+                        
+                        <section class="produto">
+                            <a href="circulo.php">
+                              <img src="img/bola.png"></a></br><h1>Circulo</h1>                 
+                        </section>
 
-    <main>
-                 <!--  slider carrossel inicio -->
+                        <section class="produto">
+                            <a href="bolha.php">
+                              <img src="img/bolha.png"></a></br><h1>Bolha</h1>                  
+                        </section>
+                </section>         
+    
+                <!--  fim produtos -->
+
+                <!--  slider carrossel inicio -->
                 <div class="slider">
                     <link rel="stylesheet" href="css/slider.css">
                     <div class="slides">
@@ -90,35 +122,8 @@
                 </div>
                 <!--  slider carrossel fim -->
 
-                <div class="texto"><h1>Aqui sua festa é mais feliz :)</h1> <h2>confira abaixo</h2></div>
-                <link rel="preconnect" href="https://fonts.gstatic.com">
-                <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,200&display=swap" rel="stylesheet">
-               
-                <!--  inicio produtos -->
-                <section class="produtos">
-                        <section class="produto">
-                            <a href="coracao.php">
-                              <img src="img/coracao.png"></a></br><h1>Coração</h1>
-                        </section>
-                        
-                        <section class="produto">
-                            <a href="estrelas.php">
-                              <img src="img/estrela.png"></a></br><h1>Estrela</h1>
-                        </section>
-                        
-                        <section class="produto">
-                            <a href="circulo.php">
-                              <img src="img/bola.png"></a></br><h1>Circulo</h1>                 
-                        </section>
-
-                        <section class="produto">
-                            <a href="bolha.php">
-                              <img src="img/bolha.png"></a></br><h1>Bolha</h1>                  
-                        </section>
-                </section>         
-    </main>
-                <!--  fim produtos -->
-
+                
+</main>
 
                 <!--inicio painel presentes-->
                 <div class="painel-presentes-text">
