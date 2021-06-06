@@ -227,7 +227,7 @@ body {
 }
 
 .item2 {
-    background-color: #ff1a76;
+    background-color: #faf26a;
     background-size: cover;
     cursor: pointer;
     grid-column-start: 2;
@@ -236,7 +236,7 @@ body {
 }
 
 .item3 {
-    background-color: #ff1a76;
+    background-color: #8abfec;
     background-size: cover;
     cursor: pointer;
     grid-row-start: 2;
@@ -245,7 +245,7 @@ body {
 }
 
 .item4 {
-    background-color: #c1c1c1;
+    background-color: #b2a1cb;
     cursor: pointer;
     border-radius: 15px 15px 15px 15px;
 }
@@ -257,7 +257,7 @@ body {
 }
 
 .item6 {
-    background-color: #c1c1c1;
+    background-color: #b3cf79;
     cursor: pointer;
     grid-column-start: 2;
     grid-column-end: 4;
