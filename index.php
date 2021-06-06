@@ -22,6 +22,7 @@
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
+
 <main>
 <div>
 <ul id=whatsapp>
@@ -155,7 +156,6 @@
 
 
                          <!--  Início rodapé -->
-                <!-- Início Footer -->
     <footer class="page-footer font-small mdb-color lighten-3 pt-4" style="background-color: #90b2c6;">
 
         <!-- Footer Links -->

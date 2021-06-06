@@ -82,6 +82,10 @@ body {
 
 
 /*textos de meio de site*/
+.texto{
+    padding: 20px;
+    /* margin-top: 70px; */
+}
 .texto h2 {
     text-align: left;
     height: 7px;
@@ -277,15 +281,6 @@ body {
     color: #6e6e6e;
     text-align: center;
 }
-
-/*aqui termina a div informativo*/
-
-/*aqui comeca o painel de imagens*/
-
-/*aqui termina o painel de imagens*/
-
-
-
 /*aqui comeca o rodape*/
 .rodape-info {
     display: flex;
