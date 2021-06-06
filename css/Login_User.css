@@ -5,13 +5,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    color: #323232;
+    color: #ffffff;
     border: none;
 }
 
 body {
-    background-image: url(../img/ceu.jpg);
-    background-size: cover;
+    background-color: white;
 }
 
 textarea,
@@ -39,7 +38,7 @@ a:hover {
     margin-top: 10vh;
     border-radius: 10px;
     text-align: center;
-    background: -webkit-gradient(linear, left top, left bottom, from(#a9f5ee), to(#9c6cdb));
+    background: -webkit-gradient(linear, left top, left bottom, from(#949494), to(#464646));
     background: -moz-linear-gradient(top, #8b3636, #000000);
     filter: progid: DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#CCCCCC', EndColorStr='#000000');
 }
@@ -64,13 +63,13 @@ label {
 }
 
 input {
-    border-bottom: 2px solid #323232;
+    border-bottom: 2px solid #757575;
     padding: 10px;
     font-size: 1rem;
 }
 
 input:focus {
-    border-bottom: 2px solid #08558B;
+    border-bottom: 2px solid #004b81;
 }
 
 #forgot-pass {
@@ -92,7 +91,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #1B223C;
+    background-color: #1ee05f;
     transition: .5s;
 }
 
@@ -101,4 +100,11 @@ input[type="submit"]:hover {
 
 #register-cont {
     margin-bottom: 10px;
+}
+.btn-voltar{
+    color: white;
+    text-align: center;
+    background-color: blue;
+    width: 50px;
+    border-radius: 10px;
 }

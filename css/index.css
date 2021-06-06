@@ -2,6 +2,7 @@ html,body {height: 100px; margin: 0px; padding: 0px;}
 
 body {
     display: flex;
+    background-image: url("../img/arranjo.jpg");
     background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,7 +23,7 @@ body {
     margin: 0;
     margin-top: -17px;
     line-height: 2;
-    background-color: rgb(255 255 255 / 76%);
+    background-color: rgb(255 255 255 / 95%);
     border-bottom: 0.1px solid #dadada;
 }
 
@@ -84,13 +85,14 @@ body {
 /*textos de meio de site*/
 .texto{
     padding: 20px;
-    /* margin-top: 70px; */
+    margin-top: 70px;
 }
 .texto h2 {
     text-align: left;
     height: 7px;
     color: #f12760;
     margin-left: 115px;
+    margin-top: -46px;
     font-family: "proxima-nova", sans-serif;
     font-size: 3.5em;
     font-weight: bold;
@@ -102,21 +104,22 @@ body {
 
 .texto img{
     display: flex;
-    width: 435px;
+    width: 39%;
     height: 401px;
-    margin-left: 51%;
-    margin-top: -79px;
+    margin-left: 57%;
+    margin-top: -6px;
 }
 /* fim textos de meio de site*/
 
 .faixa-horizontal{
+    HEIGHT: 151PX;
     background-color: #e91a80;
     background-image: linear-gradient(
     90deg, #ec1e77 0%, #f2295b 100%);
 }
 .faixa-horizontal h1{
     text-align: center;
-    font-size: 68px;
+    font-size: 58px;
     color: white;
     font-family: monospace;
     line-height: 2.1;
@@ -130,7 +133,7 @@ body {
     font-family: monospace;
     line-height: 2.1;
     padding: 0;
-    margin-top: -77px;
+    margin-top: -45px;
 }
 #whatsapp  h1{
     position: fixed;
@@ -281,45 +284,3 @@ body {
     color: #6e6e6e;
     text-align: center;
 }
-/*aqui comeca o rodape*/
-.rodape-info {
-    display: flex;
-    margin-top: 40px;
-    width: 100%;
-    background-color: #56b1de;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.rodape-info a {
-    color: rgb(255, 255, 255);
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 20px;
-}
-
-.rodape {
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(10 33 48);
-}
-
-.rodape h1 {
-    font-family: 'Inconsolata', monospace;
-    color: #56b1de;
-    font-size: 20px;
-    text-align: center;
-}
-
-.informacoes h1{
-    text-align: center;
-    color: #3b242a;
-}
-
-.informacoes-2 h1{
-    text-align: center;
-    color: #3b242a;
-}
-/*aqui termina o rodape*/

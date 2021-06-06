@@ -17,25 +17,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<meta name="theme-color" content="#ee7421">
 	<link rel="shortcut icon" href="../img/ico_favicon.png">
-	<link rel="stylesheet" type="text/css" href="../css/login_admin.css">
 	<link rel="stylesheet" type="text/css" href="../css/Login_User.css">
-	<link rel="stylesheet" type="text/css" href="../css/Produtos.css">
 </head>
 <body>
-<!-- inicio menu -->
-<nav id="menu-1">
-        <ul>
-            <li><a href="/tcc/index.php">Home</a></li>
-        </ul>
-</nav>
-<!--  final menu -->
-
-
-<script>
-
-</script>
 	<?php echo $erro; ?>
-	<div class="botao-voltar">
+	<div class="btn-voltar">
 		<a href="../index.php" onclick="del(this)"style="text-decoration:none">Voltar</a>
 	</div>
 	<div id="contL">

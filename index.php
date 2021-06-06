@@ -56,7 +56,7 @@
                     <h2><?php echo $nome; ?></h2>
                 </div>
 
-                <div class="texto"><h2>BALÕES DE FESTA :)<br>DE ATÉ 30% OFF <br> vem conhecer!</h2><img src="./img/pessoas.png" alt="">
+                <div class="texto"><h2>BALÕES DE FESTA <br>DE ATÉ 30% OFF <br> vem conhecer!:)</h2><img src="./img/arranjo.png" alt="">
                                 
                 </div>
                 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -149,14 +149,10 @@
                   </div>
 
                   <!--final painel presentes-->
-                  <div class="informativo">
-                      <h1>Sua festa fica mais Feliz com os artigos Mania de Festa</h1>
-                      <h2>sssssssssssssssssssssss</h2>
-                  </div>
+                 
 
-
-                         <!--  Início rodapé -->
-    <footer class="page-footer font-small mdb-color lighten-3 pt-4" style="background-color: #90b2c6;">
+                  <!--  Início rodapé -->
+    <footer class="page-footer font-small mdb-color lighten-3 pt-4" style="background-color: #c1c1c170;">
 
         <!-- Footer Links -->
         <div class="container text-center text-md-left">

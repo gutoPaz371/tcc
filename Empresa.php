@@ -52,7 +52,7 @@
         Siga nossa redes sociais para acompanhar novidades exclusivas!</p></h2>
     
     <!-- Início Footer -->
-    <footer class="page-footer font-small mdb-color lighten-3 pt-4" style="background-color: #90b2c6;">
+    <footer class="page-footer font-small mdb-color lighten-3 pt-4" style="background-color: #c1c1c170;">
         <!-- Footer Links -->
         <div class="container text-center text-md-left">
             <!-- Grid row -->

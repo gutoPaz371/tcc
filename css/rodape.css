@@ -1,5 +1,5 @@
 /* Novo Footer */
-/* Efeito Zoom nos Ícones de Redes Sociais */
+/* Efeito Zoom nos Ãcones de Redes Sociais */
 .img-redes-sociais {
     overflow: hidden;
 }
@@ -21,9 +21,9 @@
     padding: 4px;
 }
 
-/* / Término do Efeito Zoom
+/* / TÃ©rmino do Efeito Zoom
 
- Link de Páginas / */
+ Link de PÃ¡ginas / */
 
 a.link-footer {
     text-decoration: none;
@@ -34,7 +34,7 @@ a.link-footer:hover {
     text-decoration: none;
 }
 
-/*  Efeito Zoom no Botão  */
+/*  Efeito Zoom no BotÃ£o  */
 
 .btn-saber-mais {
     overflow: hidden;
