@@ -10,7 +10,8 @@
 }
 
 body {
-    background-color: white;
+    background-image: url("../img/tela-loguin.jpg");
+    background-size: cover;
 }
 
 textarea,
