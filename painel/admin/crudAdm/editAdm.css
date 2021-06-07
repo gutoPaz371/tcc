@@ -1,7 +1,7 @@
 html,body { margin: 0px; padding: 0px;}
 
 body{
-    background-color: #8aadcd;
+    background-color: #ffffff;
     background-size: cover;
 }
 
@@ -31,7 +31,7 @@ body{
     height: 39px;
     margin-left: auto;
     margin-top: -28px;
-    background-color: #353737;
+    background-color: #ff1a76;
     font-family: monospace;
 }
 .nome h1{
@@ -57,7 +57,7 @@ body{
     width: 30%;
     max-width: 328px;
     height: 38px;
-    background-color: #353737;
+    background-color: #ff1a76;
     border-radius: 31px;
     font-family: Arial, tahoma;
     font-size: 21px;
