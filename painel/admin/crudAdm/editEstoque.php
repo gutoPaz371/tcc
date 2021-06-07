@@ -13,8 +13,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="processos/addEstoque.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="processos/editEstoque.css">
+    <title>Editar Estoque</title>
 </head>
 <style>
     img{
@@ -23,7 +23,9 @@
     }
 </style>
 <body>
-    <h1 style="text-align: center;">Estoque</h1>
+<section class="box">
+    <div class="nome"><h1 style="text-align: center;">Estoque</h1></div>
+    <div class="arquivos">
     <table border="black">
         <tr>
             <th>NOME</th>
@@ -46,7 +48,9 @@
             </tr>    
         <?php } ?>
     </table>
-    <a href="../logado.php"><button>Voltar</button></a>
+    </div>
+</section>
+    <a class="btn-voltar" href="../logado.php"><!--<button>-->Voltar<!--</button>--></a>
 </body>
 </html>
 <!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
