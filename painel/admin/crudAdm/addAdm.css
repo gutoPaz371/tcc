@@ -1,7 +1,7 @@
 html,body { margin: 0px; padding: 0px;}
 
 body{
-    background-color: #8aadcd;
+    background-color: #ffffff;
     background-size: cover;
 }
 
@@ -19,7 +19,7 @@ body{
     height: 39px;
     margin-left: auto;
     margin-top: -23px;
-    background-color: #353737;
+    background-color: #ff1a76;
     font-family: monospace;
 }
 .nome h1{
@@ -33,7 +33,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    background-color: rgb(223, 223, 223);
+    background-color: rgb(255, 255, 255);
     border-style: inset;
     border-color: rgb(187 187 187);
 }
@@ -62,7 +62,7 @@ body{
     width: 30%;
     max-width: 328px;
     height: 38px;
-    background-color: #353737;
+    background-color: #ff1a76;
     border-radius: 31px;
     font-family: Arial, tahoma;
     font-size: 21px;
@@ -89,7 +89,7 @@ body{
 }
 .informacoes h1{
     text-align: center;
-    background-color: #353737;
+    background-color: #ff1a76;
     margin-top: -6px;
     color: white;
     font-family: monospace;

@@ -120,11 +120,6 @@
                     <!-- Social buttons -->
                     <h5 class="font-weight-bold text-uppercase mb-4">Saiba Mais</h5>
                     <div class="div-icon-1">
-                        <!-- Facebook -->
-                        <a href="https://www.facebook.com/Mania-De-Festa-Presentes-2463918703841785" type="button" target="blank" class="img-redes-sociais">
-                            <img src="img/facebook.png" alt="" width="35px">
-                        </a>
-                        <br>
                         <!-- Instagram -->
                         <a href="https://www.instagram.com/maniadefestasip/" type="button" target="blank" class="img-redes-sociais">
                             <img src="img/instagram.png" alt="" width="35px">

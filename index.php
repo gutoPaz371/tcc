@@ -56,7 +56,7 @@
                     <h2><?php echo $nome; ?></h2>
                 </div>
 
-                <div class="texto"><h2>BALÕES DE FESTA <br>DE ATÉ 30% OFF <br> vem conhecer!:)</h2><img src="./img/arranjo.png" alt="">
+                <div class="texto"><h2>BALÕES DE FESTA <br>COM ATÉ 30% OFF <br> venha conhecer!:)</h2><img src="./img/arranjo.png" alt="">
                                 
                 </div>
                 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -76,7 +76,7 @@
                         
                         <section class="produto">
                             <a href="circulo.php">
-                              <img src="img/bola.png"></a></br><h1>Circulo</h1>                 
+                              <img src="img/bola.png"></a></br><h1>Círculo</h1>                 
                         </section>
 
                         <section class="produto">
@@ -165,7 +165,7 @@
 
                     
                     <h5 class="font-weight-bold text-uppercase mb-4">Sobre Nós</h5>
-                    <p>Somos uma empresa especialista em artigos de festas, fundada em 2021. Levando alegria para você e sua festa com todo nossa dedicação, amor e carinho. <br> Já proporcionamos momentos felizes de várias pessoas e famílias, venha ser mais uma!</p>
+                    <p>Somos uma empresa especialista em artigos de festas, fundada em 2018. Levando alegria para você e sua festa com todo nossa dedicação, amor e carinho. <br> Já proporcionamos momentos felizes de várias pessoas e famílias, venha ser mais uma!</p>
                     <!-- <a href="Empresa.php" id="link-saber-mais">Clique Aqui para Saber Mais!</a> -->
                     <a class="btn-saber-mais" href="Empresa.php"><button type="button" class="btn btn-info">Clique Aqui para Saber Mais!</button></a>
 
@@ -182,11 +182,11 @@
 
                     <ul class="list-unstyled">
                         <li>
-                            <p>
+<!--                             <p>
                                 <a class="link-footer" href="index.php">Home</a>
                             </p>
                         </li>
-                        <li>
+                        <li> -->
                             <p>
                                 <a class="link-footer" href="user/login.php">Carrinho</a>
                             </p>
@@ -222,7 +222,7 @@
                     <ul class="list-unstyled">
                         <li>
                             <p>
-                                <i class="fas fa-home mr-3"></i> Rodovia BR-316, Km 60, S/n - &nbsp;&nbsp;&nbsp;Apeú, PA
+                                <i class="fas fa-home mr-3"></i> R. Antônio Pontes, 1211 - Jardim Mirai, Santa Isabel do Pará - PA, 68790-000 
                             </p>
                         </li>
                         <li>
@@ -248,29 +248,19 @@
                     <!-- Social buttons -->
                     <h5 class="font-weight-bold text-uppercase mb-4">Saiba Mais</h5>
                     <div class="div-icon-1">
-                        <!-- Facebook -->
-                        <a href="https://www.facebook.com/" type="button" target="blank" class="img-redes-sociais">
-                            <img src="img/facebook.png" alt="" width="35px">
-                        </a>
-                        <br>
                         <!-- Instagram -->
                         <a href="https://www.instagram.com/maniadefestasip/" type="button" target="blank" class="img-redes-sociais">
-                            <img src="img/instagram.png" alt="" width="35px">
-                        </a>
-                        <br>
-                        <!-- Google +-->
-                        <a href="mailto:gabriel.m.louzada@gmail.com" type="button" class="img-redes-sociais">
-                            <img src="img/gmail.png" alt="" width="35px">
+                            <img src="img/instagram.png" alt="" width="40px">
                         </a>
                         <br>
                         <!-- Whatsapp -->
                         <a href="https://api.whatsapp.com/send?phone=5591984382681" target="blank" type="button" class="img-redes-sociais">
-                            <img src="img/whatsapp.png" alt="" width="35px">
+                            <img src="img/whatsapp.png" alt="" width="40px">
                         </a>
                         <br>
                         <!-- Mapas -->
-                        <a href="https://goo.gl/maps/5gMkdHVs9kH1FoqP9" target="blank" type="button" class="img-redes-sociais">
-                        <img src="img/google-maps.png" alt="" width="35px">
+                        <a href="https://www.google.com/maps/place/R.+Ant%C3%B4nio+Pontes,+1211+-+Jardim+Mirai,+Santa+Isabel+do+Par%C3%A1+-+PA,+68790-000/@-1.3005153,-48.1630375,17z/data=!3m1!4b1!4m5!3m4!1s0x92a45157e89124c7:0x8f9c45c7486945a5!8m2!3d-1.3005153!4d-48.1608488?hl=pt-BR" target="blank" type="button" class="img-redes-sociais">
+                        <img src="img/google-maps.png" alt="" width="40px">
                     </a>
                     </div>
                     
