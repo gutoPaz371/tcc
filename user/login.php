@@ -18,12 +18,20 @@
 	<meta name="theme-color" content="#ee7421">
 	<link rel="shortcut icon" href="../img/ico_favicon.png">
 	<link rel="stylesheet" type="text/css" href="../css/Login_User.css">
+	<link rel="stylesheet" href="../css/menu_admin.css">
 </head>
 <body>
+<!-- inicio menu -->
+<nav id="menu-1">
+        <ul>
+            <li><a href="/../Projeto1/tcc/index.php">Home</a></li>
+        </ul>
+</nav>
+<!--  final menu -->
 	<?php echo $erro; ?>
-	<div class="btn-voltar">
+	<!--<div class="btn-voltar">
 		<a href="../index.php" onclick="del(this)"style="text-decoration:none">Voltar</a>
-	</div>
+	</div>-->
 	<div id="contL">
         <h1>Login</h1>
         <form name="frmLogAdmin" method="POST" action="./processos/processaLogin.php">
