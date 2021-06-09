@@ -8,13 +8,12 @@
     }
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="processos/editEstoque.css">
-    <link rel="stylesheet" href="editEstoque2.css">
+    <link rel="stylesheet" href="editEstoque.css">
     <title>Editar Estoque</title>
 </head>
 <style>
@@ -24,24 +23,16 @@
     }
 </style>
 <body>
-
-<!-- inicio menu -->
-<nav id="menu-1">
-        <ul>
-            <li><a href="/../Projeto1/tcc/index.php">Home</a></li>
-        </ul>
-</nav>
-<!--  final menu -->
 <section class="box">
-    <div class="nome"><h1 style="text-align: center;">Estoque</h1></div>
-    <div class="arquivos">
-    <table border="black">
-        <tr>
-            <th>NOME</th>
-            <th>PRECO</th>
-            <th>QUANTIDADE</th>
-            <th>FOTO</th>
-        </tr>
+<div class="nome"><h1 style="text-align: center;">Estoque</h1></div>
+    <table class="arquivos">
+        <table class="conteudo" border="black">
+            <tr>
+                <th>NOME</th>
+                <th>PRECO</th>
+                <th>QUANTIDADE</th>
+                <th>FOTO</th>
+            </tr>
         <?php while($dado = $res->fetch_array()){ ?>    
             <tr>
                 <th><?php echo $dado['nome']; ?></th>
@@ -59,7 +50,7 @@
     </table>
     </div>
 </section>
-    <a class="btn-voltar" href="../logado.php"><!--<button>-->Voltar<!--</button>--></a>
+    <a class="btn-voltar" href="../logado.php">Voltar</a>
 </body>
 </html>
 <!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->

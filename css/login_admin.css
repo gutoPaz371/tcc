@@ -135,19 +135,22 @@ body {
 }
 
 .botao-voltar {
-    position: absolute;
-    margin-top: -54px;
+    margin-top: 8px;
     text-align: center;
-    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 79px;
+    color: black;
     background-color: rgb(255, 255, 255);
     border-radius: 10px 10px 10px;
-    left: 0.5%;
 }
 
 .botao-voltar a {
     font-size: 15px;
     font-family: sans-serif;
     color: black;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .corpo-frm .btn:active {
