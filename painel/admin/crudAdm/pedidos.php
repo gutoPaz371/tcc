@@ -42,16 +42,18 @@
         }
             ?>    
             <div id="raiz">
+                <div id="raiz-2">
                 <!--<div id="ft"><img src="../../../img/<?php #echo $dado['id'] ?>.png"></div><br>-->
                 <div id="inf"><p>CLIENTE: <?php echo $dado['user'] ?></P></div>
                 <p style="text-align: center;"><p>PEDIDO: <?php echo $dado['nome'] ?></p>
                 <img src="../../../img/<?php echo $dado['id'] ?>.png">
-                <div id="inf"><p>VALOR R$ <?php echo $dado['preco'] ?></P></div>
-                <div id="inf"><p>QUANTIDADE<?php echo $dado['preco'] ?></P></div>
+                <div id="inf"><p>VALOR: R$ <?php echo $dado['preco'] ?></P></div>
+                <div id="inf"><p>QUANTIDADE: <?php echo $dado['quantidade'] ?></P></div>
                 <div id="inf"><p id="st">STATUS: <?php echo $st ?></p></div>
                 <div><form action="./processos/processaPedidos.php" method="POST">
                     <button name="idp" value="<?php echo $dado['idp'] ?>" style="background-color: <?php echo $corp ?>;"><?php echo $texto ?></button>
                 </form></div>
+                </div>
             </div> 
         <?php } ?>
 </body>

@@ -6,7 +6,6 @@ body {
 }
 
 body {
-    display: flex;
     background-image: url("../img/ceu.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,5 +57,11 @@ body {
 /*aqui termina o menu-1*/
 
 #raiz {
-    background-color: #d8f4ff;
+    width: 12%;
+    max-width: 100%;
+    border-radius: 3px;
+    background-color: #ffffff;
+    margin: 25px auto;
+    padding: 1%;
+    box-shadow: 0px 0px 0px 1px rgb(0 0 0);
 }
