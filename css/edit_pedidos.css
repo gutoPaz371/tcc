@@ -1,0 +1,62 @@
+html,
+body {
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    background-image: url("../img/ceu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+}
+
+
+/*aqui comeca o menu-1*/
+
+#menu-1 ul li {
+    display: inline;
+}
+
+#menu-1 ul {
+    list-style: none;
+    height: 43px;
+    padding: 0;
+    margin: 0;
+    background-color: #0a2130;
+}
+
+#menu-1 ul a {
+    color: #d8f4ff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0%;
+    padding: 12px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .3s;
+}
+
+#menu-1 ul a:hover {
+    background-color: #d8f4ff;
+    color: #3b242a;
+}
+
+#menu-1 h1 {
+    color: rgb(255 255 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    margin: 0%;
+    text-align: right;
+    padding: 13px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+/*aqui termina o menu-1*/
+
+#raiz {
+    background-color: #d8f4ff;
+}

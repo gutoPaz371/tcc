@@ -15,8 +15,18 @@
     <link rel="stylesheet" href="../../../css/Produtos.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/../Projeto1/tcc/css/edit_pedidos.css">
 </head>
 <body>
+
+<!-- inicio menu -->
+<nav id="menu-1">
+        <ul>
+            <li><a href="/../Projeto1/tcc/index.php">Home</a></li>
+        </ul>
+</nav>
+<!--  final menu -->
+
     <?php while($dado = $res->fetch_array()){ 
         if($dado['prod']==1){
             $corp='green';
@@ -33,7 +43,7 @@
             ?>    
             <div id="raiz">
                 <!--<div id="ft"><img src="../../../img/<?php #echo $dado['id'] ?>.png"></div><br>-->
-                <div id="inf"><p><?php echo $dado['user'] ?></P></div>
+                <div id="inf"><p>CLIENTE: <?php echo $dado['user'] ?></P></div>
                 <p style="text-align: center;"><p>PEDIDO: <?php echo $dado['nome'] ?></p>
                 <img src="../../../img/<?php echo $dado['id'] ?>.png">
                 <div id="inf"><p>VALOR R$ <?php echo $dado['preco'] ?></P></div>

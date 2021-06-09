@@ -14,6 +14,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="processos/editEstoque.css">
+    <link rel="stylesheet" href="editEstoque2.css">
     <title>Editar Estoque</title>
 </head>
 <style>
@@ -23,6 +24,14 @@
     }
 </style>
 <body>
+
+<!-- inicio menu -->
+<nav id="menu-1">
+        <ul>
+            <li><a href="/../Projeto1/tcc/index.php">Home</a></li>
+        </ul>
+</nav>
+<!--  final menu -->
 <section class="box">
     <div class="nome"><h1 style="text-align: center;">Estoque</h1></div>
     <div class="arquivos">
