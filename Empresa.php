@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 
-<body>
-<link rel="stylesheet" href="css/index.css">
+<body style="background-image: none;">
+    <link rel="stylesheet" href="css/index.css">
     <!-- inicio menu -->
     <nav id="menu-1">
         <ul>
@@ -24,33 +24,70 @@
     </nav>
     <!--  final menu -->
 
-    <h1>Somos uma empresa especialista em artigos de festas, fundada em 2018. Levando alegria para você e sua festa com todo nossa dedicação, amor e carinho. Aproveite para conhecer mais sobre nós: <br>
-    </h1>
+    <h3 style="text-align: center;" class="mt-4 mb-4">Somos uma empresa especialista em artigos de festas, fundada em 2018. <br> Levando alegria para você e sua festa com todo nossa dedicação, amor e carinho. <br> Aproveite para conhecer mais sobre nós: <br>
+    </h3>
 
-    <h2>
-    <p>[HISTÓRIA]
-        Mania de festa é uma empresa nova porém com bastante peso no histórico em relação ao trabalho com confecções de festas, e variedades para enfeites e ornamentações.
-        Tudo começou com uma ideia e uma oportunidade de criar algo que pudesse tornar as celebrações da vida memoráveis.
-        No começo não tínhamos muito, a não ser uma mesinha e um notebook para realizar compras e gerenciar todas as demandas (tempos difíceis).
-        Logo a paixão por decorações foi transformando aquela pequena ideia em uma escada, onde buscamos nos aperfeiçoar,
-        estudar e mergulhar no mundo dos adornamentos, trazendo aos clientes produtos de qualidade.
-        Aos poucos toda a história da Mania de Festa foi se tornando uma grande realização,
-        somos gratos por todo apoio que recebemos até agora e queremos que você faça parte dessa historia.</p>
 
-    <p>[MISSÃO]
-        Nosso foco é sempre trazer alegria para as festas, por isso sempre buscamos as melhores maneiras de agradar nossos clientes,
-        fazendo com que a experiência vivida por eles se torne parte de nossa carreira, e isso é muito importante para nós,
-        tendo sempre o intuito de levar aos clientes produtos de alta qualidade, variedades em opções e o conforto que somente na Mania de Festas ele pode encontrar.</p>
+    <div id="accordion">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        História
+                    </button>
+                </h5>
+            </div>
 
-    <p>[VISÃO]
-        Um sinônimo de bons tempos, e tornar-se referencia em balões personalizados para o pais inteiro na próxima década e assim tornar o ramo de decoração
-        mais acessível para muitas pessoas. Planejamos chegar lá o mais rápido possível, com dedicação, estratégia e visão, mas sem nunca perder
-        o nosso icônico capricho.</p>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                    Mania de festa é uma empresa nova porém com bastante peso no histórico em relação ao trabalho com confecções de festas, e variedades para enfeites e ornamentações.
+                    Tudo começou com uma ideia e uma oportunidade de criar algo que pudesse tornar as celebrações da vida memoráveis.
+                    No começo não tínhamos muito, a não ser uma mesinha e um notebook para realizar compras e gerenciar todas as demandas (tempos difíceis).
+                    Logo a paixão por decorações foi transformando aquela pequena ideia em uma escada, onde buscamos nos aperfeiçoar,
+                    estudar e mergulhar no mundo dos adornamentos, trazendo aos clientes produtos de qualidade.
+                    Aos poucos toda a história da Mania de Festa foi se tornando uma grande realização,
+                    somos gratos por todo apoio que recebemos até agora e queremos que você faça parte dessa historia.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Missão
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                    Nosso foco é sempre trazer alegria para as festas, por isso sempre buscamos as melhores maneiras de agradar nossos clientes,
+                    fazendo com que a experiência vivida por eles se torne parte de nossa carreira, e isso é muito importante para nós,
+                    tendo sempre o intuito de levar aos clientes produtos de alta qualidade, variedades em opções e o conforto que somente na Mania de Festas ele pode encontrar.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Visão
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                    Um sinônimo de bons tempos, e tornar-se referencia em balões personalizados para o pais inteiro na próxima década e assim tornar o ramo de decoração
+                    mais acessível para muitas pessoas. Planejamos chegar lá o mais rápido possível, com dedicação, estratégia e visão, mas sem nunca perder
+                    o nosso icônico capricho.
+                </div>
+            </div>
+        </div>
+    </div>
 
     <p>[REDES SOCIAIS]
-    Já proporcionamos momentos felizes de várias pessoas e famílias, venha ser mais uma!
-        Siga nossa redes sociais para acompanhar novidades exclusivas!</p></h2>
-    
+        Já proporcionamos momentos felizes de várias pessoas e famílias, venha ser mais uma!
+        Siga nossa redes sociais para acompanhar novidades exclusivas!</p>
+
     <!-- Início Footer -->
     <footer class="page-footer font-small mdb-color lighten-3 pt-4" style="background-color: #c1c1c170;">
         <!-- Footer Links -->
@@ -97,7 +134,7 @@
                     <ul class="list-unstyled">
                         <li>
                             <p>
-                                <i class="fas fa-home mr-3"></i> R. Antônio Pontes, 1211 - Jardim Mirai, Santa Isabel do Pará - PA, 68790-000 
+                                <i class="fas fa-home mr-3"></i> R. Antônio Pontes, 1211 - Jardim Mirai, Santa Isabel do Pará - PA, 68790-000
                             </p>
                         </li>
                         <li>
@@ -132,8 +169,8 @@
                         <br>
                         <!-- Mapas -->
                         <a href="https://www.google.com/maps/place/R.+Ant%C3%B4nio+Pontes,+1211+-+Jardim+Mirai,+Santa+Isabel+do+Par%C3%A1+-+PA,+68790-000/@-1.3005153,-48.1630375,17z/data=!3m1!4b1!4m5!3m4!1s0x92a45157e89124c7:0x8f9c45c7486945a5!8m2!3d-1.3005153!4d-48.1608488?hl=pt-BR" target="blank" type="button" class="img-redes-sociais">
-                        <img src="img/google-maps.png" alt="" width="35px">
-                    </a>
+                            <img src="img/google-maps.png" alt="" width="35px">
+                        </a>
                     </div>
                 </div>
                 <!-- Grid column -->

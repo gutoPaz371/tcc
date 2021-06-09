@@ -51,7 +51,7 @@
 
     })(window, document);
 </script>
-<c class="result">Caracteres permitidos: 100</c>
+<c class="result">100/100</c>
             <input class="arq" type="file" name="arquivo"><br>   
     </div>
         
