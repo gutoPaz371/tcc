@@ -21,8 +21,16 @@
 	<meta name="theme-color" content="#003469">
 	<link rel="shortcut icon" href="../../img/ico_favicon.png">
 	<link rel="stylesheet" type="text/css" href="../../css/logado_admin.css">
+	<link rel="stylesheet" href="../../css/menu_admin.css">
 </head>
 <body>
+<!-- inicio menu -->
+<nav id="menu-1">
+        <ul>
+            <li><a href="/../Projeto1/tcc/index.php">Home</a></li>
+        </ul>
+</nav>
+<!--  final menu -->
 	<section class="corpo-painel">
 		<div class="box user">
 			<div class="header-box">
