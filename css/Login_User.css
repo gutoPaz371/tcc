@@ -10,13 +10,9 @@
 }
 
 body {
-<<<<<<< HEAD
     background-image: url("../img/arranjo.png");
     background-size: cover;
     background-repeat: no-repeat;
-=======
-    background-image: url(../img/ceu.jpg);
->>>>>>> 03e860ecea725fe0d52f3e1dca1ee70bd7659c44
 }
 
 textarea,

@@ -21,13 +21,6 @@
 	<link rel="stylesheet" href="../css/menu_admin.css">
 </head>
 <body>
-<!-- inicio menu -->
-<nav id="menu-1">
-        <ul>
-            <li><a href="/../Projeto1/tcc/index.php">Home</a></li>
-        </ul>
-</nav>
-<!--  final menu -->
 	<?php echo $erro; ?>
 	<!--<div class="btn-voltar">
 		<a href="../index.php" onclick="del(this)"style="text-decoration:none">Voltar</a>
@@ -49,6 +42,7 @@
             <a href="./cadastro.php">Registrar.</a>
         </div>
     </div>
+	<a class="btn-voltar"href="../index.php">Voltar</a>
 	
 </body>
 </html>
