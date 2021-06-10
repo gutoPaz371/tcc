@@ -16,7 +16,7 @@ body{
     height: 43px;
     padding: 0;
     margin: 0;
-    background-color: #0a2130;
+    background-color: #f2285f;
 }
 
 #menu-1 ul a{
@@ -30,8 +30,8 @@ body{
 }
 
 #menu-1 ul a:hover{
-    background-color: #d8f4ff;
-    color: #3b242a;
+    border-bottom: azure;
+    color: #3f3c3d;
 }
 
 #menu-1 h1{

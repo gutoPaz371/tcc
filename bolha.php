@@ -23,7 +23,7 @@
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="user/carrinho.php">Carrinho</a></li>
-                <li><a href="https://api.whatsapp.com/send?phone=5591984851975&text=Ol%C3%A1%2C%20gostaria%20de%20ajuda%20para%20escolher%20os%20bal%C3%B5es%20certos%20para%20minha%20festa!">Chat</a></li>
+
             </ul>
     </nav>
     <!--  final menu -->
