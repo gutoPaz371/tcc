@@ -23,10 +23,11 @@ input:focus {
 a,
 label {
     font-size: .8rem;
+    color: black;
 }
 
 a:hover {
-    color: #08558B;
+    color: #000000;
 }
 
 
@@ -107,7 +108,7 @@ input[type="submit"]:hover {
 }
 
 .botao-voltar {
-    color: rgb(10, 10, 10);
+    /* color: rgb(0 0 0); */
     text-align: center;
     background-color: white;
     width: 50px;
