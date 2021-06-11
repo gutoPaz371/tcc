@@ -20,9 +20,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/Login_User.css">
 </head>
 <body>
-    <div class="botao-voltar">
-		<a href="../user/login.php" onclick="del(this)"style="text-decoration:none">Voltar</a>
-	</div>
+    
     <div id="contL">
         <h1>Cadastre-se</h1>
         <form action="./processos/processaCadastro.php" method="POST">
@@ -49,7 +47,9 @@
             <input type="password" name="pass1" id="confSenha" placeholder="Confirme sua senha.">
 
             <input type="submit" value="Enviar">
-
+<div class="botao-voltar">
+		<a href="../user/login.php" onclick="del(this)"style="text-decoration:none">Voltar</a>
+	</div>
         </form>
     </div>
 </body>

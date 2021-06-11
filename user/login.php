@@ -22,9 +22,6 @@
 </head>
 <body>
 	<?php echo $erro; ?>
-	<!--<div class="btn-voltar">
-		<a href="../index.php" onclick="del(this)"style="text-decoration:none">Voltar</a>
-	</div>-->
 	<div id="contL">
         <h1>Login</h1>
         <form name="frmLogAdmin" method="POST" action="./processos/processaLogin.php">
@@ -41,8 +38,11 @@
             <p>Ainda não tem uma conta ?</p>
             <a href="./cadastro.php">Registrar.</a>
         </div>
+		<div class="botao-voltar">
+		<a href="../index.php" onclick="del(this)"style="text-decoration:none">Voltar</a>
+	</div>
     </div>
-	<a class="btn-voltar"href="../index.php">Voltar</a>
+	
 	
 </body>
 </html>
