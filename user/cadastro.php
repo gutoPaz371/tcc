@@ -16,8 +16,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<meta name="theme-color" content="#ee7421">
 	<link rel="shortcut icon" href="../img/ico_favicon.png">
-	<link rel="stylesheet" type="text/css" href="../css/login_admin.css">
-	<link rel="stylesheet" type="text/css" href="../css/Login_User.css">
+	<link rel="stylesheet" type="text/css" href="../css/cadastro_user.css">
 </head>
 <body>
     

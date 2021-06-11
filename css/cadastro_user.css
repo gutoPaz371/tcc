@@ -1,0 +1,123 @@
+/*Geral*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    border: none;
+}
+
+body {
+    background-image: url("../img/arranjo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+textarea,
+input:focus {
+    outline: none;
+}
+
+a,
+label {
+    font-size: .8rem;
+    color: white;
+}
+
+a:hover {
+    color: #000000;
+}
+
+
+/*container login*/
+
+#contL {
+    width: 400px;
+    height: 573px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 4vh;
+    border-radius: 10px;
+    color: azure;
+    text-align: center;
+    background: -webkit-gradient(linear, left top, left bottom, from(#000000b8), to(#0000005c));
+    background: -moz-linear-gradient(top, #8b3636, #000000);
+    filter: progid: DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#CCCCCC', EndColorStr='#000000');
+}
+
+
+/*Formulario*/
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label,
+input {
+    display: block;
+    width: 100%;
+    color: azure;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    border-bottom: 2px solid #9c9c9c;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+input:focus {
+    border-bottom: 2px solid #004b81;
+}
+
+#forgot-pass {
+    text-align: right;
+    display: block;
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: rgb(10, 10, 10);
+    background-color: #08558B;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #1ee05f;
+    transition: .5s;
+}
+
+
+/*registrar*/
+
+#register-cont {
+    margin-bottom: 10px;
+}
+
+.botao-voltar {
+    text-align: center;
+    background-color: white;
+    width: 50px;
+    margin: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.botao-voltar a {
+    color: black;
+}
