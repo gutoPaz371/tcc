@@ -69,7 +69,10 @@
 			<div class="frm-btn">
 			<input type="submit" class="btn" value="SALVAR">
 			</div>
-		</form>
+		</form> 
+		<div class="botao-voltar">
+		<a href="../../index.php" onclick="del(this)"style="text-decoration:none">Voltar</a>
+	</div>
 	</section>
 	<!--<a href="./login.php"><button onclick="del(this)">Voltar</button></a>-->
 </body>
