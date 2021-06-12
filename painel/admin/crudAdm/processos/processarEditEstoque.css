@@ -1,7 +1,7 @@
 html,body { margin: 0px; padding: 0px;}
 
 body{
-    background-color: #ffffff;
+    background-image: url("../../../../img/ceu.jpg");
     background-size: cover;
 }
 
