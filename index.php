@@ -36,8 +36,6 @@
                 <li><a href="index.php">Home</a></li>
                 <li><a href="produtos.php">Produtos</a></li>
                 <li><a href="./user/carrinho.php">Carrinho</a></li>
-                <li><a href="./painel/index.php"target="_blank">Painel</a></li>
-                <li><a href="https://github.com/gutoPaz371/tcc.git"target="_blank">GIT</a></li>
                 <li><a id="log" href="./user/login.php"></a></li>
                 <li><a id="cont" href="./user/conta/"></a></li>
             </ul>
