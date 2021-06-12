@@ -30,8 +30,8 @@ body {
 #menu-1 ul a {
     color: rgb(237 32 115);
     font-family: monospace;
-    margin-right: -1%;
-    margin-left: 112px;
+    margin-right: 9%;
+    margin-left: 47px;
     font-size: 19px;
     padding: 10px;
     display: inline-block;
@@ -152,7 +152,7 @@ body {
     width: 39px;
     height: 39px;
     position: fixed;
-    top: 94.3%;
+    top: 93.7%;
     left: 97px;
 }
 

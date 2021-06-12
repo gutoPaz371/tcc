@@ -49,14 +49,14 @@
         if($dado['prod']==1){
             $status='Em Produção';
         }else{
-            $status='Em analise';
+            $status='pedido enviado';
         }
         if($dado['sta']==1){
             $corp='green';
             $info='Cancelar pedido';
         }else{
             $corp='red';
-            $info='Confirmar pedido';
+            $info='Confirmar';
         }
         ?>
         <tr>
@@ -67,9 +67,6 @@
             <th><img src="../img/<?php echo $dado['idp']; ?>.png" ></th>
             <th>R$<?php echo $dado['preco']*$dado['quant'];?>.00</th>
             <th>
-            <form action="./processos/confPedido.php" method="POST">
-                <button class="btn-confirmar"name="idp" value="<?php echo $dado['id'] ?>" style="background-color:<?php echo $corp ?>;"><?php echo $info ?></button>
-            </form>
             <form action="./processos/remCarrinho.php" method="post">
                 <button class="btn-remover" name="id" value="<?php echo $dado['id'] ?>">Remover</button>
             </form>
@@ -78,6 +75,17 @@
 </table>
 </section>
 <!--  Final Tabela -->
+
+<div class="resumo">
+<h1>resumo de venda</h1>
+    <div class="box-resumo">
+        <h1>VALOR TOTAL:</h1>
+        <h1>TOTAL ITENS:</h1>
+        <form action="./processos/confPedido.php" method="POST">
+                <button class="btn-confirmar"name="idp" value="<?php echo $dado['id'] ?>" style="background-color:<?php echo $corp ?>;"><?php echo $info ?></button>
+    </form>
+    </div>
+</div>
 
 <!--  Início rodapé -->
 <footer class="page-footer font-small mdb-color lighten-3 pt-4" style="background-color: #c1c1c170;">
