@@ -50,8 +50,6 @@ body {
     font-size: 18px;
     margin: 0%;
     text-align: center;
-    /* padding: 13px; */
-    /* display: inline-block; */
     text-decoration: none;
 }
 #menu-1 img{
@@ -200,7 +198,7 @@ body {
 
 
 
-/*aqui comeca o painel de presentes*/
+/*aqui comeca o painel*/
 .painel-presentes-text h1 {
     text-align: center;
     font-family: 'Titillium Web', sans-serif;
@@ -210,60 +208,13 @@ body {
 }
 
 .painel-presentes {
-    display: grid;
-    padding: 30px;
-    margin-top: 30px;
-    margin: 50px auto;
-    grid-template-columns: 200px 400px 600px;
-    grid-template-rows: 150px 100px 100px;
-    grid-gap: 1rem;
+    width: 100%;
+    background-color: #e91a80;
+    background-image: linear-gradient(90deg , #ec1e77 0%, #f2295b 100%);
+    padding: 250px;
 }
 
-.item1 {
-    background-color: #c1c1c1;
-    color: white;
-    cursor: pointer;
-    border-radius: 5px 20px 20px 20px;
-}
-
-.item2 {
-    background-color: #ff1a76;
-    background-size: cover;
-    cursor: pointer;
-    grid-column-start: 2;
-    grid-column-end: 4;
-    border-radius: 20px 5px 20px 20px;
-}
-
-.item3 {
-    background-color: #ff1a76;
-    background-size: cover;
-    cursor: pointer;
-    grid-row-start: 2;
-    grid-row-end: 4;
-    border-radius: 20px 20px 20px 5px;
-}
-
-.item4 {
-    background-color: #c1c1c1;
-    cursor: pointer;
-    border-radius: 15px 15px 15px 15px;
-}
-
-.item5 {
-    background-color: #ff1a76;
-    cursor: pointer;
-    border-radius: 15px 15px 15px 15px;
-}
-
-.item6 {
-    background-color: #c1c1c1;
-    cursor: pointer;
-    grid-column-start: 2;
-    grid-column-end: 4;
-    border-radius: 15px 15px 5px 15px;
-}
-/*aqui termina o painel de presentes*/
+/*aqui termina o painel */
 
 /*aqui comeca a div informativo*/
 .informativo{

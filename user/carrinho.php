@@ -30,22 +30,21 @@
         <ul>
             <li><a href="../index.php">Home</a></li>
             <li><a href="../produtos.php">Produtos</a></li>
-            <li><a href="../pro">Voltar</a></li>
         </ul>
 </nav>
 <!--  final menu -->
 
 <!--  Inicio Tabela -->
 <section class="box">
-<table class="infos">
-    <tr id="container">
-        <th id="Nome" >STATUS</th>
-        <th id="Nome" class="nome">NOME</th>
-        <th id="Nome">PRECO</th>
-        <th id="Nome">QUANT</th>
-        <th id="Nome">FOTO</th>
-        <th id="Nome">VALOR TOTAL</th>
-    </tr>
+    <table class="infos">
+        <tr id="container">
+            <th id="Nome" >STATUS</th>
+            <th id="Nome" class="nome">NOME</th>
+            <th id="Nome">PRECO</th>
+            <th id="Nome">QUANT</th>
+            <th id="Nome">FOTO</th>
+            <th id="Nome">VALOR TOTAL</th>
+        </tr>
     <?php while($dado = $res->fetch_array()){ 
         if($dado['prod']==1){
             $status='Em Produção';

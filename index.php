@@ -135,17 +135,22 @@
                     <h1>Veja nossa linha para presentes</h1> 
                     <link rel="preconnect" href="https://fonts.gstatic.com">
                     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,200&display=swap" rel="stylesheet">
+                        
+                        
                 </div>
 
                 
                 
                 <div class="painel-presentes">
-                    <div class="item1"></div>
-                    <div class="item2"></div>
-                    <div class="item3"></div>
-                    <div class="item4"></div>  
-                    <div class="item5"></div>
-                    <div class="item6"></div>
+                    
+                        <div class="painel-div">
+
+                        </div>
+
+                        <div class="paineel-div">
+
+                        </div>
+
                   </div>
 
                   <!--final painel presentes-->

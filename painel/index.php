@@ -39,10 +39,14 @@
 			</div>
 			
 			<input type="submit" class="btn" name="btnLogPainel" value="ENTRAR" onclick="return valiLogPn()">
+			<div class="botao-voltar">
+				<a href="../index.php" style="text-decoration:none">voltar</a>
+			</div>
+			
 		</form>
 	</section>
-	<div class="botao-voltar">
+	<!--<div class="botao-voltar">
 		<a href="../index.php" onclick="del(this)"style="text-decoration:none">Voltar</a>
-	</div>
+	</div>-->
 </body>
 </html>

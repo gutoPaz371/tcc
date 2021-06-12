@@ -22,6 +22,14 @@
     <title>Cadastro | Admin</title>
 </head>
 <body>
+<!-- inicio menu -->
+<nav id="menu-1">
+        <ul>
+            <li><a href="/../Projeto1/tcc/index.php">Home</a></li>
+        </ul>
+</nav>
+<!--  final menu -->
+
 <section class="box">
         <div class="nome"><h1>Cadastrar Admin 🔒</h1></div>
         <div class="formulario">

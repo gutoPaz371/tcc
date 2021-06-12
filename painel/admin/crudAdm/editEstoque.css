@@ -1,14 +1,15 @@
 html,body { margin: 0px; padding: 0px;}
 
 body{
-    background-color: #ffffff;
+    background-image: url("../../../img/ceu.jpg");
     background-size: cover;
 }
 
 .box{
     background-color: #ffffff;
+    position:relative;
     width: 95%;
-    height: 459px;
+    /* height: 459px; */
     padding: 8px;
     margin-top: 21px;
     margin-left: auto;
@@ -31,13 +32,21 @@ body{
 }
 
 .arquivos{
-    width: 55%;
-    height: 250px;
     margin-top: 24px;
-    background-color: rgb(255 255 255);
-    box-shadow: 0px 0px 3px 0px black;
     margin-left: auto;
     margin-right: auto;
+}
+.conteudo{
+    position: relative;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+}
+
+.produtos{
+    background-color: #f3f3f3;
+    width: 100%;
 }
 
 .btn-voltar {

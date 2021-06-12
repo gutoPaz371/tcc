@@ -35,10 +35,11 @@ a:hover {
 
 #contL {
     width: 400px;
+    height: 573px;
     margin-left: auto;
     margin-right: auto;
     padding: 20px 30px;
-    margin-top: 10vh;
+    margin-top: 4vh;
     border-radius: 10px;
     color: azure;
     text-align: center;
@@ -108,10 +109,10 @@ input[type="submit"]:hover {
 }
 
 .botao-voltar {
-    /* color: rgb(0 0 0); */
     text-align: center;
     background-color: white;
     width: 50px;
+    margin: 7px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;

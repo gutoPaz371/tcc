@@ -16,13 +16,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<meta name="theme-color" content="#ee7421">
 	<link rel="shortcut icon" href="../img/ico_favicon.png">
-	<link rel="stylesheet" type="text/css" href="../css/login_admin.css">
-	<link rel="stylesheet" type="text/css" href="../css/Login_User.css">
+	<link rel="stylesheet" type="text/css" href="../css/cadastro_user.css">
 </head>
 <body>
-    <div class="botao-voltar">
-		<a href="../user/login.php" onclick="del(this)"style="text-decoration:none">Voltar</a>
-	</div>
+    
     <div id="contL">
         <h1>Cadastre-se</h1>
         <form action="./processos/processaCadastro.php" method="POST">
@@ -49,7 +46,9 @@
             <input type="password" name="pass1" id="confSenha" placeholder="Confirme sua senha.">
 
             <input type="submit" value="Enviar">
-
+<div class="botao-voltar">
+		<a href="../user/login.php" onclick="del(this)"style="text-decoration:none">Voltar</a>
+	</div>
         </form>
     </div>
 </body>

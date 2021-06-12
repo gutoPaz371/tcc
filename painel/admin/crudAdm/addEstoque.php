@@ -25,7 +25,13 @@
     <title>Adicionar Estoque</title>
 </head>
 <body>
-
+<!-- inicio menu -->
+<nav id="menu-1">
+        <ul>
+            <li><a href="/../Projeto1/tcc/index.php">Home</a></li>
+        </ul>
+</nav>
+<!--  final menu -->
 
 <section class="box">
 <div class="nome"><h1>Adicionar Produtos</h1></div> 
@@ -51,7 +57,7 @@
 
     })(window, document);
 </script>
-<c class="result">Caracteres permitidos: 100</c>
+<c class="result">100/100</c>
             <input class="arq" type="file" name="arquivo"><br>   
     </div>
         

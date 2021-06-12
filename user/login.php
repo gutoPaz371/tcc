@@ -18,12 +18,10 @@
 	<meta name="theme-color" content="#ee7421">
 	<link rel="shortcut icon" href="../img/ico_favicon.png">
 	<link rel="stylesheet" type="text/css" href="../css/Login_User.css">
+	<link rel="stylesheet" href="../css/menu_admin.css">
 </head>
 <body>
 	<?php echo $erro; ?>
-	<div class="btn-voltar">
-		<a href="../index.php" onclick="del(this)"style="text-decoration:none">Voltar</a>
-	</div>
 	<div id="contL">
         <h1>Login</h1>
         <form name="frmLogAdmin" method="POST" action="./processos/processaLogin.php">
@@ -40,7 +38,11 @@
             <p>Ainda não tem uma conta ?</p>
             <a href="./cadastro.php">Registrar.</a>
         </div>
+		<div class="botao-voltar">
+		<a href="../index.php" onclick="del(this)"style="text-decoration:none">Voltar</a>
+	</div>
     </div>
+	
 	
 </body>
 </html>

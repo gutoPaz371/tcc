@@ -16,7 +16,7 @@ body{
     height: 43px;
     padding: 0;
     margin: 0;
-    background-color: #0a2130;
+    background-color: #f2285f;
 }
 
 #menu-1 ul a{
@@ -30,8 +30,8 @@ body{
 }
 
 #menu-1 ul a:hover{
-    background-color: #d8f4ff;
-    color: #3b242a;
+    border-bottom: azure;
+    color: #3f3c3d;
 }
 
 #menu-1 h1{
@@ -129,38 +129,3 @@ body{
 }
 
 /* final prateleiras*/
-
-
-/*aqui comeca o rodape*/
-.rodape-info{
-    width: 97%;
-    height: 400px;
-    background-color:rgb(0 0 0 / 58%);
-    padding: 20px;
-    margin: -20px auto;
-    color: rgb(0, 0, 0);
-    text-align: center;
-}
-.rodape-info a{
-    color: #000;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 20px;
-} 
-
-.rodape{
-    position: relative;
-    top: 461%;
-    bottom: 0;
-    width: 97%;
-    padding: 20px;
-    background-color: #56b1de;
-}
-
-.rodape h1{
-    font-family: 'Inconsolata', monospace;
-    color: #0a2130;
-    font-size: 20px;
-    text-align: center;
-}
-/*aqui termina o rodape */

@@ -1,10 +1,59 @@
-html,body { margin: 0px; padding: 0px;}
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
 
-body{
-    background-color: #ffffff;
+body {
+    background-image: url(/../Projeto1/tcc/img/ceu.jpg);
     background-size: cover;
 }
-.box{
+
+
+/*aqui comeca o menu-1*/
+
+#menu-1 ul li {
+    display: inline;
+}
+
+#menu-1 ul {
+    list-style: none;
+    height: 43px;
+    padding: 0;
+    margin: 0;
+    background-color: #0a2130;
+}
+
+#menu-1 ul a {
+    color: #d8f4ff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0%;
+    padding: 12px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .3s;
+}
+
+#menu-1 ul a:hover {
+    background-color: #d8f4ff;
+    color: #3b242a;
+}
+
+#menu-1 h1 {
+    color: rgb(255 255 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    margin: 0%;
+    text-align: right;
+    padding: 13px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+/*aqui termina o menu-1*/
+
+.box {
     background-color: #ffffff;
     width: 95%;
     height: 459px;
@@ -14,6 +63,7 @@ body{
     margin-right: auto;
     box-shadow: 0px 0px 0px 1px rgb(17 17 17);
 }
+
 .nome {
     width: 100%;
     height: 39px;
@@ -22,12 +72,14 @@ body{
     background-color: #ff1a76;
     font-family: monospace;
 }
-.nome h1{
+
+.nome h1 {
     text-align: center;
     color: #ffffff;
     font-size: 32px;
 }
-.cor{
+
+.cor {
     width: 37%;
     height: 30px;
     border: 1px solid;
@@ -39,11 +91,13 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-.cor:hover{
+
+.cor:hover {
     border-color: #38f33d;
     background-color: lightgreen;
 }
-.cor h1{
+
+.cor h1 {
     text-align: center;
     margin-top: 7px;
     font-size: 15px;
@@ -51,8 +105,7 @@ body{
     height: 23px;
 }
 
-
-.arquivos{
+.arquivos {
     width: 26%;
     height: 190px;
     margin-top: 24px;
@@ -62,17 +115,18 @@ body{
     margin-right: auto;
 }
 
-.caixa{
+.caixa {
     text-align: center;
     font-family: monospace;
 }
 
-.btn-prod{
+.btn-prod {
     width: 100%;
     height: 30px;
     margin-top: 15px;
     cursor: grab;
 }
+
 .btn-adicionar {
     width: 7%;
     height: 100px;
@@ -80,35 +134,37 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-
-.btn-voltar{
+.btn-voltar {
     width: 101%;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
 }
 
-#quant{
+#quant {
     width: 20px;
-    height:20px;
+    height: 20px;
     float: right;
     position: relative;
     cursor: pointer;
-    right: 23%;border: medium;
+    right: 23%;
+    border: medium;
     border-color: rgb(42, 185, 42);
     background-color: white;
-    margin: 1px 3px 0px 3px;      
+    margin: 1px 3px 0px 3px;
 }
-#quant:hover{
+
+#quant:hover {
     background-color: rgb(255, 255, 255);
 }
-#quant:active{
+
+#quant:active {
     background-color: #00ff80;
     width: 18px;
     height: 18px;
 }
 
-.btn-Sair{
+.btn-Sair {
     display: block;
     width: 30%;
     max-width: 328px;
