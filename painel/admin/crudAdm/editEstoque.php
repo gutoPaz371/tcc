@@ -40,7 +40,7 @@
                 <th><?php echo $dado['quant']; ?></th>
                 <th><img src="../../../img/<?php echo $dado['id']?>.png"></th>
                 <form action="./processos/processaRemEstoque.php" method="POST">
-                <th><button name="id" value="<?php echo $dado['id'] ?>" type="submit" style="width: 50px;height: 50px;">Deleter</button></th>
+                <th><button name="id" value="<?php echo $dado['id'] ?>" type="submit" style="width: 50px;height: 50px;">Deletar</button></th>
                 </form>
                 <form action="./processos/processarEditEstoque.php" method="POST">
                 <th><button name="id" value="<?php echo $dado['id'] ?>" type="submit" style="width: 50px;height: 50px;">Editar</button></th>
