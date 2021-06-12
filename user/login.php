@@ -29,7 +29,7 @@
             <input type="text" name="user" id="email" placeholder="Digite seu Usuario" autocomplete="off">
             <br>
             <label for="password">Senha</label>
-            <input type="password" name="pass" id="password" placeholder="Digite Sua Senha.">
+            <input type="password" name="pass" id="password" placeholder="Digite Sua Senha">
             <br>
             <input type="submit" value="Login">
             <a href="#" id="forgot-pass">Esqueceu a senha.</a>
