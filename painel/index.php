@@ -18,14 +18,6 @@
 </head>
 <body>
 
-<!-- inicio menu -->
-<nav id="menu-1">
-        <ul>
-            <li><a href="/../Projeto1/tcc/index.php">Home</a></li>
-        </ul>
-</nav>
-<!--  final menu -->
-
 <script>
     function del(){
         <?php 
@@ -47,6 +39,10 @@
 			</div>
 			
 			<input type="submit" class="btn" name="btnLogPainel" value="ENTRAR" onclick="return valiLogPn()">
+			<div class="botao-voltar">
+				<a href="../index.php" style="text-decoration:none">voltar</a>
+			</div>
+			
 		</form>
 	</section>
 	<!--<div class="botao-voltar">

@@ -26,7 +26,6 @@
 	<meta name="theme-color" content="#ee7421">
 	<link rel="shortcut icon" href="../img/ico_favicon.png">
 	<link rel="stylesheet" type="text/css" href="../../css/edit_conta.css">
-	<link rel="stylesheet" type="text/css" href="../../css/Produtos.css">
 </head>
 <style>
 	#cpf{
@@ -35,13 +34,6 @@
  
 </style>
 <body>
-<!-- inicio menu -->
-<nav id="menu-1">
-        <ul>
-            <li><a href="/../Projeto1/tcc/index.php">Home</a></li>
-        </ul>
-</nav>
-<!--  final menu -->
 	<section class="corpo-frm">
 		<h2>Editar conta</h2>
         <span id='erro' style="color: <?php echo $cor; ?>;"><?php echo $erro; ?></span>
@@ -93,10 +85,5 @@
 			}
 		}
 </script>
-<!--  inicio rodapé -->
-<footer class="rodape"> <h1>www.maniadefesta.com.br</h1></footer>
-     <link rel="preconnect" href="https://fonts.gstatic.com">
-     <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
-<!--  final rodapé -->
 </html>
 <!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
