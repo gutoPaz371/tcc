@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="../../../css/Produtos.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/../Projeto1/tcc/css/edit_pedidos.css">
+    <link rel="stylesheet" href="editPedidos.css">
 </head>
 <body>
 
@@ -23,6 +23,7 @@
 <nav id="menu-1">
         <ul>
             <li><a href="/../Projeto1/tcc/index.php">Home</a></li>
+            <li><a href="/../Projeto1/tcc/painel/admin/logado.php">voltar</a></li>
         </ul>
 </nav>
 <!--  final menu -->
@@ -46,10 +47,10 @@
                 <!--<div id="ft"><img src="../../../img/<?php #echo $dado['id'] ?>.png"></div><br>-->
                 <div id="inf"><p>CLIENTE: <?php echo $dado['user'] ?></P></div>
                 <p style="text-align: center;"><p>PEDIDO: <?php echo $dado['nome'] ?></p>
-                <img src="../../../img/<?php echo $dado['id'] ?>.png">
-                <div id="inf"><p>VALOR: R$ <?php echo $dado['preco'] ?></P></div>
-                <div id="inf"><p>QUANTIDADE: <?php echo $dado['quantidade'] ?></P></div>
-                <div id="inf"><p id="st">STATUS: <?php echo $st ?></p></div>
+                <img class="imgEdit" src="../../../img/<?php echo $dado['id'] ?>.png">
+                <div id="inf2"><p>VALOR: R$ <?php echo $dado['preco'] ?></P></div>
+                <div id="inf2"><p>QUANTIDADE: <?php echo $dado['quantidade'] ?></P></div>
+                <div id="inf2"><p id="st">STATUS: <?php echo $st ?></p></div>
                 <div><form action="./processos/processaPedidos.php" method="POST">
                     <button name="idp" value="<?php echo $dado['idp'] ?>" style="background-color: <?php echo $corp ?>;"><?php echo $texto ?></button>
                 </form></div>

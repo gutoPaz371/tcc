@@ -2,7 +2,7 @@
     session_start();
     if(isset($_SESSION['user'])){
         $nome='Bem Vindo '.$_SESSION['user'];
-        $log='Sair';
+        $log='Logof';
         $cont='Conta';      
     }else{
         $log='Login';
@@ -36,8 +36,6 @@
                 <li><a href="index.php">Home</a></li>
                 <li><a href="produtos.php">Produtos</a></li>
                 <li><a href="./user/carrinho.php">Carrinho</a></li>
-                <li><a href="./painel/index.php"target="_blank">Painel</a></li>
-                <li><a href="https://github.com/gutoPaz371/tcc.git"target="_blank">GIT</a></li>
                 <li><a id="log" href="./user/login.php"></a></li>
                 <li><a id="cont" href="./user/conta/"></a></li>
             </ul>
@@ -171,6 +169,7 @@
                     
                     <h5 class="font-weight-bold text-uppercase mb-4">Sobre Nós</h5>
                     <p>Somos uma empresa especialista em artigos de festas, fundada em 2018. Levando alegria para você e sua festa com todo nossa dedicação, amor e carinho. <br> Já proporcionamos momentos felizes de várias pessoas e famílias, venha ser mais uma!</p>
+                    <!-- <a href="Empresa.php" id="link-saber-mais">Clique Aqui para Saber Mais!</a> -->
                     <a class="btn-saber-mais" href="Empresa.php"><button type="button" class="btn btn-info">Clique Aqui para Saber Mais!</button></a>
 
                 </div>
@@ -185,7 +184,16 @@
                     <h5 class="font-weight-bold text-uppercase mb-4">Páginas</h5>
 
                     <ul class="list-unstyled">
-                        
+                        <li>
+<!--                             <p>
+                                <a class="link-footer" href="index.php">Home</a>
+                            </p>
+                        </li>
+                        <li> -->
+                            <p>
+                                <a class="link-footer" href="user/login.php">Carrinho</a>
+                            </p>
+                        </li>
                         <li>
                             <p>
                                 <a class="link-footer" href="painel/index.php" target="blank">Painel</a>

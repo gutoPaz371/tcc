@@ -1,4 +1,4 @@
-/* código produzido por Italo*/
+/* cÃ³digo produzido por Italo*/
 
 /*estrutura carrossel*/
 .slider{
@@ -34,7 +34,7 @@
   height: 300px;
 }
 
-/*navegação manual inicio*/
+/*navegaÃ§Ã£o manual inicio*/
 
 .navigation-manual{
   position: absolute;
@@ -45,9 +45,9 @@
 }
 
 .manual-btn{
-  border: 5px solid #ff1a76;
+  border: 10px solid #ff1a76;
   padding: 0px;
-  border-radius: 10px;
+  border-radius: 19px;
   cursor: pointer;
   transition: 0.3s;
 }

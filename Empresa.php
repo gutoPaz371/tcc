@@ -24,55 +24,55 @@
     </nav>
     <!--  final menu -->
 
-    <h2 style="text-align: center;" class="mt-4 mb-4">Somos uma empresa especialista em artigos de festas, fundada em 2018. <br> Levando alegria para você e sua festa com todo nossa dedicação, amor e carinho. <br> Aproveite para conhecer mais sobre nós: <br>
-    </h2>
+    <h3 style="text-align: center;" class="mt-4 mb-4">Somos uma empresa especialista em artigos de festas, fundada em 2018. <br> Levando alegria para você e sua festa com todo nossa dedicação, amor e carinho. <br> Aproveite para conhecer mais sobre nós: <br>
+    </h3>
 
 
     <div id="accordion">
         <div class="card">
             <div class="card-header" id="headingOne">
-                <h1 class="mb-0">
+                <h5 class="mb-0">
                     <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Nossa história:
+                        História
                     </button>
-                </h1>
+                </h5>
             </div>
 
-            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body">
-                    Mania de festa é uma empresa nova porém com bastante peso e experiência em relação ao trabalho com confecções de festas, e variedades para enfeites e ornamentações.
+                    Mania de festa é uma empresa nova porém com bastante peso no histórico em relação ao trabalho com confecções de festas, e variedades para enfeites e ornamentações.
                     Tudo começou com uma ideia e uma oportunidade de criar algo que pudesse tornar as celebrações da vida memoráveis.
-                    No começo não tínhamos muito, a não ser uma mesinha e um notebook para realizar compras e gerenciar todas as demandas,
-                    Logo aquela paixão foi mostrando um caminho, onde buscamos nos aperfeiçoar,
-                    estudar e mergulhar no mundo dos adornamentos, trazendo aos clientes produtos de qualidade. 
-                    Em resumo, toda a história da Mania de Festa foi se tornando uma grande realização,
+                    No começo não tínhamos muito, a não ser uma mesinha e um notebook para realizar compras e gerenciar todas as demandas (tempos difíceis).
+                    Logo a paixão por decorações foi transformando aquela pequena ideia em uma escada, onde buscamos nos aperfeiçoar,
+                    estudar e mergulhar no mundo dos adornamentos, trazendo aos clientes produtos de qualidade.
+                    Aos poucos toda a história da Mania de Festa foi se tornando uma grande realização,
                     somos gratos por todo apoio que recebemos até agora e queremos que você faça parte dessa historia.
                 </div>
             </div>
         </div>
         <div class="card">
             <div class="card-header" id="headingTwo">
-                <h1 class="mb-0">
+                <h5 class="mb-0">
                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                       Nossa missão:
+                        Missão
                     </button>
-                </h1>
+                </h5>
             </div>
             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                 <div class="card-body">
                     Nosso foco é sempre trazer alegria para as festas, por isso sempre buscamos as melhores maneiras de agradar nossos clientes,
                     fazendo com que a experiência vivida por eles se torne parte de nossa carreira, e isso é muito importante para nós,
-                    tendo sempre o intuito de entregar produtos de alta qualidade, variedades em opções e o conforto que somente na Mania de Festas pode te proporcionar.
+                    tendo sempre o intuito de levar aos clientes produtos de alta qualidade, variedades em opções e o conforto que somente na Mania de Festas ele pode encontrar.
                 </div>
             </div>
         </div>
         <div class="card">
             <div class="card-header" id="headingThree">
-                <h1 class="mb-0">
+                <h5 class="mb-0">
                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Visão para o futuro:
+                        Visão
                     </button>
-                </h1>
+                </h5>
             </div>
             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                 <div class="card-body">
@@ -84,8 +84,9 @@
         </div>
     </div>
 
-    <p>Já proporcionamos momentos felizes de várias pessoas e famílias, venha ser mais uma!
-        Siga nossa redes sociais abaixo para acompanhar novidades exclusivas!</p>
+    <p>[REDES SOCIAIS]
+        Já proporcionamos momentos felizes de várias pessoas e famílias, venha ser mais uma!
+        Siga nossa redes sociais para acompanhar novidades exclusivas!</p>
 
     <!-- Início Footer -->
     <footer class="page-footer font-small mdb-color lighten-3 pt-4" style="background-color: #c1c1c170;">
@@ -98,12 +99,17 @@
                 <!-- Grid column -->
                 <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
                     <!-- Links -->
-                    <h1 class="font-weight-bold text-uppercase mb-4">Páginas</h1>
+                    <h5 class="font-weight-bold text-uppercase mb-4">Páginas</h5>
 
                     <ul class="list-unstyled">
                         <li>
                             <p>
                                 <a class="link-footer" href="index.php">Home</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a class="link-footer" href="user/login.php">Carrinho</a>
                             </p>
                         </li>
                         <li>
@@ -123,7 +129,7 @@
                 <!-- Grid column -->
                 <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
                     <!-- Contact details -->
-                    <h1 class="font-weight-bold text-uppercase mb-4">Onde nos encontrar?</h1>
+                    <h5 class="font-weight-bold text-uppercase mb-4">Onde nos encontrar?</h5>
 
                     <ul class="list-unstyled">
                         <li>
@@ -149,7 +155,7 @@
                 <!-- Grid column -->
                 <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
                     <!-- Social buttons -->
-                    <h1 class="font-weight-bold text-uppercase mb-4">Saiba Mais</h1>
+                    <h5 class="font-weight-bold text-uppercase mb-4">Saiba Mais</h5>
                     <div class="div-icon-1">
                         <!-- Instagram -->
                         <a href="https://www.instagram.com/maniadefestasip/" type="button" target="blank" class="img-redes-sociais">
