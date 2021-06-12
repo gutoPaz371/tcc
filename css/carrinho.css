@@ -5,7 +5,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-/*aqui comeÃƒÂ§a o menu-1*/
+/*aqui comeÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§a o menu-1*/
         
 #menu-1 {
     bottom: 15%;
@@ -78,14 +78,15 @@ th {
 }
 .box{
     position: relative;
-    width: 90%;
+    width: 77%;
     /* height: 500px; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+    margin-bottom: -13px;
     padding: 1px;
-    background-color: rgb(249 249 249);
-    border-style: solid;
+    /* background-color: rgb(249 249 249); */
+    /* border-style: solid; */
     /* border: 6px; */
     border-width: 1px;
 }
@@ -93,18 +94,20 @@ th {
 .infos {
     margin-top: 1%;
     width: 94%;
-    margin-bottom: .15em;
-    table-layout: fixed;
+    /* border-radius: 95px; */
+    margin-bottom: 1.15em;
+    /* table-layout: fixed; */
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: rgb(255 255 255 / 57%);
+    background-color: rgb(224 224 224 / 57%);
     border-style: solid;
     /* border: #000000; */
     border-width: 1px;
 }
 .nome {
-    width: 30%;
+    width: 25%;
+    font-size: 17px;
 }
         
 #Nome {
@@ -117,9 +120,35 @@ th {
 }
 .btn-confirmar{
     width: 100px;
+    border-radius: 4px;
 }
 .btn-remover{
     width: 100px;
+    border-radius: 4px;
+}
+
+.resumo{
+    margin-bottom: 25px;
+
+}
+.resumo h1{
+    text-align: center;
+    font-size: 25px;
+}
+.box-resumo{
+    width: 450px;
+    height: 100px;
+    border-radius: 10px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f1285c;
+}
+.box-resumo h1{
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    line-height: 3;
+    margin-left: 10px;
 }
 
 .rodape{
