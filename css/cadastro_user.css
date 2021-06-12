@@ -95,7 +95,7 @@ input[type="submit"] {
     line-height: 1;
     border-radius: 20px;
     margin-top: 30px;
-    color: rgb(10, 10, 10);
+    color: rgb(255 255 255);
     background-color: #08558B;
     cursor: pointer;
 }
