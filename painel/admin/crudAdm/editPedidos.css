@@ -9,7 +9,7 @@ body {
     background-image: url("/../Projeto1/tcc/img/ceu.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    flex-direction: column;
+    display: block;
 }
 
 
@@ -71,7 +71,7 @@ body {
     height: 390%;
     max-height: 400%;
     background-color: #ffffff;
-    margin: 25px auto;
+    margin: 25px ;
     padding: 1%;
     box-shadow: 0px 0px 0px 1px rgb(0 0 0);
     text-align: center;
@@ -84,4 +84,9 @@ p {
 
 #inf2 {
     text-align: left;
+}
+
+
+#prateleiras{
+    column-count: 3;
 }
