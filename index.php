@@ -185,16 +185,6 @@
 
                     <ul class="list-unstyled">
                         <li>
-<!--                             <p>
-                                <a class="link-footer" href="index.php">Home</a>
-                            </p>
-                        </li>
-                        <li> -->
-                            <p>
-                                <a class="link-footer" href="user/login.php">Carrinho</a>
-                            </p>
-                        </li>
-                        <li>
                             <p>
                                 <a class="link-footer" href="painel/index.php" target="blank">Painel</a>
                             </p>

@@ -63,7 +63,6 @@
             
             <h5 class="font-weight-bold text-uppercase mb-4">Sobre Nós</h5>
             <p>Somos uma empresa especialista em artigos de festas, fundada em 2018. Levando alegria para você e sua festa com todo nossa dedicação, amor e carinho. <br> Já proporcionamos momentos felizes de várias pessoas e famílias, venha ser mais uma!</p>
-            <!-- <a href="Empresa.php" id="link-saber-mais">Clique Aqui para Saber Mais!</a> -->
             <a class="btn-saber-mais" href="Empresa.php"><button type="button" class="btn btn-info">Clique Aqui para Saber Mais!</button></a>
 
         </div>
@@ -82,23 +81,12 @@
                     <p>
                         <a class="link-footer" href="index.php">Home</a>
                     </p>
-                </li>
-                <li>
-                    <p>
-                        <a class="link-footer" href="user/login.php">Carrinho</a>
-                    </p>
-                </li>
+                </li>>
                 <li>
                     <p>
                         <a class="link-footer" href="painel/index.php" target="blank">Painel</a>
                     </p>
                 </li>
-<!--                 <li>
-                    <p>
-                        <a class="link-footer" href="produtos.php">Produtos</a>
-                    </p>
-                </li>
-                <li> -->
                     <p>
                         <a class="link-footer" href="empresa.php">Sobre Empresa</a>
                     </p>
