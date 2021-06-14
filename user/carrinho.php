@@ -79,7 +79,10 @@
         <h1>VALOR TOTAL:</h1>
         <h1>TOTAL ITENS:</h1>
         <form action="./processos/confPedido.php" method="POST">
-                <button class="btn-confirmar"name="idp" value="<?php echo $dado['id'] ?>" style="background-color:<?php echo $corp ?>;"><?php echo $info ?></button>
+                <button onclick="confirmacao()" class="btn-confirmar"name="idp" value="<?php echo $dado['id'] ?>" style="background-color:<?php echo $corp ?>;"><?php echo $info ?></button>
+                <script>function confirmacao() {
+  alert("Seu pedido confirmado com sucesso");
+}</script>
     </form>
     </div>
 </div>
