@@ -25,9 +25,7 @@
 
 <main>
 <div>
-<ul id=whatsapp>
-        <a href="https://api.whatsapp.com/send?phone=5591984851975&text=Ol%C3%A1%2C%20gostaria%20de%20ajuda%20para%20escolher%20os%20bal%C3%B5es%20certos%20para%20minha%20festa!"target="_blank"><h1>WHATSAPP</h1> <img src="https://icons.iconarchive.com/icons/dtafalonso/android-l/512/WhatsApp-icon.png" alt=""></a>
-    </ul>
+
 </div>
     
                 <!-- inicio menu 1 -->
@@ -145,7 +143,7 @@
 
                         </div>
 
-                      <a href="" style="text-decoration:none"><h1 class="btn-desconto">50% OFF</h1></a>      
+                      <a href="" style="text-decoration:none"><h1 class="btn-desconto">25% OFF</h1></a>      
 
                         <div class="paineel-div">
 
@@ -276,6 +274,9 @@
 
     </footer>
     <!-- Fim Footer -->
+    <ul id=whatsapp>
+        <a href="https://api.whatsapp.com/send?phone=5591984851975&text=Ol%C3%A1%2C%20gostaria%20de%20ajuda%20para%20escolher%20os%20bal%C3%B5es%20certos%20para%20minha%20festa!"target="_blank"><h1>WHATSAPP</h1</a>
+    </ul>
 
     <script type="text/javascript">
         var cont = 1;

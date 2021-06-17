@@ -14,6 +14,7 @@ body {
 
 #menu-1 ul li {
     display: inline;
+    margin-left: 83px;
 }
 
 #menu-1 ul {
@@ -28,20 +29,20 @@ body {
 }
 
 #menu-1 ul a {
-    color: rgb(237 32 115);
+    color: rgb(109 54 76);
     font-family: monospace;
-    margin-right: 9%;
-    margin-left: 62px;
-    font-size: 19px;
-    padding: 10px;
+    /* margin-right: 9%; */
+    margin-left: 38px;
+    font-size: 22px;
+    padding: 13px;
     display: inline-block;
     text-decoration: none;
     transition: background .3s;
 }
 
 #menu-1 ul a:hover {
-    border-bottom: 6px solid #ffffff;
-    transition: ease;
+    border-bottom: 2px solid #ffffff;
+    transition: cubic-bezier(0.25, 0.1, 0.93, -0.15);
 }
 
 #menu-1 h1 {
@@ -89,7 +90,7 @@ body {
     text-align: left;
     height: 7px;
     color: #f12760;
-    margin-left: 115px;
+    margin-left: 80px;
     margin-top: -46px;
     font-family: "proxima-nova", sans-serif;
     font-size: 3.5em;
@@ -119,17 +120,17 @@ body {
     text-align: center;
 }
 .faixa-horizontal{
-    HEIGHT: 151PX;
+    HEIGHT: 142PX;
     background-color: #e91a80;
     background-image: linear-gradient(
     90deg, #ec1e77 0%, #f2295b 100%);
 }
 .faixa-horizontal h1{
     text-align: center;
-    font-size: 58px;
+    font-size: 70px;
     color: white;
     font-family: monospace;
-    line-height: 2.1;
+    line-height: 1.8;
     padding: 0;
     margin-top: 0;
 }
@@ -144,7 +145,7 @@ body {
 }
 #whatsapp  h1{
     position: fixed;
-    top: 101%;
+    top: 100%;
     width: 8em;
     color: white;
     text-align: center;
@@ -152,8 +153,8 @@ body {
     font-size: 15px;
     height: 2em;
     line-height: 2;
-    margin-left: -39px;
-    border-radius: 6px;
+    margin-left: -3%;
+    border-radius: 23px;
     margin-top: -2.5em;
     background-color: #0f9d58;
 }  
@@ -171,6 +172,7 @@ body {
     display: flex;
     height: 384px;
     width: 100%;
+    background-color: aliceblue;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 30px;
