@@ -1,18 +1,19 @@
 <!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
 
 <?php
-    include '../Config/conexao.php';
-    session_start();
-    $iduser=$_SESSION['id'];
-    $sql="SELECT pedido.prod as prod, pedido.sta as sta, produto.id as idp, pedido.quantidade as quant, pedido.id AS id, produto.nome as nome, produto.preco as preco FROM produto INNER JOIN pedido ON pedido.idProduto=produto.id INNER JOIN cliente ON pedido.idCliente=cliente.id WHERE cliente.id=$iduser";
-    $res=$cn->query($sql);
-    if(!isset($_SESSION['id'])){
-        header('location: login.php');
-    }
-    
+include '../Config/conexao.php';
+session_start();
+$iduser = $_SESSION['id'];
+$sql = "SELECT pedido.prod as prod, pedido.sta as sta, produto.id as idp, pedido.quantidade as quant, pedido.id AS id, produto.nome as nome, produto.preco as preco FROM produto INNER JOIN pedido ON pedido.idProduto=produto.id INNER JOIN cliente ON pedido.idCliente=cliente.id WHERE cliente.id=$iduser";
+$res = $cn->query($sql);
+if (!isset($_SESSION['id'])) {
+    header('location: login.php');
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,71 +22,91 @@
     <link rel="stylesheet" href="../css/carrinho.css">
 
 </head>
+
 <body>
-<!-- inicio menu -->
-<nav id="menu-1">
+    <!-- inicio menu -->
+    <nav id="menu-1">
         <ul>
             <li><a href="../index.php">Home</a></li>
             <li><a href="../produtos.php">Produtos</a></li>
         </ul>
-</nav>
-<!--  final menu -->
+    </nav>
+    <!--  final menu -->
 
-<!--  Inicio Tabela -->
-<section class="box">
-    <table class="infos">
-        <tr id="container">
-            <th id="Nome" >STATUS</th>
-            <th id="Nome" class="nome">NOME</th>
-            <th id="Nome">PRECO</th>
-            <th id="Nome">QUANT</th>
-            <th id="Nome">FOTO</th>
-            <th id="Nome">VALOR TOTAL</th>
-        </tr>
-    <?php while($dado = $res->fetch_array()){ 
-        if($dado['prod']==1){
-            $status='Em Produção';
-        }else{
-            $status='pedido enviado';
-        }
-        if($dado['sta']==1){
-            $corp='green';
-            $info='Cancelar pedido';
-        }else{
-            $corp='red';
-            $info='Confirmar';
-        }
-        ?>
-        <tr>
-            <th><?php echo $status ?></th>
-            <th class="nome"><?php echo $dado['nome']; ?></th>
-            <th>R$<?php echo $dado['preco']; ?>.00</th>
-            <th><?php echo $dado['quant'] ?></th>
-            <th><img src="../img/<?php echo $dado['idp']; ?>.png" ></th>
-            <th>R$<?php echo $dado['preco']*$dado['quant'];?>.00</th>
-            <th>
-            <form action="./processos/remCarrinho.php" method="post">
-                <button class="btn-remover" name="id" value="<?php echo $dado['id'] ?>">Remover</button>
+    <!--  Inicio Tabela -->
+    <section class="box">
+        <table class="infos">
+            <tr id="container">
+                <th id="Nome">STATUS</th>
+                <th id="Nome" class="nome">NOME</th>
+                <th id="Nome">PRECO</th>
+                <th id="Nome">QUANT</th>
+                <th id="Nome">FOTO</th>
+                <th id="Nome">VALOR TOTAL</th>
+            </tr>
+            <?php
+            $info = '';
+            $valor_total = 0;
+            $itens_total = 0;
+            while ($dado = $res->fetch_array()) {
+                if ($dado['prod'] == 1) {
+                    $status = 'Em Produção';
+                } else {
+                    $status = 'pedido enviado';
+                }
+                if ($dado['sta'] == 1) {
+                    $corp = 'green';
+                    $info = 'Cancelar pedido';
+                } else {
+                    $corp = 'red';
+                    $info = 'Confirmar';
+                }
+            ?>           
+                <tr>
+                    <th><?php echo $status ?></th>
+                    <th class="nome"><?php echo $dado['nome']; ?></th>
+                    <th>R$<?php echo $dado['preco']; ?>.00</th>
+                    <th><?php echo $dado['quant'] ?></th>
+                    <th><img src="../img/<?php echo $dado['idp']; ?>.png"></th>
+                    <th>R$<?php echo $dado['preco'] * $dado['quant']; 
+                    /* Código referente a soma de valores do pedido */
+                    $valor_atual = $dado['preco'] * $dado['quant'];
+                    $valor_total = $valor_total + $valor_atual;
+                    /* Código referente a soma de itens do pedido */
+                    $itens_atual = $dado['quant'];
+                    $itens_total = $itens_total + $itens_atual;
+                    ?>.00</th>
+                    <th>
+                        <form action="./processos/remCarrinho.php" method="post">
+                            <button class="btn-remover" name="id" value="<?php echo $dado['id'] ?>">Remover</button>
+                        </form>
+                </tr>           
+            <?php } ?>
+        </table>
+    </section>
+    <!--  Final Tabela -->
+
+    <div class="resumo">
+        <h1>resumo de venda</h1>
+        <div class="box-resumo">
+            <h1>VALOR TOTAL: R$ <?php echo $valor_total ?> </h1>
+            <h1>TOTAL ITENS: <?php echo $itens_total ?></h1>
+            <form action="./processos/confPedido.php" method="POST">
+                <?php
+                if($info == ''){
+
+                }else{
+                    echo '<button onclick="confimacao()" class="btn-confirmar" name="idp" value="<?php echo $dado["id"] ?>'. $info . '</button>';
+                }
+                ?>
+                <script>
+                    function confirmacao() {
+                        alert("Seu pedido confirmado com sucesso");
+                    }
+                </script>
             </form>
-        </tr>
-    <?php } ?>  
-</table>
-</section>
-<!--  Final Tabela -->
-
-<div class="resumo">
-<h1>resumo de venda</h1>
-    <div class="box-resumo">
-        <h1>VALOR TOTAL:</h1>
-        <h1>TOTAL ITENS:</h1>
-        <form action="./processos/confPedido.php" method="POST">
-                <button onclick="confirmacao()" class="btn-confirmar"name="idp" value="<?php echo $dado['id'] ?>" style="background-color:<?php echo $corp ?>;"><?php echo $info ?></button>
-                <script>function confirmacao() {
-  alert("Seu pedido confirmado com sucesso");
-}</script>
-    </form>
+        </div>
     </div>
-</div>
 
 </body>
 
