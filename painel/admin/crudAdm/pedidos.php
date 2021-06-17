@@ -18,16 +18,6 @@
     <link rel="stylesheet" href="editPedidos.css">
 </head>
 <body>
-
-<!-- inicio menu -->
-<nav id="menu-1">
-        <ul>
-            <li><a href="/../Projeto1/tcc/index.php">Home</a></li>
-            <li><a href="/../Projeto1/tcc/painel/admin/logado.php">voltar</a></li>
-        </ul>
-</nav>
-<!--  final menu -->
-
     <?php while($dado = $res->fetch_array()){ 
         if($dado['prod']==1){
             $corp='green';

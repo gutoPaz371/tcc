@@ -2,7 +2,7 @@ html,body {height: 100px; margin: 0px; padding: 0px;}
 
 body {
     display: flex;
-    background-image: url("../img/arranjo.jpg");
+    /* background-image: url("../img/arranjo.jpg"); */
     background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,7 +31,7 @@ body {
     color: rgb(237 32 115);
     font-family: monospace;
     margin-right: 9%;
-    margin-left: 47px;
+    margin-left: 62px;
     font-size: 19px;
     padding: 10px;
     display: inline-block;
@@ -102,13 +102,22 @@ body {
 
 .texto img{
     display: flex;
-    width: 39%;
-    height: 401px;
+    width: 44%;
+    height: 431px;
     margin-left: 57%;
-    margin-top: -6px;
+    margin-top: -50px;
 }
 /* fim textos de meio de site*/
-
+.btn-desconto{
+    color: #5a5a5a;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 45%;
+    line-height: 2.3;
+    height: 102px;
+    font-size: 46px;
+    text-align: center;
+}
 .faixa-horizontal{
     HEIGHT: 151PX;
     background-color: #e91a80;
@@ -209,8 +218,8 @@ body {
 
 .painel-presentes {
     width: 100%;
-    background-color: #e91a80;
-    background-image: linear-gradient(90deg , #ec1e77 0%, #f2295b 100%);
+    /* background-color: #212121; */
+    background-image: linear-gradient(90deg , #404040 0%, #f2295b 100%);
     padding: 250px;
 }
 

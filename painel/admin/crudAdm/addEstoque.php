@@ -25,14 +25,6 @@
     <title>Adicionar Estoque</title>
 </head>
 <body>
-<!-- inicio menu -->
-<nav id="menu-1">
-        <ul>
-            <li><a href="/../Projeto1/tcc/index.php">Home</a></li>
-        </ul>
-</nav>
-<!--  final menu -->
-
 <section class="box">
 <div class="nome"><h1>Adicionar Produtos</h1></div> 
     <div class="arquivos">
