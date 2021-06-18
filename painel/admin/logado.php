@@ -1,4 +1,8 @@
 <?php
+	include "../../Config/conexao.php";
+	$sql="SELECT COUNT(*) as cont FROM produto";
+	$qpc=mysqli_fetch_assoc($cn->query($sql));
+	$qpc=$qpc['cont'];
 	session_start();
 	if(!isset($_SESSION['id'])){
 		header('location:../');
@@ -24,6 +28,13 @@
 	<link rel="stylesheet" href="../../css/menu_admin.css">
 </head>
 <body>
+<!-- inicio menu -->
+<nav id="menu-1">
+        <ul>
+            <li><a href="/../Projeto1/tcc/index.php">Home</a></li>
+        </ul>
+</nav>
+<!--  final menu -->
 	<section class="corpo-painel">
 		<div class="box user">
 			<div class="header-box">
@@ -43,7 +54,7 @@
 			</div>
 			<table class="tab">
 				<tr>
-					<th>Quantidade de produtos cadastrados:
+					<th>Quantidade de produtos cadastrados: <?php echo $qpc.' unidade(s)'?>
 				</tr>
 				<tr>
 					<th>Ultima venda:
