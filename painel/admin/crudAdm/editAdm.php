@@ -27,14 +27,6 @@
     <title>Editar conta</title>
 </head>
 <body>
-
-<!-- inicio menu -->
-<nav id="menu-1">
-        <ul>
-            <li><a href="/../Projeto1/tcc/index.php">Home</a></li>
-        </ul>
-</nav>
-<!--  final menu -->
 <script>
     function del(){
         <?php 

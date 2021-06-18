@@ -18,7 +18,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 20px 30px;
-    margin-top: 4vh;
+    margin-top: 7vh;
     border-radius: 10px;
     background: -webkit-gradient(linear, left top, left bottom, from(#000000b8), to(#0000005c));
     background: -moz-linear-gradient(top, #8b3636, #000000);
@@ -29,6 +29,8 @@ body {
     color: #ffffff;
     text-align: center;
     font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
     font-family: monospace;
 }
 
@@ -56,7 +58,9 @@ body {
 }
 
 .frm-btn {
-    margin: 5px;
+    /* margin: 6px; */
+    margin-top: -12px;
+    margin-bottom: 9px;
     text-align: center;
 }
 
@@ -86,8 +90,9 @@ input[type="submit"] {
     transition: 1s;
 }
 .botao-voltar {
-    /* color: rgb(0 0 0); */
     text-align: center;
+    font-size: 14px;
+    font-family: sans-serif;
     background-color: white;
     width: 50px;
     margin-left: auto;
@@ -97,4 +102,5 @@ input[type="submit"] {
 
 .botao-voltar a {
     color: black;
+    font-family: sans-serif;
 }

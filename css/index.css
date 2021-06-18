@@ -109,18 +109,9 @@ body {
     margin-top: -50px;
 }
 /* fim textos de meio de site*/
-.btn-desconto{
-    color: #5a5a5a;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    width: 45%;
-    line-height: 2.3;
-    height: 102px;
-    font-size: 46px;
-    text-align: center;
-}
+
 .faixa-horizontal{
-    HEIGHT: 142PX;
+    height: 142PX;
     background-color: #e91a80;
     background-image: linear-gradient(
     90deg, #ec1e77 0%, #f2295b 100%);
@@ -172,7 +163,7 @@ body {
     display: flex;
     height: 384px;
     width: 100%;
-    background-color: aliceblue;
+    background-color: #b1b1b129;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 30px;
@@ -199,18 +190,18 @@ body {
     line-height: 1.5;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Anton', sans-serif;
+    font-family: MONOSPACE;
     border-radius: 10px;
-    background-color: #ed1f72;
-    font-size: 15px;
-    color: rgb(255 255 255);
+    /* background-color: #ed1f72; */
+    font-size: 20px;
+    color: rgb(99 99 99);
 }
 /*aqui termina os produtos*/
 
 
 
 /*aqui comeca o painel*/
-.painel-presentes-text h1 {
+.painel-presentes-box h1 {
     text-align: center;
     font-family: 'Titillium Web', sans-serif;
     margin-top: 7px;
@@ -220,9 +211,11 @@ body {
 
 .painel-presentes {
     width: 100%;
-    /* background-color: #212121; */
-    background-image: linear-gradient(90deg , #404040 0%, #f2295b 100%);
-    padding: 250px;
+    background-image: linear-gradient(90deg , #404040 0%, #6b6b6b 100%);
+    padding: 73px;
+}
+.painel-presentes h1{
+    line-height: 0;
 }
 
 /*aqui termina o painel */

@@ -127,29 +127,10 @@
 </main>
 
                 <!--inicio painel presentes-->
-                <div class="painel-presentes-text">
-                    <h1>Veja nossa linha para presentes</h1> 
-                    <link rel="preconnect" href="https://fonts.gstatic.com">
-                    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,200&display=swap" rel="stylesheet">
-                        
-                        
+                <div class="painel-presentes-box">
+                <div class="painel-presentes"><h1>Ideal para sua Festa</h1></div>
                 </div>
-
                 
-                
-                <div class="painel-presentes">
-                    
-                        <div class="painel-div">
-
-                        </div>
-
-                      <a href="" style="text-decoration:none"><h1 class="btn-desconto">25% OFF</h1></a>      
-
-                        <div class="paineel-div">
-
-                        </div>
-
-                  </div>
 
                   <!--final painel presentes-->
                  
