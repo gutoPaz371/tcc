@@ -78,7 +78,7 @@ if (!isset($_SESSION['id'])) {
                     ?>.00</th>
                     <th>
                         <form action="./processos/remCarrinho.php" method="post">
-                            <button class="btn-remover" name="id" value="<?php echo $dado['id'] ?>">Remover</button>
+                            <button onclick="confirmacaoDelete()" class="btn-remover" name="id" value="<?php echo $dado['id'] ?>">Remover</button>
                         </form>
                 </tr>           
             <?php } ?>
@@ -96,12 +96,15 @@ if (!isset($_SESSION['id'])) {
                 if($info == ''){
 
                 }else{
-                    echo '<button onclick="confimacao()" class="btn-confirmar" name="idp" value="<?php echo $dado["id"] ?>'. $info . '</button>';
+                    echo '<button onclick="confirmacao()" class="btn-confirmar" name="idp" value="<?php echo $dado["id"] ?>'. $info . '</button>';
                 }
                 ?>
                 <script>
                     function confirmacao() {
                         alert("Seu pedido confirmado com sucesso");
+                    }
+                    function confirmacaoDelete(){
+                        window.alert('Produto excluído com sucesso!')
                     }
                 </script>
             </form>

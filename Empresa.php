@@ -18,27 +18,26 @@
     <nav id="menu-1">
         <ul>
             <li><a href="../tcc/index.php">Home</a></li>
-            <li><a href="####">Produtos</a></li>
-            <li><a href="####">Empresa</a></li>
+            <li><a href="../tcc/produtos.php">Produtos</a></li>
         </ul>
     </nav>
     <!--  final menu -->
 
-    <h3 style="text-align: center;" class="mt-4 mb-4">Somos uma empresa especialista em artigos de festas, fundada em 2018. <br> Levando alegria para você e sua festa com todo nossa dedicação, amor e carinho. <br> Aproveite para conhecer mais sobre nós: <br>
-    </h3>
+    <h1 style="text-align: center;" class="mt-4 mb-4">Somos uma empresa especialista em artigos de festas, fundada em 2018. <br> Levando alegria para você e sua festa com todo nossa dedicação, amor e carinho. <br> Aproveite para conhecer mais sobre nós: <br>
+    </h1>
 
 
     <div id="accordion">
         <div class="card">
-            <div class="card-header" id="headingOne">
+            <div class="card-header div-titulo" id="headingOne">
                 <h5 class="mb-0">
-                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <button class="btn btn-link" id="btn-accordion" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         História
                     </button>
                 </h5>
             </div>
 
-            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body">
                     Mania de festa é uma empresa nova porém com bastante peso no histórico em relação ao trabalho com confecções de festas, e variedades para enfeites e ornamentações.
                     Tudo começou com uma ideia e uma oportunidade de criar algo que pudesse tornar as celebrações da vida memoráveis.
@@ -51,9 +50,9 @@
             </div>
         </div>
         <div class="card">
-            <div class="card-header" id="headingTwo">
+            <div class="card-header div-titulo" id="headingTwo">
                 <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <button class="btn btn-link collapsed" id="btn-accordion" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         Missão
                     </button>
                 </h5>
@@ -67,9 +66,9 @@
             </div>
         </div>
         <div class="card">
-            <div class="card-header" id="headingThree">
+            <div class="card-header div-titulo" id="headingThree">
                 <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <button class="btn btn-link collapsed" id="btn-accordion" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         Visão
                     </button>
                 </h5>
