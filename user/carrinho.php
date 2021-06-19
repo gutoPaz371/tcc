@@ -26,6 +26,8 @@ if (!isset($_SESSION['id'])) {
 <body>
     <!-- inicio menu -->
     <nav id="menu-1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
         <ul>
             <li><a href="../index.php">Home</a></li>
             <li><a href="../produtos.php">Produtos</a></li>
@@ -96,12 +98,12 @@ if (!isset($_SESSION['id'])) {
                 if($info == ''){
 
                 }else{
-                    echo '<button onclick="confirmacao()" class="btn-confirmar" name="idp" value="<?php echo $dado["id"] ?>'. $info . '</button>';
+                    echo '<div class="btn-confirmar"onclick="confirmacao()"  name="idp" value="<?php echo $dado["id"] ?>'. $info .'</div>';
                 }
                 ?>
                 <script>
                     function confirmacao() {
-                        alert("Seu pedido confirmado com sucesso");
+                        alert("Seu pedido foi confirmado com sucesso");
                     }
                     function confirmacaoDelete(){
                         window.alert('Produto excluído com sucesso!')

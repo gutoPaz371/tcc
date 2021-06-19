@@ -30,6 +30,8 @@
     
                 <!-- inicio menu 1 -->
     <nav id="menu-1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="produtos.php">Produtos</a></li>
@@ -48,6 +50,8 @@
           
     
                  <div class="faixa-horizontal">
+                 <link rel="preconnect" href="https://fonts.gstatic.com">
+                <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Mate+SC&display=swap" rel="stylesheet">
                     <h1>Mania de Festa</h1>
                     <h2><?php echo $nome; ?></h2>
                 </div>
