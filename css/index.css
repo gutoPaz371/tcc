@@ -40,7 +40,8 @@ body {
 }
 
 #menu-1 ul a:hover {
-    border-bottom: 2px solid #fafafa;
+    border-bottom: 2px solid rgb(255, 0, 255);
+    color: rgb(255, 0, 255);
     transition: cubic-bezier(0.25, 0.1, 0.93, -0.15);
 }
 
