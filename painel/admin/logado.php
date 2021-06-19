@@ -28,13 +28,6 @@
 	<link rel="stylesheet" href="../../css/menu_admin.css">
 </head>
 <body>
-<!-- inicio menu -->
-<nav id="menu-1">
-        <ul>
-            <li><a href="/../Projeto1/tcc/index.php">Home</a></li>
-        </ul>
-</nav>
-<!--  final menu -->
 	<section class="corpo-painel">
 		<div class="box user">
 			<div class="header-box">
@@ -55,9 +48,6 @@
 			<table class="tab">
 				<tr>
 					<th>Quantidade de produtos cadastrados: <?php echo $qpc.' unidade(s)'?>
-				</tr>
-				<tr>
-					<th>Ultima venda:
 				</tr>
 			</table>
 		

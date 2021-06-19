@@ -32,9 +32,7 @@
             <input type="password" name="confkey" placeholder="CONFIRMA SENHA"><br>
             <button class="btn-adicionar" type="submit">ADICIONAR</button>
         </form>
-         </div>
-        <div class="informacoes"><h1>Admin Cadastrados</h1>
-        </div>
+         </div>       
     </section>
     <a class="btn-sair" href="../logado.php">Voltar</a>
 </body>

@@ -14,14 +14,6 @@
 
 <body style="background-image: none;">
     <link rel="stylesheet" href="css/index.css">
-    <!-- inicio menu -->
-    <nav id="menu-1">
-        <ul>
-            <li><a href="../tcc/index.php">Home</a></li>
-            <li><a href="../tcc/produtos.php">Produtos</a></li>
-        </ul>
-    </nav>
-    <!--  final menu -->
 
     <h1 style="text-align: center;" class="mt-4 mb-4">Somos uma empresa especialista em artigos de festas, fundada em 2018. <br> Levando alegria para você e sua festa com todo nossa dedicação, amor e carinho. <br> Aproveite para conhecer mais sobre nós: <br>
     </h1>

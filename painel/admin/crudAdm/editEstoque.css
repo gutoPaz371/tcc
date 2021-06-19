@@ -1,20 +1,19 @@
 html,body { margin: 0px; padding: 0px;}
 
 body{
-    background-image: url("../../../img/ceu.jpg");
+    background-image: url("../../../img/arranjo.png");
     background-size: cover;
 }
 
 .box{
     background-color: #ffffff;
     position:relative;
-    width: 95%;
-    /* height: 459px; */
+    width: 82%;
     padding: 8px;
     margin-top: 21px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0px 0px 0px 1px rgb(17 17 17);
+    box-shadow: 0px 0px 0px 2px rgb(121 121 121);
 }
 
 .nome {

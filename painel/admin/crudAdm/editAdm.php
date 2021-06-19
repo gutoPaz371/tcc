@@ -38,7 +38,7 @@
 <section class="box">
     <form style="text-align: center;" action="./processos/updateAdm.php" method="POST">
         <span id='er' style="color:<?php echo $cor ?>;" ><?php echo $erro ?></span>
-        <div class="nome"><h1>Editar Conta</h1></div>
+        <div class="nome"><h1>Editar Conta Admin</h1></div>
     <div class="arquivos">    
         <label for="">Nome</label><br>
         <input name="nome" type="text" value="<?php echo $res['nome'] ?>" ><br>

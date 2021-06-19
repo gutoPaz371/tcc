@@ -6,7 +6,7 @@ body {
 }
 
 body {
-    background-image: url("/../Projeto1/tcc/img/ceu.jpg");
+    background-image: url("../../../img/arranjo.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
