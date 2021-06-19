@@ -61,7 +61,7 @@ if (!isset($_SESSION['id'])) {
                     $info = 'Cancelar pedido';
                 } else {
                     $corp = 'red';
-                    $info = 'Confirmar';
+                    $info = 'Continuar com a compra';
                 }
             ?>           
                 <tr>
@@ -91,8 +91,8 @@ if (!isset($_SESSION['id'])) {
     <div class="resumo">
         <h1>resumo de venda</h1>
         <div class="box-resumo">
-            <h1>VALOR TOTAL: R$ <?php echo $valor_total ?> </h1>
-            <h1>TOTAL ITENS: <?php echo $itens_total ?></h1>
+            <h1>Subtotal: R$ <?php echo $valor_total ?> </h1>
+            <h1>Total de itens: <?php echo $itens_total ?></h1>
             <form action="./processos/confPedido.php" method="POST">
                 <?php
                 if($info == ''){

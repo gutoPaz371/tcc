@@ -63,7 +63,11 @@
                 <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,200&display=swap" rel="stylesheet">
                
                 <!--  inicio produtos -->
-                <section class="produtos">
+                <div class="categoria-mais-usadas">
+                    <h1>categorias mais usadas</h1>
+                </div>
+                
+                <section class="produtos">                    
                         <section class="produto">
                             <a href="coracao.php">
                               <img src="img/coracao.png"></a></br><h1>Coração</h1>
