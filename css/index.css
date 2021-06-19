@@ -239,3 +239,15 @@ body {
     color: #6e6e6e;
     text-align: center;
 }
+/*aqui comeca a div accordion*/
+button#btn-accordion{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    text-shadow: 2px 2px 3px gray;
+
+}
+
+div.div-titulo{
+    background-color: rgb(237 32 115);
+}

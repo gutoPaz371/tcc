@@ -90,3 +90,20 @@ p {
 #prateleiras{
     column-count: 3;
 }
+.btn-voltar {
+    display: block;
+    width: 30%;
+    max-width: 328px;
+    height: 38px;
+    background-color: #ff1a76;
+    border-radius: 31px;
+    font-family: Arial, tahoma;
+    font-size: 21px;
+    color: rgb(255 255 255);
+    text-align: center;
+    text-decoration: none;
+    line-height: 42px;
+    margin: 0px auto 10px auto;
+    margin-top: 14px;
+    box-shadow: 0px 0px 0px 4px rgb(255 255 255);
+}
