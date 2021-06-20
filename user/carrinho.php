@@ -46,7 +46,7 @@ if (!isset($_SESSION['id'])) {
                 <th id="Nome">PREÇO TOTAL</th>
             </tr>
             <?php
-            $info = '';
+            $info = 'carrrinho vazio';
             $valor_total = 0;
             $itens_total = 0;
             while ($dado = $res->fetch_array()) {

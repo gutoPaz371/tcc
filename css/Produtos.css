@@ -81,7 +81,9 @@ body{
 }
 .prateleira ul{
     position: relative;
-    margin: 34px;
+    margin: 62px;
+    margin-left: 87px;
+    margin-right: 53px;
 }
 
 .prateleira ul h2{ /*preco*/
