@@ -90,15 +90,16 @@ body{
 }
 
 #quant{
-    width: 20px;
-    height:20px;
+    width: 18px;
+    height: 18px;
     float: right;
     position: relative;
     cursor: pointer;
-    right: 23%;border: medium;
-    border-color: rgb(42, 185, 42);
+    right: 20%;
+    border: 1px solid;
+    border-color: rgb(45 45 45);
     background-color: white;
-    margin: 1px 3px 0px 3px;      
+    margin: 1px 3px 0px 3px;
 }
 #quant:hover{
     background-color: rgb(255, 255, 255);

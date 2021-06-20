@@ -105,8 +105,8 @@ body {
     position: relative;
     cursor: pointer;
     right: 23%;
-    border: medium;
-    border-color: rgb(42, 185, 42);
+    border: 1PX solid black;
+    border-color: rgb(86 86 86);
     background-color: white;
     margin: 1px 3px 0px 3px;
 }
