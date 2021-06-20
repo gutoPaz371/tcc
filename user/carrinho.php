@@ -77,7 +77,9 @@ if (!isset($_SESSION['id'])) {
                     $itens_total = $itens_total + $itens_atual;
                     ?>.00</th>
                     <th>
-                        
+                        <form action="./processos/addCarrinho2.php" method="post">
+                            <button onclick="confirmacaoDelete()" class="btn-remover" name="idp" value="<?php echo $dado['idp'] ?>">Adicionar</button>
+                        </form>
                         <form action="./processos/remCarrinho.php" method="post">
                             <button onclick="confirmacaoDelete()" class="btn-remover" name="id" value="<?php echo $dado['id'] ?>">Remover</button>
                         </form>
@@ -102,6 +104,7 @@ if (!isset($_SESSION['id'])) {
         x.className = "show";
         setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
     }
+    
 </script>
             </form>
         </div>
