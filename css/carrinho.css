@@ -76,6 +76,7 @@ th {
     font-family: monospace;
     border-style: solid;
     border-width: 0.0px;
+    pointer-events: none;
 }
 .box{
     position: relative;
@@ -109,11 +110,13 @@ th {
 .nome {
     width: 25%;
     font-size: 17px;
+    pointer-events: none;
 }
         
 #Nome {
     font-size: 18px;
     font-family: monospace;
+    pointer-events: none;
 }
         
 #container {
@@ -130,6 +133,7 @@ th {
     margin-top: 24px;
     border: 5.8px solid  #1f1c1ecc;
     background-color: #f7f7f7;
+    pointer-events: none;
 }
 .btn-confirmar:hover{
     background-color: rgb(15, 230, 122);
@@ -150,6 +154,7 @@ th {
     font-size: 25px;
     color: #464646;
     font-family: monospace;
+    pointer-events: none;
 }
 .box-resumo{
     width: 450px;
