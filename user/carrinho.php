@@ -78,10 +78,10 @@ if (!isset($_SESSION['id'])) {
                     ?>.00</th>
                     <th>
                         <form action="./processos/addCarrinho2.php" method="post">
-                            <button onclick="confirmacaoDelete()" class="btn-remover" name="idp" value="<?php echo $dado['idp'] ?>">Adicionar</button>
+                            <button onclick="confirmacaoDelete()" class="btn-adicionar-remover" name="idp" value="<?php echo $dado['idp'] ?>">+</button>
                         </form>
                         <form action="./processos/remCarrinho.php" method="post">
-                            <button onclick="confirmacaoDelete()" class="btn-remover" name="id" value="<?php echo $dado['id'] ?>">Remover</button>
+                            <button onclick="confirmacaoDelete()" class="btn-adicionar-remover" name="id" value="<?php echo $dado['id'] ?>">-</button>
                         </form>
                 </tr>           
             <?php } ?>
@@ -91,13 +91,12 @@ if (!isset($_SESSION['id'])) {
     <div id="snackbar">Pedido enviado</div>
     <div class="resumo">
         <form action="./processos/confPedido.php" method="post">
-            <button class="btn-remover" onclick="confirmacao()"><?php echo $info ?></button>
+            <button class="btn-confirm-pedido" onclick="confirmacao()"><?php echo $info ?></button>
         </form>
         <h1>resumo de venda</h1>
         <div class="box-resumo">
             <h1>Subtotal: R$ <?php echo $valor_total ?> </h1>
             <h1>Total de itens: <?php echo $itens_total ?></h1>
-            <div class="btn-confirmar" name="idp" value="<?php echo $dado["id"] ?>">Continuar Comprando</div>
 <script>
     function confirmacao(){
         var x = document.getElementById("snackbar");
