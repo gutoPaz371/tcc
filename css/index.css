@@ -118,10 +118,10 @@ body {
 }
 .faixa-horizontal h1{
     text-align: center;
-    font-size: 94px;
+    font-size: 121px;
     color: white;
     font-family: 'Dancing Script', cursive;
-    line-height: 1.7;
+    line-height: 1.4;
     padding: 0;
     margin-top: 0;
 }
@@ -129,8 +129,8 @@ body {
     text-align: center;
     font-size: 21px;
     color: white;
-    font-family: monospace;
-    line-height: 3.5;
+    font-family: 'Titillium Web';
+    line-height: 3.2;
     padding: 0;
     margin-top: -45px;
 }

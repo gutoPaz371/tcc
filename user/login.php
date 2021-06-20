@@ -31,11 +31,10 @@
             <input type="password" name="pass" id="password" placeholder="Digite Sua Senha">
             <br>
             <input type="submit" value="Login">
-            <a href="#" id="forgot-pass">Esqueceu a senha.</a>
         </form>
         <div id="register-cont">
             <p>Ainda não tem uma conta ?</p>
-            <a href="./cadastro.php">Registrar.</a>
+            <a href="./cadastro.php">Cadastre-se</a>
         </div>
 		<div class="botao-voltar">
 		<a href="../index.php" onclick="del(this)"style="text-decoration:none">Voltar</a>
