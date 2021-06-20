@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="../../../css/Produtos.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="editPedidos.css">
+    <link rel="stylesheet" href="../editPedidos.css">
 </head>
 <body>
     <?php while($dado = $res->fetch_array()){ 
@@ -38,7 +38,7 @@
                 <!--<div id="ft"><img src="../../../img/<?php #echo $dado['id'] ?>.png"></div><br>-->
                 <div id="inf"><p>CLIENTE: <?php echo $dado['user'] ?></P></div>
                 <p style="text-align: center;"><p>PEDIDO: <?php echo $dado['nome'] ?></p>
-                <img class="imgEdit" src="../../../img/<?php echo $dado['id'] ?>.png">
+                <img class="imgEdit" src="../../../../img/<?php echo $dado['id'] ?>.png">
                 <div id="inf2"><p>VALOR: R$ <?php echo $dado['preco'] ?></P></div>
                 <div id="inf2"><p>QUANTIDADE: <?php echo $dado['quantidade'] ?></P></div>
                 <div id="inf2"><p id="st">STATUS: <?php echo $st ?></p></div>
