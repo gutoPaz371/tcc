@@ -13,7 +13,6 @@ if (!isset($_SESSION['id'])) {
 ?>
 <!DOCTYPE html>
 <html lang="pt">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,7 +21,6 @@ if (!isset($_SESSION['id'])) {
     <link rel="icon" href="./../img/ico.png">
     <link rel="stylesheet" href="../css/carrinho.css">
 </head>
-
 <body>
     <!-- inicio menu -->
     <nav id="menu-1">
@@ -88,23 +86,14 @@ if (!isset($_SESSION['id'])) {
         </table>
     </section>
     <!--  Final Tabela -->
-    <div id="snackbar">Pedido enviado</div>
     <div class="resumo">
         <form action="./processos/confPedido.php" method="post">
-            <button class="btn-confirm-pedido" onclick="confirmacao()"><?php echo $info ?></button>
+            <button class="btn-confirm-pedido"  onclick="confirmacao()"><?php echo $info ?></button>
         </form>
         <h1>resumo de venda</h1>
         <div class="box-resumo">
             <h1>Subtotal: R$ <?php echo $valor_total ?> </h1>
             <h1>Total de itens: <?php echo $itens_total ?></h1>
-<script>
-    function confirmacao(){
-        var x = document.getElementById("snackbar");
-        x.className = "show";
-        setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
-    }
-    
-</script>
             </form>
         </div>
     </div>
