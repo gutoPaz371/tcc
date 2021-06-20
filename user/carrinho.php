@@ -20,6 +20,8 @@ if (!isset($_SESSION['id'])) {
     <title>Carrinho</title>
     <link rel="icon" href="./../img/ico.png">
     <link rel="stylesheet" href="../css/carrinho.css">
+    <link rel="stylesheet" href="../css/footer-white.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
 <body>
     <!-- inicio menu -->
@@ -97,7 +99,22 @@ if (!isset($_SESSION['id'])) {
             </form>
         </div>
     </div>
-
+    <footer id="myFooter">
+        <div class="container">
+            <ul>
+                <li><a href="../Empresa.php">Informações da Empresa</a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=5591984851975&text=Ol%C3%A1%2C%20preciso%20de%20ajuda%20para%20escolher%20os%20produtos"target="blank">Contato</a></li>
+            </ul>
+            <p class="footer-copyright">Copyright © 2021 Mania de Festa - Todos os direitos reservados</p>
+        </div>
+        <div class="footer-social">
+            <a href="##" class="social-icons"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/maniadefestasip/" target="blank" class="social-icons"><i class="fa fa-instagram"></i></a>
+            <a href="##" class="social-icons"><i class="fa fa-youtube"></i></a>
+            <a href="##" class="social-icons"><i class="fa fa-twitter"></i></a>
+        </div>
+    </footer>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
 </html>
