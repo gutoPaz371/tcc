@@ -56,12 +56,10 @@ img {
 }
         
 button {
-    /* width: 80px; */
     height: 30px;
     background: #a7a7a7;
     font-family: monospace;
     font-size: 11px;
-    /* border-radius: 10px; */
  }
         
 h3 {
@@ -76,47 +74,33 @@ th {
     font-family: monospace;
     border-style: solid;
     border-width: 0.0px;
-    pointer-events: none;
+    
 }
 .box{
     position: relative;
     width: 77%;
-    /* height: 500px; */
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: -13px;
     padding: 1px;
-    /* background-color: rgb(249 249 249); */
-    /* border-style: solid; */
-    /* border: 6px; */
     border-width: 1px;
 }
         
 .infos {
-    /* margin-top: 1%; */
     width: 100%;
-    /* border-radius: 95px; */
     margin-bottom: 1.15em;
-    /* table-layout: fixed; */
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     background-color: rgb(167 167 167 / 57%);
     border-style: solid;
-    /* border: #000000; */
     border-width: 0px;
-}
-.nome {
-    width: 25%;
-    font-size: 17px;
-    pointer-events: none;
 }
         
 #Nome {
     font-size: 18px;
     font-family: monospace;
-    pointer-events: none;
 }
         
 #container {
@@ -133,7 +117,6 @@ th {
     margin-top: 24px;
     border: 5.8px solid  #1f1c1ecc;
     background-color: #f7f7f7;
-    pointer-events: none;
 }
 .btn-confirmar:hover{
     background-color: rgb(15, 230, 122);
@@ -154,7 +137,6 @@ th {
     font-size: 25px;
     color: #464646;
     font-family: monospace;
-    pointer-events: none;
 }
 .box-resumo{
     width: 450px;

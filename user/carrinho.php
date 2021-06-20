@@ -86,7 +86,7 @@ if (!isset($_SESSION['id'])) {
         <table class="infos">
             <tr id="container">
                 <th id="Nome">IMAGEM</th>
-                <th id="Nome" class="nome">NOME</th>
+                <th id="Nome">NOME</th>
                 <th id="Nome">PREÇO UNIT</th>
                 <th id="Nome">QUANT</th>
                 <th id="Nome">PREÇO TOTAL</th>
@@ -111,7 +111,7 @@ if (!isset($_SESSION['id'])) {
             ?>           
                 <tr>
                      <th><img src="../img/<?php echo $dado['idp']; ?>.png"></th>
-                    <th class="nome"><?php echo $dado['nome']; ?></th>
+                    <th><?php echo $dado['nome']; ?></th>
                     <th>R$<?php echo $dado['preco']; ?>.00</th>
                     <th><?php echo $dado['quant'] ?></th>
                     <th>R$<?php echo $dado['preco'] * $dado['quant']; 
