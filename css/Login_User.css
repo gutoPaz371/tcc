@@ -43,7 +43,7 @@ a:hover {
     color: azure;
     text-align: center;
     background: -webkit-gradient(linear, left top, left bottom, from(#000000b8), to(#0000005c));
-    background: -moz-linear-gradient(top, #8b3636, #000000);
+    /*! background: -moz-linear-gradient(top, #8b3636, #000000); */
     filter: progid: DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#CCCCCC', EndColorStr='#000000');
 }
 
@@ -109,7 +109,6 @@ input[type="submit"]:hover {
 }
 
 .botao-voltar {
-    /* color: rgb(0 0 0); */
     text-align: center;
     background-color: white;
     width: 50px;

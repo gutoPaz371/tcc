@@ -14,29 +14,28 @@ body{
 
 #menu-1 ul {
     list-style: none;
-    height: 58px;
+    height: 61px;
     padding: 0;
     margin: 0;
     margin-top: -17px;
-    line-height: 2;
-    background-image: linear-gradient(90deg, #404040 0%, #6b6b6b 100%);
+    background-image: linear-gradient(90deg, #404040 0%, #a721b7 100%);
     border-bottom: 4.5px solid #dadada;
 }
 
 #menu-1 ul a {
     color: rgb(255 255 255);
     font-family: 'Staatliches', cursive;
-    /* margin-right: -14%; */
     margin: 0px;
     margin-left: -54px;
     font-size: 22px;
-    line-height: 3.2;
+    line-height: 3.5;
     text-decoration: none;
     transition: background .3s;
 }
 
 #menu-1 ul a:hover {
-    border-bottom: 2px solid #fafafa;
+    border-bottom: 2px solid rgb(255, 0, 255);
+    color: rgb(255, 0, 255);
     transition: cubic-bezier(0.25, 0.1, 0.93, -0.15);
 }
 
