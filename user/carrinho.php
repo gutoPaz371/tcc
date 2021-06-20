@@ -39,12 +39,11 @@ if (!isset($_SESSION['id'])) {
     <section class="box">
         <table class="infos">
             <tr id="container">
-                <th id="Nome">STATUS</th>
+                <th id="Nome">IMAGEM</th>
                 <th id="Nome" class="nome">NOME</th>
-                <th id="Nome">PRECO</th>
+                <th id="Nome">PREÇO UNIT</th>
                 <th id="Nome">QUANT</th>
-                <th id="Nome">FOTO</th>
-                <th id="Nome">VALOR TOTAL</th>
+                <th id="Nome">PREÇO TOTAL</th>
             </tr>
             <?php
             $info = '';
@@ -65,11 +64,10 @@ if (!isset($_SESSION['id'])) {
                 }
             ?>           
                 <tr>
-                    <th><?php echo $status ?></th>
+                     <th><img src="../img/<?php echo $dado['idp']; ?>.png"></th>
                     <th class="nome"><?php echo $dado['nome']; ?></th>
                     <th>R$<?php echo $dado['preco']; ?>.00</th>
                     <th><?php echo $dado['quant'] ?></th>
-                    <th><img src="../img/<?php echo $dado['idp']; ?>.png"></th>
                     <th>R$<?php echo $dado['preco'] * $dado['quant']; 
                     /* Código referente a soma de valores do pedido */
                     $valor_atual = $dado['preco'] * $dado['quant'];
@@ -104,9 +102,6 @@ if (!isset($_SESSION['id'])) {
                 <script>
                     function confirmacao() {
                         alert("Seu pedido foi confirmado com sucesso");
-                    }
-                    function confirmacaoDelete(){
-                        window.alert('Produto excluído com sucesso!')
                     }
                 </script>
             </form>

@@ -20,6 +20,8 @@
 <body>
                 <!-- inicio menu -->
     <nav id="menu-1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="user/carrinho.php">Carrinho</a></li>
