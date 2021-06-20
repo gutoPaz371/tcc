@@ -1,6 +1,6 @@
 <?php
 	include "../../Config/conexao.php";
-	$sql="SELECT COUNT(*) as cont FROM produto";
+	$sql="SELECT SUM(quant) AS cont FROM produto";
 	$qpc=mysqli_fetch_assoc($cn->query($sql));
 	$qpc=$qpc['cont'];
 	session_start();
@@ -47,7 +47,7 @@
 			</div>
 			<table class="tab">
 				<tr>
-					<th>Quantidade de produtos cadastrados: <?php echo $qpc.' unidade(s)'?>
+					<th>Quantidade de produtos em estoque: <?php echo $qpc.' unidade(s)'?>
 				</tr>
 			</table>
 		

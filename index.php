@@ -64,8 +64,8 @@
                 <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,200&display=swap" rel="stylesheet">
                
                 <!--  inicio produtos -->
-                <div class="categoria-mais-usadas">
-                    <h1>categorias mais usadas</h1>
+                <div class="categoria-mais-pedidas">
+                    <h1>categorias mais pedidas</h1>
                 </div>
                 
                 <section class="produtos">                    
@@ -137,11 +137,10 @@
 
                 <!--inicio painel presentes-->
                 <div class="painel-presentes-box">
-                <div class="painel-presentes"><h1>Ideal para sua Festa</h1></div>
+                <div class="painel-presentes"></div>
                 </div>
                 
 
-                  <!--final painel presentes-->
                  
 
                   <!--  Início rodapé -->
