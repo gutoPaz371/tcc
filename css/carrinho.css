@@ -118,7 +118,7 @@ th {
     background-color: #f7f7f7;
 }
 .btn-confirmar:hover{
-    background-color: rgb(15, 230, 122);
+    background-color: #0fe67a;
     transition: 0.5s;
     color: white;
 }
