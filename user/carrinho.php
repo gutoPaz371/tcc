@@ -97,7 +97,7 @@ if (!isset($_SESSION['id'])) {
                 if($info == ''){
 
                 }else{
-                    echo '<div class="btn-confirmar"onclick="confirmacao()"  name="idp" value="<?php echo $dado["id"] ?>'. $info .'</div>';
+                    echo '<div class="btn-confirmar"onclick="confirmacao()" name="idp" value="<?php echo $dado["id"] ?>'. $info .'</div>';
                 }
                 ?>
                 <script>
