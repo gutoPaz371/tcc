@@ -17,18 +17,9 @@
 </head>
 <body>
     <?php while($dado = $res->fetch_array()){ ?>
-        <table>
-            <tr id="container">
-            <th id="Nome">IMAGEM</th>
-                <th id="Nome">NOME</th>
-                <th id="Nome">PREÇO UNIT</th>
-                <th id="Nome">QUANT</th>
-                <th id="Nome">PREÇO TOTAL</th>
-            </tr>
             <form action="./processos/listPedido.php" method="post">
                    <button name="idCliente" type="submit" value="<?php echo $dado['idCliente'] ?>"><?php echo $dado['nomeCliente'] ?></button>   
             </form>
-        </table>
         <?php } ?>
         <a class="btn-voltar" href="../logado.php">Voltar</a>
 </body>
