@@ -60,7 +60,7 @@ if (!isset($_SESSION['id'])) {
                     $info = 'Cancelar pedido';
                 } else {
                     $corp = 'red';
-                    $info = 'Continuar com a compra';
+                    $info = 'confirmar pedido';
                 }
             ?>           
                 <tr>
@@ -77,6 +77,7 @@ if (!isset($_SESSION['id'])) {
                     $itens_total = $itens_total + $itens_atual;
                     ?>.00</th>
                     <th>
+                        
                         <form action="./processos/remCarrinho.php" method="post">
                             <button onclick="confirmacaoDelete()" class="btn-remover" name="id" value="<?php echo $dado['id'] ?>">Remover</button>
                         </form>
@@ -87,23 +88,19 @@ if (!isset($_SESSION['id'])) {
     <!--  Final Tabela -->
     <div id="snackbar">Pedido enviado</div>
     <div class="resumo">
+        <form action="./processos/confPedido.php" method="post">
+            <button class="btn-remover" onclick="confirmacao()"><?php echo $info ?></button>
+        </form>
         <h1>resumo de venda</h1>
         <div class="box-resumo">
             <h1>Subtotal: R$ <?php echo $valor_total ?> </h1>
             <h1>Total de itens: <?php echo $itens_total ?></h1>
-            <form action="./processos/confPedido.php" method="POST">
-                <?php
-                if($info == ''){
-
-                }else{
-                    echo '<div class="btn-confirmar"onclick="confirmacao()" name="idp" value="<?php echo $dado["id"] ?>'. $info .'</div>';
-                }
-                ?>
-                <script>
+            <div class="btn-confirmar" name="idp" value="<?php echo $dado["id"] ?>">Continuar Comprando</div>
+<script>
     function confirmacao(){
         var x = document.getElementById("snackbar");
-  x.className = "show";
-  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+        x.className = "show";
+        setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
     }
 </script>
             </form>

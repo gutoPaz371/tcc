@@ -5,11 +5,9 @@
     session_start();
     $idProduto=$_POST['idp'];
     $idUser=$_SESSION['id'];
-    $quant="SELECT idCliente as idUser, quantidade as quant, id from pedido where idProduto=$idProduto";
+    $quant="SELECT pedido.idProduto as idp, idCliente as idUser, quantidade as quant, pedido.id as id from pedido where idProduto=$idProduto and idCliente=$idUser";
     $resQ=mysqli_fetch_assoc($cn->query($quant));
     $tipo='produtos';
-    #print_r($_SESSION);
-    #print_r($_POST);
     if(isset($_SESSION['tipo'])){
         $tipo=$_SESSION['tipo'];
     }
@@ -17,7 +15,7 @@
         header('location: ../login.php');
     }
     else if($resQ){
-        if($resQ['idUser']==$idUser){
+        if($resQ['idUser']==$idUser && $resQ['idp']==$idProduto){
             $x=$resQ['quant']+1;
             $id=$resQ['id'];
             $upSql="UPDATE pedido SET quantidade=$x WHERE id=$id";

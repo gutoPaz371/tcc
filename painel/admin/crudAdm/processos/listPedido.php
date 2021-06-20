@@ -1,7 +1,13 @@
 <!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
 <?php
     include '../../../../Config/conexao.php';
-    $id=$_POST['idCliente'];
+    session_start();
+    if(isset($_POST['idCliente'])){
+        $id=$_POST['idCliente'];
+        $_SESSION['idCliente']=$id;
+    }else{
+        $id=$_SESSION['idCliente'];
+    }
     $sql="SELECT pedido.prod as prod, pedido.id as idp, produto.id as id, cliente.nome AS user, produto.nome, produto.preco, pedido.quantidade, pedido.sta as sta, produto.preco*pedido.quantidade AS total
     FROM cliente
     INNER JOIN pedido ON cliente.id=pedido.idCliente
@@ -42,7 +48,7 @@
                 <div id="inf2"><p>VALOR: R$ <?php echo $dado['preco'] ?></P></div>
                 <div id="inf2"><p>QUANTIDADE: <?php echo $dado['quantidade'] ?></P></div>
                 <div id="inf2"><p id="st">STATUS: <?php echo $st ?></p></div>
-                <div><form action="./processos/processaPedidos.php" method="POST">
+                <div><form action="./processaPedidos.php" method="POST">
                     <button name="idp" value="<?php echo $dado['idp'] ?>" style="background-color: <?php echo $corp ?>;"><?php echo $texto ?></button>
                 </form></div>
                 </div>

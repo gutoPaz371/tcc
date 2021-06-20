@@ -11,5 +11,6 @@
     }else{
         $cn->query("UPDATE pedido SET prod=1 WHERE id=$id");
     }
-    header('location:../pedidos.php');
+    header('location:./listPedido.php');
+    print_r($_SESSION);
 ?>
