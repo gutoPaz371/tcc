@@ -1,4 +1,3 @@
-<!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
 <?php
     include '../../../../Config/conexao.php';
     session_start();
@@ -57,4 +56,3 @@
         <a class="btn-voltar" href="../pedidos.php">Voltar</a>
 </body>
 </html>
-<!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->

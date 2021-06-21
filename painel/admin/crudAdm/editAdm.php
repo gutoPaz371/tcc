@@ -1,4 +1,4 @@
-<!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
+
 <?php
     session_start();
     if(isset($_SESSION['id'])){
@@ -57,4 +57,4 @@
     <a class="btn-sair" href="../logado.php"><!--<button onclick="del(this)">-->Voltar<!--</button>--></a>   
 </body>
 </html>
-<!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
+

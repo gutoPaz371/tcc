@@ -1,4 +1,4 @@
-<!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
+
 <?php
 include '../../../Config/conexao.php';
 $sql = "SELECT DISTINCT cliente.nome AS nomeCliente, cliente.id AS idCliente FROM pedido INNER JOIN cliente ON pedido.idCliente=cliente.id";
@@ -106,4 +106,3 @@ $res = $cn->query($sql);
 </body>
 
 </html>
-<!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->

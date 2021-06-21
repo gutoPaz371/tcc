@@ -1,4 +1,4 @@
-<!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
+
 <?php 
     include '../../../../Config/conexao.php';
     $id=$_POST['id'];
@@ -90,4 +90,4 @@
     }
 </script>
 </html>
-<!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
+
