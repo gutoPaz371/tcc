@@ -25,7 +25,10 @@ $res = $cn->query($sql);
     <?php
     $contador = 0;
     while ($dado = $res->fetch_array()) { ?>
-        <?php $id_cliente = $dado['idCliente']; ?>
+        <?php 
+        $id_cliente = $dado['idCliente'];
+        $nome_cliente = $dado['nomeCliente'];
+        ?>
         <div id="accordion">
             <div class="card">
                 <div class="card-header div-titulo" id="headingOne">
@@ -84,9 +87,7 @@ $res = $cn->query($sql);
                                 $valor_total = $valor_total + $valor_atual;
                             } ?>
                         </table>
-                        <form action="../crudAdm/processos/processaPedidos.php" method="POST">
-                            <button name="idp" value="<?php echo $dado_p['idp'] ?>" style="background-color: <?php echo $corp ?>;"><?php echo $texto ?></button>
-                        </form>
+                        <a href="../crudAdm/processos/listPedido.php?id=<?php echo $id_cliente?>"><button name="id" value="" style="background-color: <?php echo $corp ?>;"><?php echo $texto ?></button></a>
                         <p style="text-align: right; font-size: 14pt;">Total: R$ <?php echo $valor_total?></p>
                     </div>
                 </div>
