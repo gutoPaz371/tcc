@@ -1,4 +1,4 @@
-<!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
+
 
 <?php
     include "../../Config/conexao.php";
@@ -26,4 +26,4 @@
         }
     }
 ?>
-<!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
+

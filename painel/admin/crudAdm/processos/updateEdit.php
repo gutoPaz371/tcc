@@ -1,4 +1,4 @@
-<!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
+
 <?php 
     include "../../../../Config/conexao.php";
     $nome=$_POST['nome'];
@@ -15,4 +15,4 @@
     }
     header("location: ../editEstoque.php");
 ?>
-<!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
+

@@ -1,4 +1,3 @@
-<!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
 
 <?php
 include '../Config/conexao.php';
@@ -129,4 +128,3 @@ if (!isset($_SESSION['id'])) {
 </body>
 
 </html>
-<!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->

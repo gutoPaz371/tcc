@@ -1,4 +1,4 @@
-<!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
+
 <?php
     include '../../../../Config/conexao.php';
     session_start();
@@ -31,4 +31,4 @@
     }
     
 ?>
-<!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
+

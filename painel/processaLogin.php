@@ -1,4 +1,3 @@
-<!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
 
 <?php
     session_start();
@@ -15,4 +14,4 @@
         header("location:index.php");
     } 
 ?>
-<!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
+

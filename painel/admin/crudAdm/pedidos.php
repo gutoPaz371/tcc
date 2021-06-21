@@ -1,4 +1,4 @@
-<!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
+
 <?php
 include '../../../Config/conexao.php';
 $sql = "SELECT DISTINCT cliente.nome AS nomeCliente, cliente.id AS idCliente FROM pedido INNER JOIN cliente ON pedido.idCliente=cliente.id";
@@ -25,7 +25,10 @@ $res = $cn->query($sql);
     <?php
     $contador = 0;
     while ($dado = $res->fetch_array()) { ?>
-        <?php $id_cliente = $dado['idCliente']; ?>
+        <?php 
+        $id_cliente = $dado['idCliente'];
+        $nome_cliente = $dado['nomeCliente'];
+        ?>
         <div id="accordion">
             <div class="card">
                 <div class="card-header div-titulo" id="headingOne">
@@ -97,6 +100,7 @@ $res = $cn->query($sql);
                                 $valor_total = $valor_total + $valor_atual;
                             } ?>
                         </table>
+<<<<<<< HEAD
                         <script>
                             function rmBT(idp){
                                 var elem = document.getElementById(idp);
@@ -106,6 +110,9 @@ $res = $cn->query($sql);
                         <form action="../crudAdm/processos/processaPedidos.php" method="POST">
                             <button name="idp" value="<?php echo $dado_p['idp'] ?>" style="background-color: <?php echo $corp ?>;"><?php echo $texto ?></button>
                         </form>
+=======
+                        <a href="../crudAdm/processos/listPedido.php?id=<?php echo $id_cliente?>"><button name="id" value="" style="background-color: <?php echo $corp ?>;"><?php echo $texto ?></button></a>
+>>>>>>> 72d6b6a192205cd887e7fe055acb0ce4b33b26ac
                         <p style="text-align: right; font-size: 14pt;">Total: R$ <?php echo $valor_total?></p>
                     </div>
                 </div>
@@ -125,4 +132,3 @@ $res = $cn->query($sql);
 </body>
 
 </html>
-<!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->

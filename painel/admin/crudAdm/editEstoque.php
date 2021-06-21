@@ -1,4 +1,4 @@
-<!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
+
 <?php
     include '../../../Config/conexao.php';
     $res=$cn->query("SELECT * FROM produto");
@@ -53,4 +53,3 @@
     <a class="btn-voltar" href="../logado.php">Voltar</a>
 </body>
 </html>
-<!--CODIGO PRODUZIDO POR AUGUSTO OLIVEIRA PAZ 201902535855-->
