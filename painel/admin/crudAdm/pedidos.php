@@ -79,11 +79,30 @@ $res = $cn->query($sql);
                                     <td>' . $dado_p['quantidade'] . '</td>
                                     <td>' . $st . '</td>
                                 </tr>';
+                                    if($dado_p['sta']==1){
+                                        $situ='Cancelar Pedido';
+                                        $block='';
+                                    }else{
+                                        $situ='Aguardando...';
+                                        $block='disabled';
+                                    }
+                                ?>
+                                <td></td><td></td><td></td><td></td><td>
+                                    <form id="confPd" action="" method="post">
+                                    <button <?php echo $block; ?> id='<?php echo $dado_p['idp']; ?>' name='idp' value='<?php echo $dado_p['idp'] ?>' style='background-color: ;'><?php echo $situ;?></button>
+                                    </form>
+                                </td><?php ;
                                 echo '</tbody>';
                                 $valor_atual = $dado_p['preco'] * $dado_p['quantidade'];
                                 $valor_total = $valor_total + $valor_atual;
                             } ?>
                         </table>
+                        <script>
+                            function rmBT(idp){
+                                var elem = document.getElementById(idp);
+                                elem.parentNode.removeChild(elem);
+                            }
+                        </script>
                         <form action="../crudAdm/processos/processaPedidos.php" method="POST">
                             <button name="idp" value="<?php echo $dado_p['idp'] ?>" style="background-color: <?php echo $corp ?>;"><?php echo $texto ?></button>
                         </form>

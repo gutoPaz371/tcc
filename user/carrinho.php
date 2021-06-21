@@ -57,11 +57,9 @@ if (!isset($_SESSION['id'])) {
                     $status = 'Aguardando confirmação';
                 }
                 if ($dado['sta'] == 1) {
-                    $corp = 'green';
-                    $info = 'Cancelar pedido';
+                    $info = 'Pedido confirmado✔';
                 } else {
-                    $corp = 'red';
-                    $info = 'confirmar pedido';
+                    $info = 'Confirmar pedido';
                 }
             ?>           
                 <tr>
@@ -90,15 +88,26 @@ if (!isset($_SESSION['id'])) {
         </table>
     </section>
     <!--  Final Tabela -->
+    <?php
+        $resBT=mysqli_fetch_assoc($cn->query($sql));
+        if($resBT['sta']==1){
+            $block='disabled';
+            $corP='green';
+        }else{
+            $block='';
+            $corP='red';
+        }
+    ?>
     <div class="resumo">
         <form action="./processos/confPedido.php" method="post">
-            <button class="btn-confirm-pedido"  onclick="confirmacao()"><?php echo $info ?></button>
+            <button class="btn-confirm-pedido" <?php echo $block; ?> style="background-color: <?php echo $corP; ?>;" onclick="confirmacao()"><?php echo $info ?></button>
         </form>
         <h1>resumo de venda</h1>
         <div class="box-resumo">
             <h1>Subtotal: R$ <?php echo $valor_total ?> </h1>
             <h1>Total de itens: <?php echo $itens_total ?></h1>
             </form>
+    
         </div>
     </div>
     <footer id="myFooter">
