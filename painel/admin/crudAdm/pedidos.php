@@ -91,7 +91,7 @@ $res = $cn->query($sql);
                                     }
                                 ?>
                                 <td></td><td></td><td></td><td></td><td>
-                                    <form id="confPd" action="" method="post">
+                                    <form id="confPd" action="./processos/delPedido.php" method="post">
                                     <button <?php echo $block; ?> id='<?php echo $dado_p['idp']; ?>' name='idp' value='<?php echo $dado_p['idp'] ?>' style='background-color: ;'><?php echo $situ;?></button>
                                     </form>
                                 </td><?php ;
