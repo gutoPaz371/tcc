@@ -41,6 +41,7 @@ if (!isset($_SESSION['id'])) {
             <tr id="container">
                 <th id="Nome">IMAGEM</th>
                 <th id="Nome">NOME</th>
+                <th id="Nome">STATUS</th>
                 <th id="Nome">PREÇO UNIT</th>
                 <th id="Nome">QUANT</th>
                 <th id="Nome">PREÇO TOTAL</th>
@@ -51,9 +52,9 @@ if (!isset($_SESSION['id'])) {
             $itens_total = 0;
             while ($dado = $res->fetch_array()) {
                 if ($dado['prod'] == 1) {
-                    $status = 'Em Produção';
+                    $status = 'Confirmado';
                 } else {
-                    $status = 'pedido enviado';
+                    $status = 'Aguardando confirmação';
                 }
                 if ($dado['sta'] == 1) {
                     $corp = 'green';
@@ -65,10 +66,11 @@ if (!isset($_SESSION['id'])) {
             ?>           
                 <tr>
                      <th><img src="../img/<?php echo $dado['idp']; ?>.png"></th>
-                    <th><?php echo $dado['nome']; ?></th>
-                    <th>R$<?php echo $dado['preco']; ?>.00</th>
-                    <th><?php echo $dado['quant'] ?></th>
-                    <th>R$<?php echo $dado['preco'] * $dado['quant']; 
+                     <th><?php echo $dado['nome']; ?></th>
+                     <th><?php echo $status ?></th>
+                     <th>R$<?php echo $dado['preco']; ?>.00</th>
+                     <th><?php echo $dado['quant'] ?></th>
+                     <th>R$<?php echo $dado['preco'] * $dado['quant']; 
                     /* Código referente a soma de valores do pedido */
                     $valor_atual = $dado['preco'] * $dado['quant'];
                     $valor_total = $valor_total + $valor_atual;

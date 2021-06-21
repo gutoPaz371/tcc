@@ -13,7 +13,7 @@ $res = $cn->query($sql);
     <link rel="stylesheet" href="../../../css/Produtos.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../../../img/ico.png">
-    <title>Document</title>
+    <title>Pedidos</title>
     <link rel="stylesheet" href="editPedidos.css">
 
     <!-- CDN Bootstrap -->
@@ -63,8 +63,8 @@ $res = $cn->query($sql);
                                     $corp = 'green';
                                     $texto = 'PRODUZINDO';
                                 } else {
-                                    $corp = 'red';
-                                    $texto = 'PENDENTE';
+                                    $corp = '#b7b7b7';
+                                    $texto = 'ITENS DO PEDIDO';
                                 }
                                 if ($dado_p['sta'] == 1) {
                                     $st = 'CONFIRMADO';

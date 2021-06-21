@@ -28,10 +28,10 @@
     <?php while($dado = $res->fetch_array()){ 
         if($dado['prod']==1){
             $corp='green';
-            $texto='PRODUZINDO';
+            $texto='item confirmado';
         }else{
-            $corp='red';
-            $texto='PENDENTE';
+            $corp='#ababab';
+            $texto='confirmar retirada do item';
         }
         if($dado['sta']==1){
             $st='CONFIRMADO';
