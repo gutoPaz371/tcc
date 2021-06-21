@@ -1,7 +1,8 @@
 <?php
     include '../../../../Config/conexao.php';
-    $idp=$_POST['idp'];
-    $sql="UPDATE pedido SET sta=0 WHERE id=$idp;";
+    session_start();
+    $id=$_SESSION['id'];
+    $sql="UPDATE pedido SET sta=0 WHERE idCliente=$id;";
     $cn->query($sql);
     header('location: ../pedidos.php');
     
