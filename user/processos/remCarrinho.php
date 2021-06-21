@@ -7,10 +7,11 @@ include '../../Config/conexao.php';
     $idUser=$_SESSION['id'];
     $sql="SELECT sta, quantidade as quant, prod from pedido where id=$id";
     $res=mysqli_fetch_assoc($cn->query($sql));
-
+    $sta=$res['sta'];
+    if($sta==1){
+        header('location:../carrinho.php');
+    }else
     if($res['prod']==1){
-        header('location: ../carrinho.php');
-    }else if($resQ['sta']=1){
         header('location: ../carrinho.php');
     }else if($res['quant']>1){
         $quant=$res['quant']-1;

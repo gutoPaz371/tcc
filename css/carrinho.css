@@ -120,12 +120,13 @@ th {
     font-family: MONOSPACE;
     margin-top: 24px;
     border: 5.8px solid  #1f1c1ecc;
-    
-}
-.btn-confirm-pedido:hover{
     background-color: #0fe67a;
     transition: 0.5s;
     color: white
+}
+.btn-confirm-pedido:hover{
+    cursor: pointer;
+    border-color: #1c4430;
 }
 .btn-adicionar-remover{
     width: 31px;

@@ -8,10 +8,13 @@
     $quant="SELECT pedido.sta as sta, pedido.idProduto as idp, idCliente as idUser, quantidade as quant, pedido.id as id from pedido where idProduto=$idProduto and idCliente=$idUser";
     $resQ=mysqli_fetch_assoc($cn->query($quant));
     $tipo='produtos';
+    $sta=$resQ['sta'];
+    if($sta==1){
+        header('location:../carrinho.php');
+    }else
+    
     if(!isset($_SESSION['id'])){
         header('location: ../login.php');
-    }else if($resQ['sta']=1){
-        header('location: ../carrinho.php');
     }
     else if($resQ){
         if($resQ['idUser']==$idUser && $resQ['idp']==$idProduto){

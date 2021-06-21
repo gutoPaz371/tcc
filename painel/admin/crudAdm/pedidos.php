@@ -82,6 +82,11 @@ $res = $cn->query($sql);
                                     <td>' . $dado_p['quantidade'] . '</td>
                                     <td>' . $st . '</td>
                                 </tr>';
+                                    if($dado_p['prod']==1){
+                                        $block2='disabled';
+                                    }else{
+                                        $block2='';
+                                    }
                                     if($dado_p['sta']==1){
                                         $situ='Cancelar Pedido';
                                         $block='';
@@ -99,14 +104,11 @@ $res = $cn->query($sql);
                                 </form>
                             </td></tbody>;
                         </table>
-<<<<<<< HEAD
+
                         
                         <form action="../crudAdm/processos/processaPedidos.php" method="POST">
-                            <button name="idp" value="<?php echo $dado_p['idp'] ?>" style="background-color: <?php echo $corp ?>;"><?php echo $texto ?></button>
+                            <button <?php echo $block;echo $block2; ?>>Confirmar Pedido</button>
                         </form>
-=======
-                        <a href="../crudAdm/processos/listPedido.php?id=<?php echo $id_cliente?>"><button name="id" value="" style="background-color: <?php echo $corp ?>;"><?php echo $texto ?></button></a>
->>>>>>> 72d6b6a192205cd887e7fe055acb0ce4b33b26ac
                         <p style="text-align: right; font-size: 14pt;">Total: R$ <?php echo $valor_total?></p>
                     </div>
                 </div>

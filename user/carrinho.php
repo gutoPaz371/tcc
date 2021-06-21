@@ -103,8 +103,8 @@ if (!isset($_SESSION['id'])) {
         </form>
         <h1>resumo de venda</h1>
         <div class="box-resumo">
-            <h1>Subtotal: R$ <?php echo $valor_total ?> </h1>
-            <h1>Total de itens: <?php echo $itens_total ?></h1>
+            <h1>Subtotal: R$ <?php echo $valor_total ?>.00 Reais. </h1>
+            <h1>Total de iten(s): <?php echo $itens_total ?> Iten(s).</h1>
             </form>
     
         </div>
