@@ -1,5 +1,6 @@
 <?php 
     session_start();
+    unset($_SESSION['erro']);
     if(isset($_SESSION['user'])){
         $nome='Bem Vindo '.$_SESSION['user'];
         $log='Logof';
@@ -175,7 +176,7 @@
                     <ul class="list-unstyled">
                         <li>
                             <p>
-                                <a class="link-footer" href="painel/index.php" target="blank">Painel</a>
+                                <a class="link-footer" href="painel/loginAdm/" target="blank">Painel</a>
                             </p>
                         </li>
                         <li>

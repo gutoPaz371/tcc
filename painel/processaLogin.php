@@ -11,7 +11,7 @@
         header("location:admin/logado.php");
     }else{
         $_SESSION['erro']=1;
-        header("location:index.php");
-    } 
+        header("location:loginAdm/");
+    } print_r($_POST);
 ?>
 
